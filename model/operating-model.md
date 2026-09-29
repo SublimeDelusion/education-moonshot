@@ -476,6 +476,16 @@ Experts enter when needed.
 
 Faculty become an expert network around the work.
 
+## Define your future
+
+Senior year also includes refining the student's MTP and defining their next professional direction. Four years of exploration, expertise, collaboration, and consequential work provide the evidence for that reflection.
+
+The student revisits their purpose with the benefit of their work history, agent context, and conversations with mentors and collaborators. They identify what has remained important, how their understanding has evolved, what they can now contribute, and what they want to pursue next.
+
+The outcome is a refined purpose and an articulated next direction that inform the Professional Draft and the student's side of a potential employment or partnership match. A new role or company can carry the same purpose forward.
+
+See [Senior year: define your future](../concepts/purpose-replaces-the-degree-program.md#senior-year-define-your-future). The instructional format and timing remain to be developed.
+
 ## Compounding institutional infrastructure
 
 Each cohort should inherit more leverage than the one before it.
