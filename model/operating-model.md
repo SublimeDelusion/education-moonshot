@@ -482,7 +482,9 @@ Senior year also includes refining the student's MTP and defining their next pro
 
 The student revisits their purpose with the benefit of their work history, agent context, and conversations with mentors and collaborators. They identify what has remained important, how their understanding has evolved, what they can now contribute, and what they want to pursue next.
 
-The outcome is a refined purpose and an articulated next direction that inform the Professional Draft and the student's side of a potential employment or partnership match. A new role or company can carry the same purpose forward.
+The reflection includes aspirations, goals, passions, favorite parts of college, the activities the student wants more of, and projects or inventions they intend to pursue regardless of career path. Their context library can help surface meaningful experiences; the student determines what they want to carry forward.
+
+The outcome is a refined purpose and an articulated next direction, with these personal priorities informing the Professional Draft and the student's side of a potential employment or partnership match. A new role or company can carry the same purpose forward.
 
 See [Senior year: define your future](../concepts/purpose-replaces-the-degree-program.md#senior-year-define-your-future). The instructional format and timing remain to be developed.
 
