@@ -48,6 +48,31 @@ This is supported self-direction. The institution remains responsible for access
 
 The four-year progression is one implementation of the concept. Its deeper commitment is that a student's ambition should not have to fit inside a preselected degree before it can become an education.
 
+## Senior year: define your future
+
+Purpose evolves through experience. Four years of learning, relationships, responsibility, and consequential work should give the student a more informed understanding of what they care about and how they want to contribute.
+
+Senior year should include deliberate work on defining the future: revisit and refine the student's MTP, or Massive Transformative Purpose, and connect it to the next professional chapter.
+
+The original purpose supplies continuity. The student can examine what remains compelling, what experience has clarified, and where their ambition has grown. Their specialty, preferred role, project, or employer may change while the deeper purpose remains recognizable.
+
+A change of company is not by itself a change of purpose. Nora's departure from LunaHarvest, for example, reveals her interest in making complex organizations work; space was the setting in which she developed that capability. The distinction helps the student articulate what they want to carry forward.
+
+### Use the four years as evidence
+
+The student's work, context library, knowledge-depth map, and collaboration history give this reflection substance. Conversations with mentors and people who know their work can help them interpret it.
+
+The student should be able to explain:
+
+- how their purpose has developed through actual experience;
+- which problems and responsibilities they want to pursue next;
+- what they have become capable of contributing;
+- what they still want to learn and become.
+
+The outcome is a refined MTP and an articulated next direction. That direction becomes part of the student's context and informs the [Professional Draft's two-way matching](the-work-is-the-proof.md#match-the-student-to-the-work-they-want).
+
+The student graduates with both evidence of capability and a considered intention for using it. The format and timing of this senior-year work remain to be developed.
+
 ## Questions to develop
 
 How does the institution help a student who has only a broad interest? How are changes of purpose handled once substantial specialization has begun? What common foundations should every student encounter, including knowledge their current purpose would not lead them to request? The model establishes the advisor, exploration year, and common core; detailed admissions and progression mechanics remain open.
