@@ -1,25 +1,33 @@
-# A College of MIT
+# Implementing the Education Model Within an Existing University
 
 ## A response to MIT's call to action
 
 “This report is a call to action.”
 
-MIT opens its August 2026 [report on AI use in teaching, learning, and research training](../ref/mit/AI-Committee-Final-Report-Aug-13.pdf) with that sentence. This strategy explores a response: what could a purpose-driven, AI-accelerated education framework look like as a college within a university like MIT?
+That opening to MIT's August 2026 [report on AI use in teaching, learning, and research training](../ref/mit/AI-Committee-Final-Report-Aug-13.pdf) provides the starting point for this implementation scenario. MIT's published assessment gives us a concrete account of the challenges an established university sees in its own education. We use MIT as the hypothetical host for exploring how the [University of Impact model](../model/operating-model.md) could operate within an existing institution.
 
-MIT serves as the hypothetical institutional setting because its recent self-assessment makes the exploration concrete. We can work from the challenges MIT has identified, the human qualities it wants to preserve, and the changes it believes education requires.
+## The strategy
 
-## The institutional question
+An existing university already brings together much of what this model needs: disciplinary expertise, faculty, laboratories, equipment, student services, residential life, and professional networks. Establishing the program within that environment could offer a more direct path to implementation than building an institution from the ground up.
 
-The report examines how AI is disrupting student mastery, assessment, and the relationships through which students learn. It calls for a broader reconsideration of the structure, meaning, and value of an MIT education.
+The proposed arrangement is a college or program with enough autonomy to deliver the model's student experience while drawing on the host university's people and infrastructure. Students would follow the framework's progression through purpose-led exploration, professional depth, and consequential work in multidisciplinary organizations. AI-supported learning, cross-teaching, mentorship, and demonstrated capability would remain central to how their education works.
 
-The [Education Moonshot framework](../model/operating-model.md) offers a way to explore that reconsideration at the level of a whole student experience. Purpose gives learning direction. AI supports individual progress. Faculty, peers, mentors, and practicing professionals develop understanding and judgment through shared work. Students build expertise and take responsibility inside multidisciplinary organizations, leaving with demonstrated capability and human connections that can sustain their professional lives.
+The host supplies institutional capacity. The education model determines how that capacity is organized around the student.
 
-A college within MIT would provide a concrete setting in which to examine how these elements could work together. How would students move through the framework? How would it draw on existing departments and laboratories? What would faculty own? How would learning become visible? What freedom would the college need to organize education around the student?
+## What needs to be worked out
 
-## What this strategy will develop
+The implementation question is how to make that arrangement function:
 
-The work is to connect MIT's assessment to an institutional design: the student experience, the college's place within the university, the resources it would share, and the first implementation that could test the model.
+- Which faculty, facilities, services, and networks can the program share with the host?
+- What authority does it need over curriculum, progression, assessment, and the organization of student work?
+- How would students and faculty participate across the program and the wider university?
+- How would the host support capstone organizations, student ownership, and professional formation?
+- What initial cohort and resource commitment would let us test the model as a coherent student experience?
 
-Using MIT as the reference institution also makes the work useful beyond MIT. Other universities can examine the same assessment, recognize where their circumstances align, and consider how the framework could take shape within their own institutions.
+These questions define the institutional arrangements needed to deliver the framework. They should be evaluated against its [founding principles](../model/founding-principles.md) and operating model.
 
-The aim is to make education more human, with MIT's call to action providing a concrete place to begin.
+## MIT as the worked example
+
+MIT's report supplies grounding for the proposal: an institution's own account of why change is necessary and what is at stake. We can use that assessment to explain the relevance of the model and examine the practical requirements of hosting it.
+
+Developing the scenario around MIT makes the strategy concrete enough to evaluate. The resulting implementation approach should also help other universities consider how they could put the same education model into practice using their own expertise, facilities, and communities.
