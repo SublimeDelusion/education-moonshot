@@ -88,6 +88,30 @@ The educational outcome is a network of people who know the student's work and w
 
 This matters for students who did not arrive already knowing how to approach expertise or convert a brief encounter into an ongoing relationship. The institution makes that practice explicit.
 
+## Make the collaboration network visible
+
+The school's AI system should build a record of the student's collaboration network as part of the context accumulated through their education. The record connects people to the work they shared: pods, cross-teaching, capstone corporations, faculty guidance, expert sessions, and projects with external organizations.
+
+Each relationship should carry enough context to explain its meaning:
+
+- who the person is and the expertise they brought;
+- the company, team, or institution involved at the time;
+- what they worked on with the student;
+- the student's and collaborator's roles in that work;
+- the project, artifact, or encounter that connects them.
+
+This gives the student a visible account of the human network they have actually developed. They can see who understands their work, whose expertise they know through experience, and how those relationships connect across organizations.
+
+### A visual record of human connection
+
+An impactful view would place the student within a network of people, projects, and companies. Selecting a person would reveal the shared work and the reason for the connection. The map would show links among collaborators where shared work establishes them, making the wider interconnected community visible.
+
+Imagine a graduate able to see seventy-two professionals across multiple companies with whom they have worked and developed relationships. The number is illustrative; the substance is the history behind those connections. A mentor, a teammate, and someone encountered in a single working session remain distinguishable relationships.
+
+At graduation, this becomes part of the visible outcome of the education: the people the student knows, the experience they share, and the professional community they can continue contributing to. A shared view can carry the relationship context appropriate to its audience.
+
+The institution's AI helps make the human network legible. The relationships themselves are built by people doing things together.
+
 ## Recruiting and dependence make the relationships real
 
 During company formation, students evaluate both work and people. Founders must offer meaningful responsibility. Specialists must explain what they can contribute and decide whose judgment they trust.
