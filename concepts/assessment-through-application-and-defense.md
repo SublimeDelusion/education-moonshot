@@ -1,65 +1,92 @@
-# Assessment Through Application and Defense
+# Demonstrated Mastery
 
-**We know the student has learned when they can apply an idea, explain the reasoning, defend their choices, and adapt when the problem changes. AI can remain available throughout.**
+**Raise the standard from producing an answer to doing meaningful work. Assess the student's ability to frame the problem, command relevant knowledge, interpret results, question assumptions, and adapt when conditions change.**
 
-## Having an answer is different from understanding it
+## The learning standard changes with the goal
 
-A polished output can conceal a weak mental model. That was possible before AI; AI makes the distinction impossible to ignore.
+The student now has access to a larger working corpus and a system capable of substantial production. The educational standard must reflect that expanded capability.
 
-The question is whether the student can work with the underlying ideas. Can they explain why the result follows? Identify assumptions? Recognize a limitation? Predict what will change under a different condition? Decide when the recommendation is wrong?
+An established example contrasts a paper about Japan's aging crisis with a proposed response: what would the student do, why might it work, which assumptions matter, and how would they test it?
 
-The model makes those capabilities observable through application and live questioning.
+The expectation is meaningful application. Students need not solve a national crisis. They need to define a tractable problem and produce work that can be inspected, challenged, and improved.
 
-## The assessment cycle
+The ambition also changes what faculty look for. Intuition, connections across domains, question selection, interpretation, and judgment become more consequential. Recall and routine execution no longer need to carry the same weight.
 
-The existing operating model describes a repeated sequence:
+## Standards and assessment remain distinct
 
-1. A student learns a concept with subject instruction, tutoring, practice, and practical work.
-2. They apply it to a problem connected to their purpose.
-3. They explain the application to peers and faculty.
-4. Faculty question the reasoning and change a condition.
-5. The student responds, demonstrating what they understand and where their knowledge ends.
-6. A revealed gap sends the student back to practice, followed by another demonstration.
+A learning standard describes the capability the student should develop. An assessment establishes whether this student can demonstrate it.
 
-The work, feedback, corrections, and demonstrated understanding enter the student's record. The agent force preserves context that helps later learning build on the experience.
+A difficult artifact can be produced without much student understanding. A demanding oral question can test memory without revealing professional capability. The institution needs both a worthwhile task and a way to observe the student's command of it.
 
-The Examiner agent supports rehearsal. Formal assessment remains a faculty responsibility.
+These two responsibilities belong together because they serve the same goal, but one cannot substitute for the other.
 
-## AI does not hide the student
+## Assess command of the work
 
-AI can retrieve evidence, run a simulation, or suggest an explanation during the defense. The student still needs to interpret it and establish why it is relevant.
+The student can bring their agent force, context, sources, and tools into the assessment. The evaluator examines how the student uses them.
 
-The freshman irrigation defense in *Anya's Ascent* is the clearest illustration. Anya's AI correctly answers a question about trapped gas in the system. Anya can repeat the answer but cannot explain the pressure behavior. She fails the assessment.
+Useful questions include:
 
-She then rebuilds her understanding through experiments, variations, and questioning. On retest day, the conditions change again. She predicts what will happen, changes the design, and explains the next failure.
+- Why is this the problem worth addressing?
+- What connects the relevant domains?
+- Which assumptions determine whether the result is useful?
+- What did you ask the system to do, and why?
+- What makes you trust or distrust its recommendation?
+- What changes when a constraint changes?
+- What remains uncertain, and how would you investigate it?
+- What decision are you prepared to take responsibility for?
 
-The example shows the mechanism. A correct answer supplied by a tool is compatible with a failed assessment. Learning becomes visible when the student can reason with the answer and transfer that reasoning.
+The student does not need to reproduce every fact, procedure, or implementation detail in the system's corpus. They do need enough understanding to direct the work responsibly, recognize consequential gaps, and go deeper where the work requires it.
 
-## Individual understanding inside shared work
+Mastery becomes visible in the relationship between what the system can supply and what the student can make of it.
 
-Cross-teaching gives students repeated opportunities to make their thinking visible. Classmates can ask questions from different purposes and experiences. Faculty then examine each student's own command of the concept.
+## Application and defense
 
-In a capstone corporation, assessment must also distinguish the student's contribution from the team's output. A successful company does not establish that every member developed capability. An unsuccessful company does not erase a student's sound decisions, inventions, experiments, or recovery work.
+The current operating model uses a repeated cycle:
 
-Role ownership, decision history, artifacts, collaborator accounts, and live explanation connect professional work to an identifiable person.
+1. Learn and investigate through faculty guidance, tutoring, sources, and practical work.
+2. Apply relevant knowledge to a purpose-related problem.
+3. Explain the work to peers and faculty.
+4. Respond to questions and changed conditions.
+5. Investigate exposed gaps and revise the work.
+6. Demonstrate the resulting capability again.
 
-## Assessment should improve learning
+Cross-teaching adds other students' questions and applications. Formal assessment remains a faculty responsibility. The Examiner agent supports rehearsal.
 
-A failed defense identifies where work remains. It provides information to the learner, tutor, and faculty. The point is to resolve the gap and demonstrate understanding.
+This cycle should develop the student's mental models and judgment while strengthening their working context. It should not become a disguised requirement to recite the entire knowledge base without assistance.
 
-Repeated application also changes what retention means. Knowledge returns in new situations: a shared classroom example, a laboratory failure, a team dependency, or a partner's demand. Each encounter can expose shallow understanding and require the student to rebuild it.
+## What the story's failed defense demonstrates
 
-The assessment system must be demanding enough to reveal these gaps and structured enough to help the student address them.
+During Anya's irrigation defense, AI supplies a correct explanation she cannot reason with. She repeats it but cannot account for the pressure behavior relevant to her design.
+
+The failure is consequential because she cannot interpret a result she is using. Further investigation gives her a better mental model. On retest day, she predicts behavior under changed conditions and adjusts the design.
+
+That scene illustrates a genuine gap in command. It should not be generalized into a rule that every detail an agent can produce must also be stored in the student's memory. The educational question is whether the student understands enough to use, question, and take responsibility for the work.
+
+## The standard grows with responsibility
+
+Early applications help students understand fields and choose where to go deep. Professional study develops stronger methods, intuition, and the ability to recognize exceptions. Capstone work makes these capabilities consequential for teammates and external partners.
+
+Faculty can inspect individual decisions within shared outcomes. A successful company does not establish every student's mastery. An unsuccessful company does not erase a student's sound reasoning, invention, learning, or recovery work.
+
+Roles, artifacts, decision history, collaborator accounts, and live explanation keep the person visible inside the system and the team.
+
+## Human judgment remains central
+
+A student's work and context library can help an evaluator understand what they have attempted, how their thinking developed, and where to ask a better question.
+
+The decisive encounter remains with the student. Teachers challenge, peers question, practitioners expose missing constraints, and employers ask the graduate to handle a new situation. Those interactions develop and reveal human capability.
+
+The goal is a person who can use a larger field of knowledge with increasing judgment.
 
 ## Questions to develop
 
-Faculty need a workable method for consistent standards, individual attribution, reassessment, and the time required for meaningful questioning. The record should preserve the evidence of learning without reducing it to a hidden replacement GPA.
+What professional understanding must be readily available to the person, and what can be reliably retrieved or delegated? How do faculty distinguish responsible use from unrecognized dependence? How are standards consistent without forcing every student into the same task? What support and reassessment follow a gap?
 
-Earlier business-case material also mentions selective unaided checks. The core mechanism developed here, and emphasized in the current concept direction, is to test understanding with AI available. Whether a particular task needs an additional form of demonstration remains to be reconciled in the operating design.
+These questions define the assessment design. They should be answered in service of [mastery over knowledge](mastery-over-knowledge.md).
 
 ## Grounding and connections
 
-- [Operating model](../model/operating-model.md): departmental exploration defenses; Year Two demonstrations; work visibility.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): Freshman Year irrigation defense and retest.
-- [Business case](../assets/documents/value-proposition-and-business-case.md): “Assessment: make learning and authorship visible.”
-- Connected concepts: [higher standards](higher-capability-higher-standards.md), [living library](living-library-of-applications.md), and [the work is the proof](the-work-is-the-proof.md).
+- Jason's September 28, 2026 clarifications on higher standards, assessment with AI, and mastery rather than corpus transfer.
+- [Operating model](../model/operating-model.md): application, defenses, work visibility, and Professional Draft.
+- [Anya's Ascent](../assets/documents/anyas-ascent.md): freshman retest and Nora's professional evaluation.
+- [Credentialing is dead](the-work-is-the-proof.md) addresses how the resulting capability becomes proof beyond the institution.

@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [assessment through application and defense](../../concepts/assessment-through-application-and-defense.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # Higher Capability, Higher Standards
 
 **When students have access to far greater capability, education should expect more meaningful work from them. The standard should move from producing an acceptable answer toward using understanding to accomplish something.**
@@ -50,7 +52,7 @@ The tutor's availability should support a higher expectation of eventual underst
 
 ## Grounding and connections
 
-- [Founding principles](../model/founding-principles.md): “Expand capability. Raise expectations.”
-- [Operating model](../model/operating-model.md): application, demonstration, and increasing professional responsibility.
-- [Business case](../assets/documents/value-proposition-and-business-case.md): purpose-led learning, professional depth, and assessment.
-- Connected concepts: [AI use](ai-is-part-of-the-education.md), [assessment](assessment-through-application-and-defense.md), and [capstone corporations](capstone-corporations.md).
+- [Founding principles](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/founding-principles.md): “Expand capability. Raise expectations.”
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): application, demonstration, and increasing professional responsibility.
+- [Business case](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/value-proposition-and-business-case.md): purpose-led learning, professional depth, and assessment.
+- Connected concepts: [AI use](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/ai-is-part-of-the-education.md), [assessment](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/assessment-through-application-and-defense.md), and [capstone corporations](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/capstone-corporations.md).

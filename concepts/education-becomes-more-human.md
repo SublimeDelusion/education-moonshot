@@ -1,6 +1,6 @@
 # Education Becomes More Human
 
-**To make education more human. That is the moonshot. As AI expands access to explanation and production, the institution can organize more deliberately around people, relationships, judgment, and the experience of becoming capable together.**
+**To make education more human. That is the moonshot. As the student gains command of knowledge through their agent force and working context, the institution can organize more deliberately around people, relationships, intuition, judgment, and the experience of becoming capable together.**
 
 ## The human institution is central
 
@@ -20,7 +20,7 @@ Listening, explaining, disagreeing, recruiting, negotiating responsibility, aski
 
 The setting matters. A presentation gives a student a reason to explain. A team gives someone else a reason to question. A shared commitment makes follow-through matter. An unresolved problem gives an expert a reason to engage.
 
-The institution should create repeated conditions in which human capability is necessary.
+The institution should create repeated conditions in which human capability is necessary. The aim is the development of the person who directs and takes responsibility for the work.
 
 ## Pods supply continuity; changing groups expand the network
 
@@ -36,7 +36,13 @@ The current sequence deliberately changes whom students learn and work with. Rel
 
 Each student develops an application, explains it, and encounters questions from peers. Other students contribute examples that behave differently because their purposes and constraints differ.
 
-A learner receives more than social support. They gain access to ways of seeing the same idea that they would not have generated alone. The group becomes a [living library of applications](living-library-of-applications.md).
+A learner receives more than social support. They gain access to ways of seeing the same idea that they would not have generated alone. The group becomes a living library of applications.
+
+The professor introduces a concept, students investigate and apply it to their purposes, and the class examines the resulting variety. The current Year Two example uses twenty students and twenty applications. The educational mechanism is the range of situations and assumptions made visible.
+
+One student develops an application deeply. The others encounter its reasoning, constraints, and failures alongside their own. They learn what generalizes, what depends on context, and how an apparently familiar idea behaves differently elsewhere.
+
+This develops intuition and the ability to connect ideas. The classroom's value grows from the different experiences people bring into it. Their agents can help preserve and retrieve the applications; people supply questions, interpretation, and challenge.
 
 The ability to teach, ask a useful question, accept a correction, and contribute an example becomes a practiced part of expertise.
 
@@ -55,6 +61,28 @@ The Forum also connects year groups. First-year students watch advanced teams de
 Students learn to approach someone with work worth discussing, a clear question, and a specific request. They prepare, listen, act on advice, and sustain the relationship by doing something with the opportunity.
 
 Visiting leaders bring outside experience into this process. Their three-day engagements create university-wide conversation, professional depth in departments, and focused work with prepared students.
+
+## Education must survive impact
+
+Students should encounter the world early enough for it to change their understanding. Practicing people bring constraints, unresolved problems, and judgment that a student may not know to ask an AI about.
+
+A visitor need not become a full-time professor to contribute. The current three-day format gives the institution a practical way to involve active founders, scientists, engineers, artists, operators, and public servants:
+
+| Encounter | Educational purpose |
+| --- | --- |
+| University-wide Forum | Students across years and disciplines meet frontier work and question its assumptions. |
+| Departmental engagement | Developing professionals investigate methods, failures, and difficult decisions. |
+| Prepared working sessions | Students bring evidence, prior attempts, and a specific ask; selected projects receive deeper attention. |
+
+The operating model includes short morning appointments, shared lunch, and longer sessions with selected projects. Preparation earns access to concentrated expertise. Students rehearse with the Examiner and follow through on the advice and introductions they receive.
+
+The story's maintenance review makes the mechanism concrete. Anya asks an engineer to identify the assumption most likely to make her system fail. He recognizes that she has treated maintenance as something outside the system. That observation changes her mental model, architecture, and subsequent learning.
+
+This is one way intuition develops: another person notices a relationship the student has failed to see. The student then works through its consequences.
+
+Contact grows in consequence through founder review, recruiting, the Funding Forum, delivery to partners, and the Professional Draft. Human challenge is part of both the education and the evidence of capability.
+
+## A network built through work
 
 The educational outcome is a network of people who know the student's work and whose capabilities the student understands. Trust arises through useful interaction.
 
@@ -88,4 +116,5 @@ The current model names the social settings and transitions. It still needs prac
 - [Operating model](../model/operating-model.md): pods, common core, creative practice, Forum, specialty transitions, recruiting, and professional responsibility.
 - [Anya's Ascent](../assets/documents/anyas-ascent.md): campus life and relationships throughout the story.
 - [Original concepts](../archive/concepts/principles-and-open-ideas.md): human formation, networking, and the institution's purpose.
-- Connected concepts: [living library](living-library-of-applications.md), [contact with reality](education-must-survive-impact.md), and [capstone corporations](capstone-corporations.md).
+- Supporting mechanisms consolidated here: the living library of applications and Education Must Survive Impact.
+- Connected concepts: [mastery over knowledge](mastery-over-knowledge.md), [demonstrated mastery](assessment-through-application-and-defense.md), and [capstone corporations](capstone-corporations.md).

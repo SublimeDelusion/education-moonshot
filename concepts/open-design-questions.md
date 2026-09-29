@@ -4,6 +4,10 @@ These questions concern how the concepts will operate. They do not weaken the th
 
 ## Learning and professional formation
 
+- How do we distinguish possession of knowledge from the ability to put it to work?
+- What depth and intuition must the student develop personally, and what can they retrieve or delegate through their agent force?
+- How does assessment reveal command of a broad corpus without becoming a test of how much of it the student has memorized?
+
 - How are purpose and exploration plans developed for students without a clearly articulated starting ambition?
 - What disciplinary standards demonstrate enough depth to enter consequential professional work?
 - How do faculty conduct and repeat application-and-defense assessments at cohort scale?
@@ -21,7 +25,7 @@ See [purpose](purpose-replaces-the-degree-program.md), [assessment](assessment-t
 - How can students correct the record and control access?
 - How does an employer discover the evidence needed to evaluate the graduate?
 
-See [the student's agent force](the-students-agent-force.md) and [the work is the proof](the-work-is-the-proof.md).
+See [mastery over knowledge](mastery-over-knowledge.md) and [the work is the proof](the-work-is-the-proof.md).
 
 ## Institutional and ownership mechanics
 

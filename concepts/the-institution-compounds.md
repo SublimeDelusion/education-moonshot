@@ -67,4 +67,4 @@ Which resources can be reused, under what ownership and access terms? Who mainta
 - [Operating model](../model/operating-model.md): Compounding institutional infrastructure; Institutional Economics; Company failure and dissolution.
 - [Original concepts](../archive/concepts/principles-and-open-ideas.md): institutional equity, company failure, student inventions, and open ownership questions.
 - [Anya's Ascent](../assets/documents/anyas-ascent.md): Epilogue.
-- Connected concepts: [capstone corporations](capstone-corporations.md), [the student's agent force](the-students-agent-force.md), and [human education](education-becomes-more-human.md).
+- Connected concepts: [capstone corporations](capstone-corporations.md), [mastery over knowledge](mastery-over-knowledge.md), and [human education](education-becomes-more-human.md).

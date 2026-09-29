@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [education becomes more human](../../concepts/education-becomes-more-human.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # Education Must Survive Impact
 
 **Students' ideas should encounter the world early enough for the world to change their education. Practicing people, unresolved problems, and external standards belong inside the learning process from the beginning.**
@@ -58,7 +60,7 @@ The model needs a sustainable supply of active practitioners, preparation standa
 
 ## Grounding and connections
 
-- [Founding principles](../model/founding-principles.md): “Education must survive early contact with reality.”
-- [Operating model](../model/operating-model.md): Forum, visiting leaders, Founder Review, Funding Forum, and Builder Year.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): visiting engineer and later external reviews.
-- Connected concepts: [human education](education-becomes-more-human.md), [higher standards](higher-capability-higher-standards.md), and [capstone corporations](capstone-corporations.md).
+- [Founding principles](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/founding-principles.md): “Education must survive early contact with reality.”
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): Forum, visiting leaders, Founder Review, Funding Forum, and Builder Year.
+- [Anya's Ascent](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/anyas-ascent.md): visiting engineer and later external reviews.
+- Connected concepts: [human education](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/education-becomes-more-human.md), [higher standards](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/higher-capability-higher-standards.md), and [capstone corporations](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/capstone-corporations.md).

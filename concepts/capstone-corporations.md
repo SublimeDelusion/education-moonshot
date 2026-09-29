@@ -24,7 +24,7 @@ The corporation also keeps individual expertise visible. Specialists need meanin
 
 ## The institution changes form
 
-The company phase follows preparation. Year One supplies exploration and foundations. Year Two develops professional depth. The summer prepares selected founders to organize work for the rising class.
+The company phase follows preparation. Year One supplies exploration and foundations. Year Two develops professional depth alongside the student's agent force and mission context. The summer prepares selected founders to organize work for the rising class. The student enters the corporation with both personal expertise and a system for drawing on knowledge across the domains the work requires.
 
 The Summer Founders Program makes founding a practical responsibility. Candidates work on customers, markets, finance, technical scope, staffing, leadership, governance, ownership, and fundraising. Reviews make them revise those decisions together.
 

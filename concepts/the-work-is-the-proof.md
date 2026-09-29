@@ -43,7 +43,11 @@ The capstone corporation moves the first professional experience inside educatio
 
 The Professional Draft makes that transition visible. Departments bring graduates and their accumulated work into contact with employers. The employer can examine the record, speak to references, question the candidate, and observe them solve a relevant problem.
 
-The graduate brings the agent force developed alongside their work. The evaluator sees how the person frames the problem, delegates, checks evidence, rejects weak recommendations, and reaches a decision.
+The graduate brings the agent force developed alongside their work. The evaluator sees how the person frames the problem, connects domains, delegates, checks evidence, rejects weak recommendations, and reaches a decision.
+
+What matters is the student's command of the knowledge and working system. The graduate need not hold the entire relevant corpus in biological memory. Their professional depth, intuition, questioning, and judgment let them use a broader field of knowledge through the agent force and its context.
+
+The work and context can help a human evaluator identify substantive questions. The encounter with the graduate establishes how they interpret, challenge, and apply what the system supplies.
 
 Nora's scene in the story illustrates this principle. Her company record earns attention, but her handling of a new problem reveals her judgment. She identifies a missed contractual constraint, asks questions that change the analysis, and explains what she would need to act.
 
@@ -76,4 +80,4 @@ Older material still includes a recognized degree in the stakeholder value propo
 - [Operating model](../model/operating-model.md): Work visibility; Professional Draft; Practical evaluation.
 - [Student Q&A](../assets/documents/student-qa.md): employer evaluation and proof of capability.
 - [Anya's Ascent](../assets/documents/anyas-ascent.md): The Professional Draft.
-- Connected concepts: [assessment](assessment-through-application-and-defense.md), [capstone corporations](capstone-corporations.md), and [the student's agent force](the-students-agent-force.md).
+- Connected concepts: [assessment](assessment-through-application-and-defense.md), [capstone corporations](capstone-corporations.md), and [mastery over knowledge](mastery-over-knowledge.md).

@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [mastery over knowledge](../../concepts/mastery-over-knowledge.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # AI Is Part of the Education
 
 **Students should learn to work extensively and effectively with AI because directing that capability is part of the professional education they need. AI use belongs inside the curriculum, the work, and the assessment.**
@@ -34,9 +36,9 @@ The narrative makes this visible twice. During Anya's early defense, AI provides
 
 There are three further decisions that follow from making AI part of education:
 
-1. **What should students now be expected to accomplish?** That is the question of [higher learning standards](higher-capability-higher-standards.md).
-2. **How do we know they understand?** That is the question of [assessment](assessment-through-application-and-defense.md).
-3. **How does someone outside the institution judge them?** That is the question of [professional proof](the-work-is-the-proof.md).
+1. **What should students now be expected to accomplish?** That is the question of [higher learning standards](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/higher-capability-higher-standards.md).
+2. **How do we know they understand?** That is the question of [assessment](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/assessment-through-application-and-defense.md).
+3. **How does someone outside the institution judge them?** That is the question of [professional proof](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/the-work-is-the-proof.md).
 
 Banning AI would avoid developing the capability at the center of all three. Keeping AI available does not answer those questions by itself. The institution must redesign the work and inspect the student's understanding.
 
@@ -54,7 +56,7 @@ The exact technical systems and instructional methods remain open. The model sti
 
 ## Grounding and connections
 
-- [Founding principles](../model/founding-principles.md): “Expand capability. Raise expectations.”
-- [Operating model](../model/operating-model.md): Year One agent formation, defenses, Founder Review, and Professional Draft.
-- [Student Q&A](../assets/documents/student-qa.md): “Am I actually learning if AI is helping me?”
-- [The student's agent force](the-students-agent-force.md) describes the durable professional system built through this practice.
+- [Founding principles](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/founding-principles.md): “Expand capability. Raise expectations.”
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): Year One agent formation, defenses, Founder Review, and Professional Draft.
+- [Student Q&A](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/student-qa.md): “Am I actually learning if AI is helping me?”
+- [The student's agent force](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/the-students-agent-force.md) describes the durable professional system built through this practice.

@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [mastery over knowledge](../../concepts/mastery-over-knowledge.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # Personal Tutoring Without the Classroom Pace
 
 **One person teaching thirty students at roughly the same pace is no longer the necessary organizing constraint of instruction. Each student can have continuous access to instruction responsive to their own understanding.**
@@ -34,7 +36,7 @@ The operating model calls for an educational AI foundation that encourages learn
 
 This creates a distinction between asking a system to produce an answer and working with it to become capable of using an idea. The learning coach helps with the second task. The Examiner rehearses difficult questioning. Faculty conduct the formal assessment.
 
-The accumulated context should help the system recognize recurring misconceptions and useful explanations. That continuity is part of the [student's agent force](the-students-agent-force.md).
+The accumulated context should help the system recognize recurring misconceptions and useful explanations. That continuity is part of the [student's agent force](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/the-students-agent-force.md).
 
 ## Personalization strengthens shared life
 
@@ -48,7 +50,7 @@ The tutoring architecture, educational post-training, faculty review, and eviden
 
 ## Grounding and connections
 
-- [Operating model](../model/operating-model.md): Year One agent formation; Year Two, “Teach once. Learn individually. Apply twenty ways.”
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): Freshman and Sophomore Year.
-- [Business case](../assets/documents/value-proposition-and-business-case.md): tutor-for-every-student proposition and the distinction between assisted performance and learning.
-- Connected concepts: [assessment](assessment-through-application-and-defense.md) and [education becomes more human](education-becomes-more-human.md).
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): Year One agent formation; Year Two, “Teach once. Learn individually. Apply twenty ways.”
+- [Anya's Ascent](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/anyas-ascent.md): Freshman and Sophomore Year.
+- [Business case](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/value-proposition-and-business-case.md): tutor-for-every-student proposition and the distinction between assisted performance and learning.
+- Connected concepts: [assessment](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/assessment-through-application-and-defense.md) and [education becomes more human](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/education-becomes-more-human.md).

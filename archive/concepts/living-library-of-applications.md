@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [education becomes more human](../../concepts/education-becomes-more-human.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # The Living Library of Applications
 
 **When students apply the same concept to different purposes and teach the results to one another, the cohort becomes a library of how that knowledge behaves in the world.**
@@ -48,7 +50,7 @@ How are applications selected for discussion when class time is limited? How do 
 
 ## Grounding and connections
 
-- [Operating model](../model/operating-model.md): Year Two, “Teach once. Learn individually. Apply twenty ways.”
-- [Founding principles](../model/founding-principles.md): application, shared work, and expanded expectations.
-- [Original concepts](../archive/concepts/principles-and-open-ideas.md): “Year Two creates a living library of applications.”
-- Connected concepts: [personal tutoring](personal-tutoring-without-the-classroom-pace.md), [assessment](assessment-through-application-and-defense.md), and [human education](education-becomes-more-human.md).
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): Year Two, “Teach once. Learn individually. Apply twenty ways.”
+- [Founding principles](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/founding-principles.md): application, shared work, and expanded expectations.
+- [Original concepts](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/archive/concepts/principles-and-open-ideas.md): “Year Two creates a living library of applications.”
+- Connected concepts: [personal tutoring](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/personal-tutoring-without-the-classroom-pace.md), [assessment](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/assessment-through-application-and-defense.md), and [human education](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/education-becomes-more-human.md).

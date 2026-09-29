@@ -18,7 +18,7 @@ The existing concept expresses the learning loop as:
 
 **purpose → problem → knowledge needed → learning → application → feedback → deeper problem**
 
-The student encounters something they cannot yet understand or accomplish. That creates a reason to learn. Applying the new knowledge reveals the next gap.
+The student encounters something they cannot yet understand or accomplish. That creates a reason to learn. Applying the new knowledge reveals the next gap. Sometimes the next step is deeper personal understanding; sometimes it is retrieving, connecting, or directing knowledge through the student's agent force. The goal is command of what the work requires.
 
 Purpose therefore does more than improve motivation. It changes the relationship between knowledge and work. The student can explain why an idea matters to something they are trying to do, and the result of using it supplies feedback on their understanding.
 
@@ -30,7 +30,7 @@ The removal of the degree program as the four-year container does not remove dis
 
 The current operating model begins with breadth. Students explore fields, meet practitioners, use departmental resources, and learn enough to make an informed choice about where to develop depth. At the end of Year One, they declare a professional specialty.
 
-Year Two is deliberately structured. The department defines its professional corpus and sequence. The student's purpose guides applications within that discipline. Years Three and Four deepen the profession through responsibility and increasingly consequential work.
+Year Two is deliberately structured. The department identifies the professional knowledge, methods, and learning sequence. The student develops deep understanding where the work demands it, while building the agent force and context library through which a much broader corpus can be used. The student's purpose guides applications within and across disciplines. Years Three and Four deepen intuition and judgment through responsibility and increasingly consequential work.
 
 The distinction is fundamental:
 
@@ -57,4 +57,4 @@ How does the institution help a student who has only a broad interest? How are c
 - [Operating model](../model/operating-model.md): Application and Discovery; Year One; Declaration of Specialty; Year Two.
 - [Anya's Ascent](../assets/documents/anyas-ascent.md): A Different Question and the transition from Freshman to Sophomore Year.
 - [Student Q&A](../assets/documents/student-qa.md): “Why do I need a major?” and “Why am I learning things I may never use?”
-- Connected concepts: [Personal tutoring](personal-tutoring-without-the-classroom-pace.md), [living library of applications](living-library-of-applications.md), and [capstone corporations](capstone-corporations.md).
+- Connected concepts: [Mastery over knowledge](mastery-over-knowledge.md), [human learning together](education-becomes-more-human.md), and [capstone corporations](capstone-corporations.md).

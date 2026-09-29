@@ -1,3 +1,5 @@
+> Archived September 28, 2026. Consolidated into [mastery over knowledge](../../concepts/mastery-over-knowledge.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+
 # The Student's Agent Force Graduates With Them
 
 **The student leaves with an AI system that has developed alongside their education: it knows their professional corpus, their work, and how to work with them. That accumulated relationship is a professional asset.**
@@ -72,7 +74,7 @@ These are core architectural questions for the model. They should be answered wi
 
 ## Grounding and connections
 
-- [Operating model](../model/operating-model.md): Building the student's agent force; The Parallel Education; Agent context and portability.
-- [Founding principles](../model/founding-principles.md): the context library as a first professional asset.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): agent formation, accumulated leadership context, Nora's live evaluation and handoff, Kai's invention.
-- Connected concepts: [AI education](ai-is-part-of-the-education.md), [professional proof](the-work-is-the-proof.md), and [institutional compounding](the-institution-compounds.md).
+- [Operating model](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/operating-model.md): Building the student's agent force; The Parallel Education; Agent context and portability.
+- [Founding principles](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/model/founding-principles.md): the context library as a first professional asset.
+- [Anya's Ascent](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/assets/documents/anyas-ascent.md): agent formation, accumulated leadership context, Nora's live evaluation and handoff, Kai's invention.
+- Connected concepts: [AI education](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/ai-is-part-of-the-education.md), [professional proof](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/the-work-is-the-proof.md), and [institutional compounding](https://github.com/SublimeDelusion/education-moonshot/blob/5a20709ac09680b032322a2c45e2ddb8d6938151/concepts/the-institution-compounds.md).
