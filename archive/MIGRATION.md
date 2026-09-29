@@ -44,3 +44,20 @@ The six Markdown files and two PDFs have been transferred. Three PDFs remain at 
 - `ae-timeline.pdf`: original blob `0dda9852494167b580565a0426aed6d6cd0f1440`.
 - `ae-whatfailed.md`: original blob `45fa3c6a73b7bd34c1c21f132c85c3917cb30d00`.
 - `ae-whatfailed.pdf`: original blob `d3ef898d1b51f11cf8783701faf3dfafb7ed3ca8`.
+
+## Repository reorganization — September 28, 2026
+
+The table above records the original import. Current paths:
+
+| Imported path | Current home |
+| --- | --- |
+| Artifacts/four-year-operating-model.md | [model/operating-model.md](../model/operating-model.md); principles extracted to [model/founding-principles.md](../model/founding-principles.md) |
+| Artifacts/student-qa.md | [assets/documents/student-qa.md](../assets/documents/student-qa.md) |
+| Content/anyas-ascent-university-of-impact.md | [assets/documents/anyas-ascent.md](../assets/documents/anyas-ascent.md) |
+| Content/university-of-impact-value-proposition-and-business-case.md | [assets/documents/value-proposition-and-business-case.md](../assets/documents/value-proposition-and-business-case.md) |
+| Content/university-of-impact-principles-and-open-ideas.md | [concepts](../concepts/README.md); original compilation retained in [archive/concepts](concepts/principles-and-open-ideas.md) |
+| Content/portfolio-overview.md | Restored in [Moonshots](https://github.com/SublimeDelusion/moonshots/blob/main/Moonshots/University%20of%20Impact/Content/portfolio-overview.md) |
+| Content/university-of-impact-content-strategy.md | Unique presentation guidance moved to [Portfolio](https://github.com/SublimeDelusion/portfolio/blob/main/strategy/education/university-of-impact-presentation.md); eight verbatim story sections replaced with canonical manuscript links |
+| Images/ | assets/images/ |
+
+The manuscript, student Q&A, business case, and images retain their imported content. The principles and concept sections were reorganized without adopting unresolved mechanisms. The MIT implementation proposal and source record were added separately.
