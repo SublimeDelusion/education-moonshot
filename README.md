@@ -12,7 +12,7 @@ University of Impact is the working name used in the story and current model. Th
 - [Student Q&A](assets/documents/student-qa.md) — the student-facing argument and questions.
 - [Anya's Ascent](assets/documents/anyas-ascent.md) — the canonical story illustrating the model.
 - [Value proposition and business case](assets/documents/value-proposition-and-business-case.md) — rationale, evidence, hypotheses, and institutional value.
-- [A College of MIT](strategy/mit-college.md) — an exploratory implementation proposal.
+- [Implementing the Education Model Within an Existing University](strategy/mit-college.md) — an implementation scenario using MIT as the hypothetical host.
 
 ## Repository map
 
