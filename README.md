@@ -8,6 +8,8 @@ University of Impact is the working name used in the story and current model. Th
 
 ## Start here
 
+- [Eight assumptions worth reexamining](concepts/assumptions-worth-reexamining.md) — the case for redesign, from what education produces to what college owes the graduate.
+
 - [Concept vault](concepts/README.md) — seven core propositions, from purpose and mastery over knowledge to professional proof and a more human institution.
 
 - [Founding principles](model/founding-principles.md) and [operating model](model/operating-model.md) — the current proposed design.

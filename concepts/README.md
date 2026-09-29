@@ -20,6 +20,8 @@ Students develop purpose, professional depth, intuition, judgment, and human rel
 
 ## The central change
 
+[Eight Assumptions Worth Reexamining in Higher Education](assumptions-worth-reexamining.md) states the critique behind these concepts, progressing from the educational objective to college's changing responsibility to the graduate. It is a companion argument, not an additional core concept.
+
 Personal tutoring is useful, but faster delivery of the old corpus is too small a goal. The student should leave with greater control over knowledge than they could achieve through memorization alone.
 
 The human develops depth and judgment. The agent force supports breadth, retrieval, basic application, and continuity. The context library preserves how that knowledge relates to the mission. Their combined use develops capability.
