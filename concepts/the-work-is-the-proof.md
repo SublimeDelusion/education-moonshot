@@ -37,6 +37,12 @@ The record should answer:
 
 Discoverable does not mean every private learning note or company document is public. The operating model already identifies access, provenance, student correction, and confidential material as design work. The professional evidence must be accessible enough to evaluate while preserving those distinctions.
 
+## The human network is visible evidence
+
+The [collaboration network](education-becomes-more-human.md#make-the-collaboration-network-visible) gives the work a human context. A viewer can see the teams and companies in which the student participated, the people who worked alongside them, and the projects connecting them.
+
+A relationship establishes shared experience; a collaborator's reference supplies their own account of it. Together, the work and the people make the student's professional history easier to inspect. The same network is an asset the graduate can continue to participate in beyond school.
+
 ## Evaluate the graduate as an experienced professional
 
 The capstone corporation moves the first professional experience inside education. Evaluation at graduation should therefore resemble evaluation for a second serious job.
