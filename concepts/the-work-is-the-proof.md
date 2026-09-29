@@ -57,6 +57,44 @@ The work and context can help a human evaluator identify substantive questions. 
 
 Nora's scene in the story illustrates this principle. Her company record earns attention, but her handling of a new problem reveals her judgment. She identifies a missed contractual constraint, asks questions that change the analysis, and explains what she would need to act.
 
+## Matching through knowledge depth and AI-to-AI interviews
+
+The Professional Draft can begin before the employer meets the graduate. An employer describes the work to be done and the combination of capabilities it requires. The student's [knowledge-depth map](mastery-over-knowledge.md#a-depth-map-of-the-working-knowledge-corpus), work record, and agent context make a much richer comparison possible.
+
+### Specify the capability mix
+
+The interface could let an employer adjust the relative importance of capabilities for a particular role: depth in one field, connections to adjacent domains, experience with particular systems, or the ability to coordinate work across professions.
+
+Jason's analogy is building an NBA Jam player: adjust the mix of attributes needed for the job. Here, each dimension leads back to actual work, relevant context, and evidence of application. The controls describe the employer's need. They do not assign the graduate a universal rating.
+
+Changing the mix could reveal candidates whose experience connects to the problem in different ways. A strong match might come from someone with an unexpected specialty but highly relevant applications and judgment.
+
+### An AI-to-AI interviewing channel
+
+The employer's AI could question the student's agent force about role-relevant experience and the knowledge behind it. The exchange would explore context the student makes available for this purpose.
+
+Questions could trace how a domain was applied, what the student owned, which assumptions failed, and how the work changed. The student's agent could retrieve the supporting projects, sources, decisions, and corrections. The exchange should distinguish demonstrated human capability, knowledge available through the agent force, and areas for further exploration.
+
+The useful output is an account of fit: the relevant experience, why it matters to this role, gaps or uncertainties, and substantive questions for the human conversation. A fluent agent response alone does not establish the student's command of the work.
+
+The employer and graduate can then spend their time examining the consequential questions and working together on a real problem.
+
+### Match the student to the work they want
+
+The student's corpus developed through purpose and repeated application. That makes it a potentially strong signal of both capability and sustained interest.
+
+The student must also be able to describe what they want next. Their past mission may not be their future one. Nora's departure from LunaHarvest illustrates this: her interest lies in making complex organizations work, and she wants another consequential problem.
+
+A two-way match therefore considers the student's desired work and direction alongside the employer's capability needs. The employer can discover a person already prepared to contribute; the student can discover a setting where their judgment, context, and interests are valuable.
+
+### The matching hypothesis
+
+Close alignment among the role, demonstrated capability, mission context, and the student's aspirations could support faster contribution, more fulfilling work, and stronger satisfaction on both sides.
+
+That is the opportunity to test. Corpus similarity alone cannot establish fulfillment or how people will work together. Human interviews and practical collaboration continue the evaluation, informed by much more specific evidence.
+
+The design work is to define useful matching dimensions, the evidence behind them, how both parties express priorities, and how an AI-to-AI exchange prepares a better human encounter. The algorithm and interface remain to be developed.
+
 ## The institution makes the work visible
 
 The university preserves and exposes evidence. The employer decides what it is worth for the role.
