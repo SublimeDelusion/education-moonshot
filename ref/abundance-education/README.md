@@ -1,4 +1,6 @@
-# Abundance Education — source documents
+# Abundance Education — reference material
+
+These are source materials from Peter Diamandis’ Abundance Education program, supplied through Max Song. They are external reference material, separate from the Education Moonshot model authored in this repository.
 
 First-pass Markdown source transcriptions for the Moonshots Summit intel workflow. The five original PDFs remain authoritative. Each Markdown file follows the PDF page order and includes a source link, page count, checksum, and extraction notes.
 

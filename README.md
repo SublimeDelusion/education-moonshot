@@ -26,4 +26,4 @@ The operating model is still under development. Its September 27 handoff identif
 
 ## Migration and production archive
 
-See [migration provenance](MIGRATION.md) for source revisions and file mapping. Audio exports and Audacity projects remain in the [existing media archive](https://github.com/SublimeDelusion/moonshots/tree/main/Moonshots/University%20of%20Impact/Media). [Abundance Education research](collaboration/abundance-education/README.md) contains the program's source materials and transcriptions. Summit outreach history remains in [moonshots-summit](https://github.com/SublimeDelusion/moonshots-summit).
+See [migration provenance](MIGRATION.md) for source revisions and file mapping. Audio exports and Audacity projects remain in the [existing media archive](https://github.com/SublimeDelusion/moonshots/tree/main/Moonshots/University%20of%20Impact/Media). [Abundance Education research](ref/abundance-education/README.md) contains the program's source materials and transcriptions. Summit outreach history remains in [moonshots-summit](https://github.com/SublimeDelusion/moonshots-summit).

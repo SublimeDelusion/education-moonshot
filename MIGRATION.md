@@ -29,7 +29,7 @@ Education Moonshot owns the canonical manuscript. Hopeful Dystopia retains its e
 
 Audio exports and three Git LFS-backed Audacity projects remain in the source repository's Media directory. They were not moved or deleted. Existing production references continue to work.
 
-Summit campaign history remains in moonshots-summit. Abundance Education research was sourced from `Leads/Max Song/` at summit commit `ef07ebed724a29d8c63583f226e2947f1e2ac650` and is organized by program under `collaboration/abundance-education/`.
+Summit campaign history remains in moonshots-summit. Abundance Education research was sourced from `Leads/Max Song/` at summit commit `ef07ebed724a29d8c63583f226e2947f1e2ac650` and is organized by program under `ref/abundance-education/`.
 
 The six Markdown files and two PDFs have been transferred. Three PDFs remain at their original source paths because the GitHub connector returned empty content for files above 1 MB: abuundance-education.pdf, ae-priceofknowledge.pdf, and ae-scaling.pdf. Their research index links to the originals. Do not delete these originals until a full-byte transfer is verified.
 
