@@ -31,7 +31,7 @@ Audio exports and three Git LFS-backed Audacity projects remain in the source re
 
 Summit campaign history remains in moonshots-summit. Abundance Education research was sourced from `Leads/Max Song/` at summit commit `ef07ebed724a29d8c63583f226e2947f1e2ac650` and is organized by program under `ref/abundance-education/`.
 
-The six Markdown files and two PDFs have been transferred. Three PDFs remain at their original source paths because the GitHub connector returned empty content for files above 1 MB: abuundance-education.pdf, ae-priceofknowledge.pdf, and ae-scaling.pdf. Their research index links to the originals. Do not delete these originals until a full-byte transfer is verified.
+The initial migration transferred six Markdown files and two PDFs. Three PDFs remained at their original source paths because the GitHub connector returned empty content for files above 1 MB: abuundance-education.pdf, ae-priceofknowledge.pdf, and ae-scaling.pdf. On 2026-09-28, all five reference documents were rebuilt from user-supplied webpage HTML or text. At the user's request, the local PDF, HTML, and raw-text reference copies were removed; `ref/abundance-education/` now keeps only Markdown. The source repository PDFs and the original blob identifiers below remain provenance for the migration.
 
 - `README.md`: original blob `835d549990127bba1f479b439613500ed0f255f5`.
 - `abuundance-education.md`: original blob `7afed2887516dcee3132682e3267423584b8110c`.

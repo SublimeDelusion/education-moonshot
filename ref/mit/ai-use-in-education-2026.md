@@ -9,9 +9,10 @@
 
 - [Report landing page](https://aiandeducation.mit.edu/report/)
 - [Full report PDF — 40 pages, hosted on MIT's publishing CDN](https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/d/2418/files/2026/09/AI-Committee-Final-Report-Aug-13.pdf)
+- [Local reference copy of the report](AI-Committee-Final-Report-Aug-13.pdf)
 - [MIT leadership announcement](https://orgchart.mit.edu/letters/ai-and-education-watershed-moment-mit)
 
-The PDF was retrieved and its title, date, and contents verified. This record links to the original rather than redistributing or relicensing MIT's report.
+The PDF was retrieved and its title, date, and contents verified. A user-supplied reference copy is stored alongside this record. MIT retains authorship and applicable source terms.
 
 ## Relevance
 
