@@ -1,29 +1,25 @@
 # A College of MIT
 
-**Status:** Exploratory proposal by Jason Pekovitch. No MIT affiliation, endorsement, or institutional commitment is claimed.
+## A response to MIT's call to action
 
-## The proposal
+“This report is a call to action.”
 
-Establish a College of MIT organized around purpose-driven, AI-accelerated education and the human connections students need to succeed. Use the [Education Moonshot operating model](../model/operating-model.md) as the starting design: foundational exploration, professional depth, and consequential work in multidisciplinary organizations.
+MIT opens its August 2026 [report on AI use in teaching, learning, and research training](../ref/mit/AI-Committee-Final-Report-Aug-13.pdf) with that sentence. This strategy explores a response: what could a purpose-driven, AI-accelerated education framework look like as a college within a university like MIT?
 
-## Why MIT
+MIT serves as the hypothetical institutional setting because its recent self-assessment makes the exploration concrete. We can work from the challenges MIT has identified, the human qualities it wants to preserve, and the changes it believes education requires.
 
-MIT's own evaluation of AI in education gives this proposal a concrete starting point. The August 2026 committee report examines disruption to mastery, assessment, and campus relationships. Its recommendations address educational redesign, community, and continued institutional learning. See the [MIT source record](../ref/mit/ai-use-in-education-2026.md).
+## The institutional question
 
-Our strategic inference is that a dedicated college could give MIT a coherent setting to test these changes together. It would make human development, professional judgment, mentorship, and collaboration explicit design responsibilities while using AI to accelerate learning.
+The report examines how AI is disrupting student mastery, assessment, and the relationships through which students learn. It calls for a broader reconsideration of the structure, meaning, and value of an MIT education.
 
-The Moonshots network is a potential route to explore this proposal with MIT-connected people. Introductions and institutional interest remain to be established; this document is not a record of partner commitments.
+The [Education Moonshot framework](../model/operating-model.md) offers a way to explore that reconsideration at the level of a whole student experience. Purpose gives learning direction. AI supports individual progress. Faculty, peers, mentors, and practicing professionals develop understanding and judgment through shared work. Students build expertise and take responsibility inside multidisciplinary organizations, leaving with demonstrated capability and human connections that can sustain their professional lives.
 
-## Value beyond MIT
+A college within MIT would provide a concrete setting in which to examine how these elements could work together. How would students move through the framework? How would it draw on existing departments and laboratories? What would faculty own? How would learning become visible? What freedom would the college need to organize education around the student?
 
-MIT is the intended institutional home for this strategy. Its published self-evaluation also provides a reference point for peer institutions. The proposed college would aim to produce an inspectable operating model and evidence about student learning and professional formation that other institutions could evaluate and adapt.
+## What this strategy will develop
 
-## Design work to develop
+The work is to connect MIT's assessment to an institutional design: the student experience, the college's place within the university, the resources it would share, and the first implementation that could test the model.
 
-- Define the college's relationship to existing departments, faculty, laboratories, and residential life.
-- Specify the autonomy needed for purpose-led progression, assessment, and consequential work.
-- Determine the first cohort or pilot, its resources, and the evidence required to expand.
-- Resolve admissions, credentials, governance, financing, and student ownership within the host institution.
-- Map report recommendations to model mechanics, including tensions and unanswered questions.
+Using MIT as the reference institution also makes the work useful beyond MIT. Other universities can examine the same assessment, recognize where their circumstances align, and consider how the framework could take shape within their own institutions.
 
-The report does not propose this college. The institutional response described here is our proposal, to be developed and tested with prospective collaborators.
+The aim is to make education more human, with MIT's call to action providing a concrete place to begin.
