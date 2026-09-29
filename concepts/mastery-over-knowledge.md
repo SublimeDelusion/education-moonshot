@@ -102,6 +102,12 @@ Someone exploring the graduate's work could move from a specialty to an applicat
 
 This gives the graduating agent force a tangible form: a mission-shaped corpus with a history of use, connected to the person who directs it and the people who helped build it.
 
+### From the map to a professional match
+
+The depth map could also support matching a graduate to a role. An employer specifies the capability mix the work requires, and an AI-to-AI interviewing channel explores the student's relevant context and evidence. The student's desired direction supplies the other side of the match.
+
+[The Professional Draft matching concept](the-work-is-the-proof.md#matching-through-knowledge-depth-and-ai-to-ai-interviews) develops this mechanism. The map makes the knowledge and its applications inspectable; the exchange helps people identify fit and prepare the questions they should explore together.
+
 ## Tutoring serves the new objective
 
 Continuous personal tutoring remains a powerful mechanism. A student can ask for another explanation, repair a prerequisite gap, explore a connection, or investigate a result when the need arises.
