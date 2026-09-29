@@ -69,7 +69,25 @@ The student should be able to explain:
 - what they have become capable of contributing;
 - what they still want to learn and become.
 
-The outcome is a refined MTP and an articulated next direction. That direction becomes part of the student's context and informs the [Professional Draft's two-way matching](the-work-is-the-proof.md#match-the-student-to-the-work-they-want).
+### Identify the passions within the purpose
+
+The MTP gives the broad direction. Senior-year reflection adds the personal detail that makes a next step meaningful: aspirations, goals, interests, favorite parts of college, and the work the student wants to keep doing.
+
+A student might identify a particular project, a kind of problem, the experience of building with certain people, or a responsibility they found especially satisfying. These are useful distinctions even when the MTP remains unchanged.
+
+The reflection should ask:
+
+- Which parts of college and the work did you most enjoy?
+- What problems or activities do you keep returning to?
+- What do you want more of in your next chapter?
+- What are your near-term goals and longer-term aspirations?
+- Which projects or inventions will you keep pursuing regardless of your career path?
+
+The robotic arm in the story illustrates the kind of enduring interest this could uncover. A student might say, “Whatever job I take, I want to keep developing this.” That commitment should remain visible alongside the job search. An opportunity might advance it directly or give the student a compatible setting in which to continue pursuing it.
+
+The agent's accumulated context can help the student recall experiences and notice patterns. The student articulates which passions are still alive, how important they are, and what they want to carry forward.
+
+The outcome is a refined MTP and an articulated next direction, enriched by the student's passions, goals, preferences, and ongoing pursuits. That direction becomes part of the student's context and informs the [Professional Draft's two-way matching](the-work-is-the-proof.md#match-the-student-to-the-work-they-want).
 
 The student graduates with both evidence of capability and a considered intention for using it. The format and timing of this senior-year work remain to be developed.
 
