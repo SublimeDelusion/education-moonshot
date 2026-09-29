@@ -18,7 +18,7 @@ The PDF was retrieved and its title, date, and contents verified. A user-supplie
 
 The report describes AI-related disruption to student mastery, assessment, and campus relationships (section 1.1). Its recommendations cover educational redesign, community and residential experience, and continuous institutional improvement (sections 3.1–3.3).
 
-These are reference points for our [College of MIT proposal](../../strategy/mit-college.md). The proposed college is our response, not a recommendation or endorsement by MIT.
+The [College of MIT strategy](../../strategy/mit-college.md) responds to this call to action, using MIT's self-assessment to explore how the education framework could take shape within a university like MIT.
 
 ## Reading map
 
