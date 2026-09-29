@@ -85,6 +85,10 @@ The student's corpus developed through purpose and repeated application. That ma
 
 [Senior-year purpose refinement](purpose-replaces-the-degree-program.md#senior-year-define-your-future) gives the student a considered account of what they want next. They revisit their MTP in light of four years of experience, clarify how it has evolved, and describe the contribution they want to make. Changing roles or companies may be a continuation of that purpose. Nora's departure from LunaHarvest illustrates the distinction: her interest in making complex organizations work can carry into a new setting.
 
+The student's side of the match also includes the finer detail within that purpose: passions, aspirations, goals, favorite experiences, preferred activities, and projects they intend to keep pursuing. A student may want to continue developing an invention such as the robotic arm regardless of which company they join. That ongoing pursuit can shape which opportunities appeal to them.
+
+The student defines these priorities. Their learning and work history provide context for the conversation.
+
 A two-way match therefore considers the student's desired work and direction alongside the employer's capability needs. The employer can discover a person already prepared to contribute; the student can discover a setting where their judgment, context, and interests are valuable.
 
 ### The matching hypothesis
