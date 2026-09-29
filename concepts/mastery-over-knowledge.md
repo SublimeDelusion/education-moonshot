@@ -61,6 +61,14 @@ A failed experiment should remain as more than a failed output. Its meaning matt
 
 At the level of this concept, model capability and working context are the central ingredients. The exact architecture remains open. As models change, the accumulated context should continue to make new systems useful to the student.
 
+## Context includes the people behind the work
+
+The school's AI should also build the student's collaboration context: the people they worked with, their expertise, the organizations and projects involved, and what they contributed together. This makes human relationships part of the accumulated professional context.
+
+The student's working system can draw on that history to help them recognize who has relevant experience and prepare a substantive question. Knowing how to find and engage another person remains part of the student's capability.
+
+[Education Becomes More Human](education-becomes-more-human.md#make-the-collaboration-network-visible) describes the visible network of collaborators and shared work. The school's relationship context and the student's agent context need to remain connected as the graduate carries their professional history forward.
+
 ## The agent force is part of the educational outcome
 
 The operating model gives students example roles: a Learning coach, Examiner, Context curator, Thesis agent, and Personal assistant. These support learning, rehearsal, continuity, articulation, and everyday coordination. Specialist agents develop with the work.
