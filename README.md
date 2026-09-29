@@ -8,6 +8,8 @@ University of Impact is the working name used in the story and current model. Th
 
 ## Start here
 
+- [Concept vault](concepts/README.md) — twelve detailed core propositions, from purpose-led education to professional proof and a more human institution.
+
 - [Founding principles](model/founding-principles.md) and [operating model](model/operating-model.md) — the current proposed design.
 - [Student Q&A](assets/documents/student-qa.md) — the student-facing argument and questions.
 - [Anya's Ascent](assets/documents/anyas-ascent.md) — the canonical story illustrating the model.

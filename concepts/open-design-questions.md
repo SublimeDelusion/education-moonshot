@@ -1,14 +1,31 @@
-# Open design questions
+# Open Design Questions
 
-**Status:** Exploratory. These concepts preserve the imported working notes; inclusion does not adopt a mechanism or settle an open question.
+These questions concern how the concepts will operate. They do not weaken the theses or substitute implementation detail for the ideas themselves.
 
-Current proposed design: [operating model](../model/operating-model.md) and [founding principles](../model/founding-principles.md).
+## Learning and professional formation
 
----
+- How are purpose and exploration plans developed for students without a clearly articulated starting ambition?
+- What disciplinary standards demonstrate enough depth to enter consequential professional work?
+- How do faculty conduct and repeat application-and-defense assessments at cohort scale?
+- How does the institution identify gaps between assisted performance and student understanding?
+- How does company matching ensure meaningful work and decision rights for every specialty?
+- How does the institution support students when an organization changes direction or ceases to function?
 
-## Open design questions
+See [purpose](purpose-replaces-the-degree-program.md), [assessment](assessment-through-application-and-defense.md), and [capstone corporations](capstone-corporations.md).
 
-These concepts require further design rather than premature answers.
+## Student context and professional evidence
+
+- How does the context library carry across models and tools?
+- How are personal learning history, attributable work, and confidential company or partner information separated?
+- Which contributions can be independently referenced?
+- How can students correct the record and control access?
+- How does an employer discover the evidence needed to evaluate the graduate?
+
+See [the student's agent force](the-students-agent-force.md) and [the work is the proof](the-work-is-the-proof.md).
+
+## Institutional and ownership mechanics
+
+The following questions are preserved from the original concept compilation.
 
 ### Equity and capitalization
 - What standardized institutional stake, if any, exists at capstone formation?
@@ -43,3 +60,12 @@ These concepts require further design rather than premature answers.
 - What must remain physically shared?
 - What institutional functions can become dramatically smaller because AI handles repeatable instruction?
 - What must be protected specifically because it is human?
+
+
+## Boundaries for later artifact updates
+
+Credentialing is not the proof on which this model depends. Existing credential and accreditation language in the story and business case needs deliberate reconciliation with [the current thesis](the-work-is-the-proof.md).
+
+The host-institution scenario belongs in [strategy](../strategy/mit-college.md). The education model defines the student experience; an institutional home supplies resources and operating arrangements.
+
+The concrete equity, IP, funding, and access questions above remain open. No percentage, instrument, licensing default, technical architecture, or staffing ratio is settled by this vault.
