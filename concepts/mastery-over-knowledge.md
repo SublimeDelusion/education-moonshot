@@ -84,6 +84,24 @@ Across the current four-year model:
 
 The graduate leaves with a practiced professional system that has grown alongside them. Its value is the accumulated ability to use knowledge in context.
 
+## A depth map of the working knowledge corpus
+
+The student's agent force should have a visible map of its accumulated knowledge: the areas of specialization, the surrounding domains relevant to the mission, and the connections among them.
+
+The map would show a landscape of depth and breadth. A deeply developed specialty connects to neighboring fields through actual applications, dependencies, and decisions. As the student pursues the mission, those connections acquire context: why a concept matters, how it was used, where it failed, and what the work revealed.
+
+Selecting an area should let a person inspect the context behind it: sources, models, experiments, applications, corrections, and unresolved questions. Selecting a connection should show how two domains met in the work. Depth is expressed through that substance rather than inferred from the number of documents collected.
+
+The view should distinguish the student's demonstrated understanding from the broader knowledge available through their agents. Together they show the capability the student has learned to command.
+
+### Connect knowledge, work, and people
+
+The depth map and the [collaboration network](education-becomes-more-human.md#make-the-collaboration-network-visible) are connected views of the same professional history. A project links the domains it required, the people who contributed, and the evidence of what happened.
+
+Someone exploring the graduate's work could move from a specialty to an application, from that application to a collaborator, and from the collaborator to another connected area of expertise. The result makes visible both the student's own depth and the wider knowledge and human network they can work through.
+
+This gives the graduating agent force a tangible form: a mission-shaped corpus with a history of use, connected to the person who directs it and the people who helped build it.
+
 ## Tutoring serves the new objective
 
 Continuous personal tutoring remains a powerful mechanism. A student can ask for another explanation, repair a prerequisite gap, explore a connection, or investigate a result when the need arises.
