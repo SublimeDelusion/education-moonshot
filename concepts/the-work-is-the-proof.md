@@ -83,7 +83,7 @@ The employer and graduate can then spend their time examining the consequential 
 
 The student's corpus developed through purpose and repeated application. That makes it a potentially strong signal of both capability and sustained interest.
 
-The student must also be able to describe what they want next. Their past mission may not be their future one. Nora's departure from LunaHarvest illustrates this: her interest lies in making complex organizations work, and she wants another consequential problem.
+[Senior-year purpose refinement](purpose-replaces-the-degree-program.md#senior-year-define-your-future) gives the student a considered account of what they want next. They revisit their MTP in light of four years of experience, clarify how it has evolved, and describe the contribution they want to make. Changing roles or companies may be a continuation of that purpose. Nora's departure from LunaHarvest illustrates the distinction: her interest in making complex organizations work can carry into a new setting.
 
 A two-way match therefore considers the student's desired work and direction alongside the employer's capability needs. The employer can discover a person already prepared to contribute; the student can discover a setting where their judgment, context, and interests are valuable.
 
