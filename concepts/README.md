@@ -13,7 +13,7 @@ Students develop purpose, professional depth, intuition, judgment, and human rel
 | [Purpose Replaces the Degree Program](purpose-replaces-the-degree-program.md) | A purpose organizes the learning path; professional depth develops where the student needs and wants it. |
 | [Mastery Over Knowledge](mastery-over-knowledge.md) | The student gains command of a broader corpus through expertise, intuition, an agent force, and mission context. |
 | [Demonstrated Mastery](assessment-through-application-and-defense.md) | Higher standards and application-based assessment reveal judgment and command of the work. |
-| [Credentialing Is Dead. The Work Is the Proof.](the-work-is-the-proof.md) | Capability is inspectable through attributable work, live application, and people who know the graduate's contribution. |
+| [Credentialing Is Dead. The Work Is the Proof.](the-work-is-the-proof.md) | A graduate's knowledge map, accomplishments, network, and agent force make professional capability visible and support career matching. |
 | [Capstone Corporations Move the First Job Into College](capstone-corporations.md) | Real organizations provide consequential experience and responsibility before graduation. |
 | [Education Becomes More Human](education-becomes-more-human.md) | Shared inquiry, cross-teaching, salon culture, networks, and interdependence develop the person. |
 | [The Institution Compounds](the-institution-compounds.md) | Each cohort leaves experience, resources, and relationships that let the next go farther. |
