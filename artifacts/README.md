@@ -5,5 +5,8 @@ Shareable exports of the repository’s canonical source documents. Edit the sou
 | Artifact | Canonical source |
 | --- | --- |
 | [Rethinking College in an Age of Abundant Intelligence — PDF](Rethinking-College.pdf) | [Markdown in the concept vault](../concepts/assumptions-worth-reexamining.md) |
+| [University of Impact Credential Concept — PDF](University-of-Impact-Credential-Concept.pdf) | [The Work Is the Proof](../concepts/the-work-is-the-proof.md) |
 
-The PDF includes all sixteen topics, introductions to the three parts, and the closing essay, “A More Human Future for College.”
+The credential concept is a three-page visual specimen with a fictional roboticist profile: knowledge depth, network and capstone work experience, and a portfolio with coworker references and a professional-agent invitation.
+
+The Rethinking College PDF includes all sixteen topics, introductions to the three parts, and the closing essay, “A More Human Future for College.”
