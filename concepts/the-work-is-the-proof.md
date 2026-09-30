@@ -1,6 +1,8 @@
 # Credentialing Is Dead. The Work Is the Proof.
 
-**If AI can earn the credential, the credential can no longer be the proof. The traditional degree loses its meaning as evidence of the human capability it claims to represent.**
+**The graduate's work, knowledge, relationships, and working capability make their professional value visible.**
+
+**Status:** Developed concept. Credential presentation and matching interface remain to be designed. Updated September 30, 2026.
 
 ## The question that breaks the bargain
 
@@ -8,124 +10,118 @@ The question is blunt: if a frontier language model can pass essentially any und
 
 That is the challenge this concept takes seriously. Its force is in what it exposes: if the tasks used to award a credential can be completed without the student's understanding, successful completion does not establish that understanding.
 
-Students are right to question the bargain. They are being asked to invest formative years and substantial resources in a signal whose underlying evidence is becoming harder to interpret.
+The Education Moonshot makes the graduate's capability directly discoverable, testable, and demonstrable through their work. An employer can explore what the person has accomplished and see them apply their capability to a new problem.
 
-The educational response should be strong enough to answer them. A graduate's capability must be discoverable, testable, and demonstrable through their work. The student must be able to apply it masterfully. The work carries the proof that the old credential can no longer be trusted to carry.
+## Our version of a credential
 
-## Move beyond the proxy
+The credential presents the professional the student has become: the shape of their knowledge, their accomplishments and contributions, their professional relationships, and the working capacity they bring with them.
 
-A conventional credential asks someone outside the institution to infer capability from an educational designation. The Education Moonshot intends to make the underlying capability directly available for inspection.
+Consider an aspiring professional roboticist. They want deep expertise in electronics, substantial mechanical engineering capability, some practical coding ability, and entrepreneurial knowledge spanning business and product development. That combination serves a coherent professional ambition. They might found a company, lead a division, or run a product line.
 
-The graduate has a corpus of work: applications, research, systems, decisions, experiments, corrections, failures, and outcomes. Their contribution is attributable. People who worked beside them can speak to how they work. A prospective employer can inspect that evidence and give them a new problem.
+Their credential makes that multidisciplinary vision legible. It shows how their capabilities come together and where they want to take them next.
 
-The question becomes concrete: can this person do the work we need, and can we see why we should trust them with it?
+## The knowledge depth map
 
-## The corpus must be usable
+The central view is a radial knowledge-depth map: disciplines arranged around a disk, with a connected surface extending toward each discipline according to depth. The radar-chart form gives an immediate impression of the graduate's particular shape of expertise.
 
-A pile of finished artifacts would be insufficient. The value is in being able to discover and examine the person's responsibility inside the work.
+Each area opens into the knowledge and applications behind it. Connections between disciplines reveal how the graduate puts them to work together. For the roboticist, integrating electronics, mechanics, and software into a working machine is an important part of the picture.
 
-The record should answer:
+The map connects the student's professional understanding with the wider corpus they command through their agent force. Depth reflects demonstrated use, understanding, and judgment, with the supporting context available for exploration.
 
-- What did this person own?
-- What did they build, investigate, or deliver?
-- Which decisions were theirs?
-- What evidence did they use?
-- What failed, and how did they respond?
-- Who depended on them?
-- Who can corroborate their contribution?
-- Can they apply the capability to a new situation?
+The [knowledge corpus concept](mastery-over-knowledge.md#a-depth-map-of-the-working-knowledge-corpus) develops the relationship between human depth, agent-supported breadth, and accumulated mission context.
 
-Discoverable does not mean every private learning note or company document is public. The operating model already identifies access, provenance, student correction, and confidential material as design work. The professional evidence must be accessible enough to evaluate while preserving those distinctions.
+## Work and professional accomplishments
 
-## The human network is visible evidence
+The credential brings together the graduate's strongest work and the professional experiences that shaped it:
 
-The [collaboration network](education-becomes-more-human.md#make-the-collaboration-network-visible) gives the work a human context. A viewer can see the teams and companies in which the student participated, the people who worked alongside them, and the projects connecting them.
+- Published papers and research.
+- Git repositories, software, designs, and technical documentation.
+- Working prototypes, products, deployments, and experiments.
+- Key contributions, decisions, and results.
+- Capstone corporations, roles, and progression, including a move between corporations across the two years.
+- Collaborations with other student companies and outside organizations.
+- Professional recognition, awards, presentations, and selected expert engagements.
+- Patents or other inventions where relevant.
 
-A relationship establishes shared experience; a collaborator's reference supplies their own account of it. Together, the work and the people make the student's professional history easier to inspect. The same network is an asset the graduate can continue to participate in beyond school.
+An earned one-on-one engagement with an industry leader can be a meaningful accomplishment: a project attracted serious attention and created an opportunity to advance the work. Mentoring and other sustained professional relationships also form part of the graduate's history.
 
-## Evaluate the graduate as an experienced professional
+The presentation leads with what the graduate has accomplished and why it matters.
 
-The capstone corporation moves the first professional experience inside education. Evaluation at graduation should therefore resemble evaluation for a second serious job.
+### First-order and second-order impact
 
-The Professional Draft makes that transition visible. Departments bring graduates and their accumulated work into contact with employers. The employer can examine the record, speak to references, question the candidate, and observe them solve a relevant problem.
+**First-order impact** covers companies and projects where the graduate worked directly, including their capstone corporations.
 
-The graduate brings the agent force developed alongside their work. The evaluator sees how the person frames the problem, connects domains, delegates, checks evidence, rejects weak recommendations, and reaches a decision.
+**Second-order impact** covers work that helped another company or team advance. A robotics student might help a student from another discipline build a prototype for their capstone corporation. That contribution expands the student's experience and professional reach.
 
-What matters is the student's command of the knowledge and working system. The graduate need not hold the entire relevant corpus in biological memory. Their professional depth, intuition, questioning, and judgment let them use a broader field of knowledge through the agent force and its context.
+Both forms can include university-based corporations and external organizations. The credential reveals the wider footprint of the graduate's work.
 
-The work and context can help a human evaluator identify substantive questions. The encounter with the graduate establishes how they interpret, challenge, and apply what the system supplies.
+## The professional network
 
-Nora's scene in the story illustrates this principle. Her company record earns attention, but her handling of a new problem reveals her judgment. She identifies a missed contractual constraint, asks questions that change the analysis, and explains what she would need to act.
+An abstract view of the graduate's network shows its scale, disciplinary breadth, and professional character. It can summarize connections across engineering, business, design, research, manufacturing, and other relevant fields.
+
+The underlying [collaboration network](education-becomes-more-human.md#make-the-collaboration-network-visible) connects people, projects, companies, and shared experience. A viewer can explore the relationships behind the summary where access is available.
+
+This makes a valuable part of the education visible: the graduate already belongs to a community of people with whom they can think, build, and solve problems.
+
+## The working capacity that graduates with the person
+
+The graduate brings a knowledge corpus and personal agent force developed through years of learning and consequential work. That system carries technical knowledge, methods, research, decisions, working preferences, and context about how the person applies their thinking.
+
+It has learned alongside them. They have learned how to direct it.
+
+An employer is meeting someone who arrives with an established professional support system and experience using it. The credential can demonstrate that combined capacity through the work it has already enabled. “Pre-scaled engineer” captures the proposition: a professional whose ability to contribute is already extended by a practiced agent force and accumulated context.
+
+The corpus and agent force belong to the graduate and are portable beyond the university.
+
+## Proof on demand
+
+Provenance is tracked behind the presentation. An employer who wants to examine a claim can follow it into the relevant work, contribution history, and supporting evidence. The interview agent can surface that material within the graduate's sharing permissions.
 
 ## Matching through knowledge depth and AI-to-AI interviews
 
-The Professional Draft can begin before the employer meets the graduate. An employer describes the work to be done and the combination of capabilities it requires. The student's [knowledge-depth map](mastery-over-knowledge.md#a-depth-map-of-the-working-knowledge-corpus), work record, and agent context make a much richer comparison possible.
+An employer describes the role and adjusts the mix of capabilities they need. For a robotics role, they might emphasize electronics depth, mechanical integration, practical coding, business understanding, or experience leading a product effort.
 
-### Specify the capability mix
+The university can surface the five closest interested matches, explain the fit, and connect the employer to relevant work. The graduate's ambitions, passions, preferred work, and ongoing projects provide the other side of the match.
 
-The interface could let an employer adjust the relative importance of capabilities for a particular role: depth in one field, connections to adjacent domains, experience with particular systems, or the ability to coordinate work across professions.
+[Senior-year purpose refinement](purpose-replaces-the-degree-program.md#senior-year-define-your-future) helps the student express that direction through their evolved MTP, aspirations, favorite work, and pursuits they intend to continue.
 
-Jason's analogy is building an NBA Jam player: adjust the mix of attributes needed for the job. Here, each dimension leads back to actual work, relevant context, and evidence of application. The controls describe the employer's need. They do not assign the graduate a universal rating.
+### The interview agent
 
-Changing the mix could reveal candidates whose experience connects to the problem in different ways. A strong match might come from someone with an unexpected specialty but highly relevant applications and judgment.
+The graduate's agent force includes an interview agent that represents their experience, contributions, and credentials to prospective employers and their agents.
 
-### An AI-to-AI interviewing channel
+It can answer role-specific questions, locate relevant work, and explain how the graduate's experience relates to the opportunity while protecting intellectual property and confidential material. The graduate controls what it shares.
 
-The employer's AI could question the student's agent force about role-relevant experience and the knowledge behind it. The exchange would explore context the student makes available for this purpose.
+This early exchange produces a useful account of mutual fit and identifies the questions worth exploring together. Human interviews begin with shared context and can focus on judgment, collaboration, ambition, and the work ahead.
 
-Questions could trace how a domain was applied, what the student owned, which assumptions failed, and how the work changed. The student's agent could retrieve the supporting projects, sources, decisions, and corrections. The exchange should distinguish demonstrated human capability, knowledge available through the agent force, and areas for further exploration.
+## The Professional Draft
 
-The useful output is an account of fit: the relevant experience, why it matters to this role, gaps or uncertainties, and substantive questions for the human conversation. A fluent agent response alone does not establish the student's command of the work.
+The Professional Draft brings this process into a concentrated graduation experience. Employers arrive with a role in mind and a bounded sample problem. Relevant graduates show how they approach it with their knowledge, tools, and agent force.
 
-The employer and graduate can then spend their time examining the consequential questions and working together on a real problem.
+The employer sees the person frame a problem, connect disciplines, direct assistance, explain decisions, and respond to challenge. The graduate learns how the prospective employer thinks and what working together could involve.
 
-### Match the student to the work they want
+The capstone corporations have already provided professional experience. This encounter lets the graduate bring that experience to bear in a new setting.
 
-The student's corpus developed through purpose and repeated application. That makes it a potentially strong signal of both capability and sustained interest.
+Nora's scene in [Anya's Ascent](../assets/documents/anyas-ascent.md) illustrates the principle: her company record earns attention, and her handling of a new problem reveals her judgment.
 
-[Senior-year purpose refinement](purpose-replaces-the-degree-program.md#senior-year-define-your-future) gives the student a considered account of what they want next. They revisit their MTP in light of four years of experience, clarify how it has evolved, and describe the contribution they want to make. Changing roles or companies may be a continuation of that purpose. Nora's departure from LunaHarvest illustrates the distinction: her interest in making complex organizations work can carry into a new setting.
+## Alumni matchmaking
 
-The student's side of the match also includes the finer detail within that purpose: passions, aspirations, goals, favorite experiences, preferred activities, and projects they intend to keep pursuing. A student may want to continue developing an invention such as the robotic arm regardless of which company they join. That ongoing pursuit can shape which opportunities appeal to them.
+The university continues hosting professional profiles and matchmaking as an alumni service. Graduates can seek their first opportunity after graduation, search for a new job later, or signal openness to a different career direction. Their profiles can grow with subsequent work and accomplishments.
 
-The student defines these priorities. Their learning and work history provide context for the conversation.
+The graduation event is one occasion to connect. The service remains available throughout the graduate's career.
 
-A two-way match therefore considers the student's desired work and direction alongside the employer's capability needs. The employer can discover a person already prepared to contribute; the student can discover a setting where their judgment, context, and interests are valuable.
+## Design direction
 
-### The matching hypothesis
+The presentation should make the graduate immediately understandable: professional direction, knowledge-depth map, strongest work, impact across companies, network, and the working capacity of their agent force. Exploration and conversation reveal the detail behind that first impression.
 
-Close alignment among the role, demonstrated capability, mission context, and the student's aspirations could support faster contribution, more fulfilling work, and stronger satisfaction on both sides.
-
-That is the opportunity to test. Corpus similarity alone cannot establish fulfillment or how people will work together. Human interviews and practical collaboration continue the evaluation, informed by much more specific evidence.
-
-The design work is to define useful matching dimensions, the evidence behind them, how both parties express priorities, and how an AI-to-AI exchange prepares a better human encounter. The algorithm and interface remain to be developed.
-
-## The institution makes the work visible
-
-The university preserves and exposes evidence. The employer decides what it is worth for the role.
-
-Replacing a GPA with another universal institutional score would preserve the same dependence on a proxy. The model aims to let the work, its provenance, the student's explanation, and the testimony of collaborators carry the argument.
-
-The same logic protects specialists. A founder does not own everyone else's professional achievement. Company success is one piece of context; individual capability has to remain visible on its own.
-
-## Accreditation is not the thesis
-
-The objection “this cannot work because the new system would be difficult to accredit” assumes institutional recognition must come before evidence can count.
-
-The concept rejects that dependency. The work can establish professional capability directly. The education should be designed to produce that proof, and the graduate should be able to carry it beyond the institution.
-
-Whether a particular implementation also issues a degree, uses a host university's standing, or pursues accreditation is an implementation decision. Those arrangements do not supply the core proof of learning or professional value in this model. Access requirements for a specific profession or institution are a separate implementation question.
-
-## Source evolution to carry forward
-
-Jason's September 28 clarification makes the position explicit: credentialing is dead as the organizing theory of proof. No credential is needed to establish capability when the student's corpus is discoverable, testable, and masterfully applied. The question about AI attaining the degree provides the argument's opening.
-
-Older material still includes a recognized degree in the stakeholder value proposition, tuition for an accredited degree, and an accreditation path among the open design questions. The story also depicts graduation with degrees. Those passages should be reconciled in a future artifact pass. They should not silently weaken this concept back into “a better portfolio alongside the same credential.”
+The next design step is the visual presentation of this credential. The matching interface and service mechanics can develop alongside it.
 
 ## Grounding and connections
 
-- Jason's September 28, 2026 concept-vault clarification.
+- Jason's September 28, 2026 concept-vault clarification established work and demonstrated capability as the basis of professional proof.
+- Jason's September 30, 2026 credential discussion developed the radial knowledge map, roboticist example, accomplishments, first-order and second-order impact, network summary, portable agent force, interview agent, and continuing alumni matchmaking.
 - [Original concepts](../archive/concepts/principles-and-open-ideas.md): second-job evaluation, work visibility, and the company versus the credential.
 - [Operating model](../model/operating-model.md): Work visibility; Professional Draft; Practical evaluation.
 - [Student Q&A](../assets/documents/student-qa.md): employer evaluation and proof of capability.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): The Professional Draft.
 - Connected concepts: [assessment](assessment-through-application-and-defense.md), [capstone corporations](capstone-corporations.md), and [mastery over knowledge](mastery-over-knowledge.md).
+
+Institutional arrangements such as degrees and accreditation remain implementation questions in [open design questions](open-design-questions.md). This concept defines how the graduate's professional capability is presented and explored.
