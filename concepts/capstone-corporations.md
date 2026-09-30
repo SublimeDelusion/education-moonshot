@@ -4,7 +4,7 @@
 
 ## Recover the developmental function of the first job
 
-**If the career now starts on rung two, college has to prepare students to reach rung two.** Career readiness cannot remain a fixed standard while the entry point changes. Where college promises career preparation, the loss of an entry-level training ground changes what fulfilling that promise requires. The [eighth assumption in the companion critique](assumptions-worth-reexamining.md#8-career-readiness-stays-fixed-when-the-starting-line-moves) develops this responsibility to the student.
+**If the career now starts on rung two, college has to prepare students to reach rung two.** Career readiness cannot remain a fixed standard while the entry point changes. Where college promises career preparation, the loss of an entry-level training ground changes what fulfilling that promise requires. The [career-preparation argument in the companion essay](assumptions-worth-reexamining.md#6-your-first-employer-will-teach-you-that) develops this responsibility to the student.
 
 A beginner used to become experienced while producing work an employer needed. Research, drafts, analysis, documentation, and other initial tasks gave the beginner a place inside an organization. There they encountered standards, colleagues, deadlines, disagreements, and the consequences of their decisions.
 

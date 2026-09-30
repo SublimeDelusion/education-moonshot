@@ -20,7 +20,7 @@ Students develop purpose, professional depth, intuition, judgment, and human rel
 
 ## The central change
 
-[Eight Assumptions Worth Reexamining in Higher Education](assumptions-worth-reexamining.md) states the critique behind these concepts, progressing from the educational objective to college's changing responsibility to the graduate. It is a companion argument, not an additional core concept.
+[Rethinking College in an Age of Abundant Intelligence](assumptions-worth-reexamining.md) develops the case for change through traditional education, what changed, and the opportunity: six practices to retire, five functions to redesign, and five human capabilities and experiences to elevate. It is a companion argument, not an additional core concept.
 
 Personal tutoring is useful, but faster delivery of the old corpus is too small a goal. The student should leave with greater control over knowledge than they could achieve through memorization alone.
 
