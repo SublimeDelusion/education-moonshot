@@ -10,6 +10,8 @@ University of Impact is the working name used in the story and current model. Th
 
 - [Rethinking College in an Age of Abundant Intelligence](concepts/assumptions-worth-reexamining.md) — six practices to retire, five functions to redesign, and five human capabilities and experiences to elevate.
 
+- [Shareable PDF](artifacts/Rethinking-College.pdf) — formatted distribution edition of the essay.
+
 - [Concept vault](concepts/README.md) — seven core propositions, from purpose and mastery over knowledge to professional proof and a more human institution.
 
 - [Founding principles](model/founding-principles.md) and [operating model](model/operating-model.md) — the current proposed design.
@@ -25,6 +27,7 @@ University of Impact is the working name used in the story and current model. Th
 | [model](model/README.md) | Current proposed principles and operating design. |
 | [concepts](concepts/README.md) | Active concepts and unresolved design questions, organized by topic. |
 | [strategy](strategy/README.md) | Institutional homes, pilots, partnerships, and implementation paths. |
+| [artifacts](artifacts/README.md) | Shareable exports generated from the canonical source documents. |
 | [assets](assets/README.md) | Audience-facing documents and reusable images. |
 | [ref](ref/README.md) | Attributed external references, including Abundance Education and MIT. |
 | [archive](archive/README.md) | Retired or reorganized material, mirroring the active folder tree. |
