@@ -12,6 +12,8 @@ Many educators already work this way. The opportunity is to make these approache
 
 ## Part One: Practices to Retire
 
+Some practices solved problems that no longer need to determine the student's experience. The opportunity is to let go of those constraints: a major dictating the learning path, one pace for everyone, and academic outputs standing in for demonstrated capability. Retiring them creates room for higher expectations and an education organized around purpose.
+
 ### 1. Majors
 
 **Traditional education**
@@ -150,6 +152,8 @@ Where the university promises career preparation, its responsibility must move w
 
 ## Part Two: Functions to Redesign
 
+Individual instruction, classrooms, departments, facilities, and recruiting still have essential work to do. Their organization can change substantially when students have continuous learning support and a visible history of applying what they learn. The opportunity is to make these functions work together around the student's growing capability.
+
 ### 7. Individual Instruction
 
 **Traditional education**
@@ -267,6 +271,8 @@ Students can evaluate whether the role fits their purpose, interests, and desire
 Graduates bring an intelligible professional history developed through their education, with appropriate control over what they share.
 
 ## Part Three: Human Capabilities and Experiences to Elevate
+
+The human parts of college become more consequential as intelligence becomes more available. Mentorship, relationships, shared responsibility, community, and creative expression deserve a central place in the educational purpose. The opportunity is to give them the time, support, feedback, and recognition that their importance warrants.
 
 Much of what makes someone dependable, thoughtful, and effective with other people sits outside the formal definition of academic achievement.
 
@@ -395,3 +401,19 @@ The ambition is that the student never needs to ask “Why do I need to know thi
 Students develop intentional expression, examine consequences, encounter competing perspectives, and refine their own direction. Their growth and choices deserve serious feedback and recognition.
 
 They should graduate with greater capability and a clearer sense of what they care about, how they want to work with others, and what they intend to contribute.
+
+## A More Human Future for College
+
+Some see these changes as evidence that post-secondary education has become irrelevant. There is truth in that criticism wherever the institution’s value depends on distributing the same body of knowledge and certifying its receipt, year after year.
+
+That is a reason to reassess its purpose. It is not a reason to give up on what people can become through an education together.
+
+We have an opportunity to move beyond the credentialing machine and build a modern intellectual commons: a place where people gather around questions worth pursuing, seek knowledge because they need it, and develop understanding through application, conversation, and challenge.
+
+Imagine a university where students arrive with something they care about. They find people who share their curiosity and others whose experience changes how they see the problem. They learn a profession, contribute to one another’s work, and attempt things they could not accomplish alone. Knowledge moves between disciplines because the work demands it. An unanswered question becomes an invitation to investigate.
+
+Professors, practitioners, and students participate in that search together. Laboratories open possibilities. Shared work gives relationships substance. Ideas encounter reality early enough to improve. Students leave with the capability to contribute, the judgment to use it, and people with whom they can keep learning and building.
+
+Abundant intelligence gives us room to make this the center of education. As explanation and routine production become more available, we can devote more attention to purpose, curiosity, creativity, trust, and responsibility.
+
+The hopeful future of college is a place where becoming more capable also means becoming more human.
