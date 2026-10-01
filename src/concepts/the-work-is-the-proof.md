@@ -101,7 +101,7 @@ The employer sees the person frame a problem, connect disciplines, direct assist
 
 The capstone corporations have already provided professional experience. This encounter lets the graduate bring that experience to bear in a new setting.
 
-Nora's scene in [Anya's Ascent](../assets/documents/anyas-ascent.md) illustrates the principle: her company record earns attention, and her handling of a new problem reveals her judgment.
+Nora's scene in [Anya's Ascent](../anyas-ascent.md) illustrates the principle: her company record earns attention, and her handling of a new problem reveals her judgment.
 
 ## Alumni matchmaking
 
@@ -119,9 +119,9 @@ The next design step is the visual presentation of this credential. The matching
 
 - Jason's September 28, 2026 concept-vault clarification established work and demonstrated capability as the basis of professional proof.
 - Jason's September 30, 2026 credential discussion developed the radial knowledge map, roboticist example, accomplishments, first-order and second-order impact, network summary, portable agent force, interview agent, and continuing alumni matchmaking.
-- [Original concepts](../archive/concepts/principles-and-open-ideas.md): second-job evaluation, work visibility, and the company versus the credential.
+- [Original concepts](../../archive/concepts/principles-and-open-ideas.md): second-job evaluation, work visibility, and the company versus the credential.
 - [Operating model](../model/operating-model.md): Work visibility; Professional Draft; Practical evaluation.
-- [Student Q&A](../assets/documents/student-qa.md): employer evaluation and proof of capability.
+- [Student Q&A](../student-qa.md): employer evaluation and proof of capability.
 - Connected concepts: [assessment](assessment-through-application-and-defense.md), [capstone corporations](capstone-corporations.md), and [mastery over knowledge](mastery-over-knowledge.md).
 
 Institutional arrangements such as degrees and accreditation remain implementation questions in [open design questions](open-design-questions.md). This concept defines how the graduate's professional capability is presented and explored.

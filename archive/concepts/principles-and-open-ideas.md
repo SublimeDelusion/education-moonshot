@@ -1,7 +1,7 @@
 # Archived source compilation
 
 **Archived:** 2026-09-28 (America/Denver)
-**Reason:** Reorganized into topical files in [concepts](../../concepts/README.md). This preserves the imported compilation; archiving it does not reject its ideas.
+**Reason:** Reorganized into topical files in [concepts](../../src/concepts/README.md). This preserves the imported compilation; archiving it does not reject its ideas.
 
 ---
 

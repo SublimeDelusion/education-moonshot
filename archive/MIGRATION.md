@@ -51,11 +51,11 @@ The table above records the original import. Current paths:
 
 | Imported path | Current home |
 | --- | --- |
-| Artifacts/four-year-operating-model.md | [model/operating-model.md](../model/operating-model.md); principles extracted to [model/founding-principles.md](../model/founding-principles.md) |
-| Artifacts/student-qa.md | [assets/documents/student-qa.md](../assets/documents/student-qa.md) |
-| Content/anyas-ascent-university-of-impact.md | [assets/documents/anyas-ascent.md](../assets/documents/anyas-ascent.md) |
-| Content/university-of-impact-value-proposition-and-business-case.md | [assets/documents/value-proposition-and-business-case.md](../assets/documents/value-proposition-and-business-case.md) |
-| Content/university-of-impact-principles-and-open-ideas.md | [concepts](../concepts/README.md); original compilation retained in [archive/concepts](concepts/principles-and-open-ideas.md) |
+| Artifacts/four-year-operating-model.md | [src/model/operating-model.md](../src/model/operating-model.md); principles extracted to [src/model/founding-principles.md](../src/model/founding-principles.md) |
+| Artifacts/student-qa.md | [src/student-qa.md](../src/student-qa.md) |
+| Content/anyas-ascent-university-of-impact.md | [src/anyas-ascent.md](../src/anyas-ascent.md) |
+| Content/university-of-impact-value-proposition-and-business-case.md | [src/value-proposition-and-business-case.md](../src/value-proposition-and-business-case.md) |
+| Content/university-of-impact-principles-and-open-ideas.md | [concepts](../src/concepts/README.md); original compilation retained in [archive/concepts](concepts/principles-and-open-ideas.md) |
 | Content/portfolio-overview.md | Restored in [Moonshots](https://github.com/SublimeDelusion/moonshots/blob/main/Moonshots/University%20of%20Impact/Content/portfolio-overview.md) |
 | Content/university-of-impact-content-strategy.md | Unique presentation guidance moved to [Portfolio](https://github.com/SublimeDelusion/portfolio/blob/main/strategy/education/university-of-impact-presentation.md); eight verbatim story sections replaced with canonical manuscript links |
 | Images/ | assets/images/ |

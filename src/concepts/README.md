@@ -43,9 +43,9 @@ Standards and assessment are distinct responsibilities within Demonstrated Maste
 
 ## Relationship to the rest of the repository
 
-The vault develops the ideas and their implications. The [operating model](../model/operating-model.md) describes a current implementation. [Assets](../assets/README.md) explain it to particular audiences. [Strategies](../strategy/README.md) explore how to establish it.
+The vault develops the ideas and their implications. The [operating model](../model/operating-model.md) describes a current implementation. The [main documents](../README.md) explain it to particular audiences; [assets](../../assets/README.md) hold distributable editions. [Strategies](../strategy/README.md) explore how to establish it.
 
-[Open design questions](open-design-questions.md) retains unresolved mechanics. Reasoning and changes of direction stay with the relevant concept. Retired documents move to the same path under `archive/`.
+[Open design questions](open-design-questions.md) retains unresolved mechanics. Reasoning and changes of direction stay with the relevant concept. Retired documents move to `archive/` using their path relative to `src/`.
 
 ## Source grounding and evolution
 
@@ -54,7 +54,7 @@ This set draws on Jason's September 28, 2026 clarifications, including the shift
 - [Source snapshot before consolidation](https://github.com/SublimeDelusion/education-moonshot/tree/5a20709ac09680b032322a2c45e2ddb8d6938151).
 - [Original Moonshots principles and ideas](https://github.com/SublimeDelusion/moonshots/blob/81e2b6e4dca8c63cbcf54c19c700f27639d4854d/Moonshots/University%20of%20Impact/Content/university-of-impact-principles-and-open-ideas.md).
 - [Moonshots portfolio overview](https://github.com/SublimeDelusion/moonshots/blob/defba113ad5dbac007a0ac26edba48640f98b22e/Moonshots/University%20of%20Impact/Content/portfolio-overview.md).
-- [Archived formulations](../archive/README.md).
+- [Archived formulations](../../archive/README.md).
 
 Earlier materials sometimes describe AI primarily as a way to accelerate transfer of a conventional professional corpus. The current concept changes that objective: build human depth and intuition together with command of a wider corpus through agents and context. This should guide the next operating-model and artifact revisions.
 

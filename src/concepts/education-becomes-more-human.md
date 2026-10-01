@@ -138,7 +138,7 @@ The current model names the social settings and transitions. It still needs prac
 
 - Jason's September 28, 2026 concept-vault clarification and the repository mission.
 - [Operating model](../model/operating-model.md): pods, common core, creative practice, Forum, specialty transitions, recruiting, and professional responsibility.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): campus life and relationships throughout the story.
-- [Original concepts](../archive/concepts/principles-and-open-ideas.md): human formation, networking, and the institution's purpose.
+- [Anya's Ascent](../anyas-ascent.md): campus life and relationships throughout the story.
+- [Original concepts](../../archive/concepts/principles-and-open-ideas.md): human formation, networking, and the institution's purpose.
 - Supporting mechanisms consolidated here: the living library of applications and Education Must Survive Impact.
 - Connected concepts: [mastery over knowledge](mastery-over-knowledge.md), [demonstrated mastery](assessment-through-application-and-defense.md), and [capstone corporations](capstone-corporations.md).

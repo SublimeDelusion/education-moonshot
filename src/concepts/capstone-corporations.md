@@ -69,6 +69,6 @@ The matching system must provide meaningful roles across the cohort. The institu
 ## Grounding and connections
 
 - [Operating model](../model/operating-model.md): Summer Founders Program; Years Three and Four; Institutional Economics.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): Summer Founders Program through Senior Year.
-- [Original concepts](../archive/concepts/principles-and-open-ideas.md): instructional infrastructure and funding.
+- [Anya's Ascent](../anyas-ascent.md): Summer Founders Program through Senior Year.
+- [Original concepts](../../archive/concepts/principles-and-open-ideas.md): instructional infrastructure and funding.
 - Connected concepts: [professional proof](the-work-is-the-proof.md), [human development](education-becomes-more-human.md), and [institutional compounding](the-institution-compounds.md).

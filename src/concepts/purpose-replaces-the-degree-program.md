@@ -98,6 +98,6 @@ How does the institution help a student who has only a broad interest? How are c
 ## Grounding and connections
 
 - [Operating model](../model/operating-model.md): Application and Discovery; Year One; Declaration of Specialty; Year Two.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): A Different Question and the transition from Freshman to Sophomore Year.
-- [Student Q&A](../assets/documents/student-qa.md): “Why do I need a major?” and “Why am I learning things I may never use?”
+- [Anya's Ascent](../anyas-ascent.md): A Different Question and the transition from Freshman to Sophomore Year.
+- [Student Q&A](../student-qa.md): “Why do I need a major?” and “Why am I learning things I may never use?”
 - Connected concepts: [Mastery over knowledge](mastery-over-knowledge.md), [human learning together](education-becomes-more-human.md), and [capstone corporations](capstone-corporations.md).

@@ -4,7 +4,7 @@
 
 “This report is a call to action.”
 
-That opening to MIT's August 2026 [report on AI use in teaching, learning, and research training](../ref/mit/AI-Committee-Final-Report-Aug-13.pdf) provides the starting point for this implementation scenario. MIT's published assessment gives us a concrete account of the challenges an established university sees in its own education. We use MIT as the hypothetical host for exploring how the [University of Impact model](../model/operating-model.md) could operate within an existing institution.
+That opening to MIT's August 2026 [report on AI use in teaching, learning, and research training](../../ref/mit/AI-Committee-Final-Report-Aug-13.pdf) provides the starting point for this implementation scenario. MIT's published assessment gives us a concrete account of the challenges an established university sees in its own education. We use MIT as the hypothetical host for exploring how the [University of Impact model](../model/operating-model.md) could operate within an existing institution.
 
 ## The strategy
 

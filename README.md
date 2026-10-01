@@ -8,31 +8,30 @@ University of Impact is the working name used in the story and current model. Th
 
 ## Start here
 
-- [Rethinking College in an Age of Abundant Intelligence](concepts/assumptions-worth-reexamining.md) — six practices to retire, five functions to redesign, and five human capabilities and experiences to elevate.
+- [Rethinking College in an Age of Abundant Intelligence](src/concepts/assumptions-worth-reexamining.md) — six practices to retire, five functions to redesign, and five human capabilities and experiences to elevate.
 
-- [Shareable PDF](artifacts/Rethinking-College.pdf) — formatted distribution edition of the essay.
+- [Shareable PDF](assets/Rethinking-College.pdf) — formatted distribution edition of the essay.
 
-- [Concept vault](concepts/README.md) — seven core propositions, from purpose and mastery over knowledge to professional proof and a more human institution.
+- [Concept vault](src/concepts/README.md) — seven core propositions, from purpose and mastery over knowledge to professional proof and a more human institution.
 
-- [Founding principles](model/founding-principles.md) and [operating model](model/operating-model.md) — the current proposed design.
-- [Student Q&A](assets/documents/student-qa.md) — the student-facing argument and questions.
-- [Anya's Ascent](assets/documents/anyas-ascent.md) — the canonical story illustrating the model.
-- [Value proposition and business case](assets/documents/value-proposition-and-business-case.md) — rationale, evidence, hypotheses, and institutional value.
-- [Implementing the Education Model Within an Existing University](strategy/mit-college.md) — an implementation scenario using MIT as the hypothetical host.
+- [Founding principles](src/model/founding-principles.md) and [operating model](src/model/operating-model.md) — the current proposed design.
+- [Student Q&A](src/student-qa.md) — the student-facing argument and questions.
+- [Anya's Ascent](src/anyas-ascent.md) — the canonical story illustrating the model.
+- [Value proposition and business case](src/value-proposition-and-business-case.md) — rationale, evidence, hypotheses, and institutional value.
+- [Implementing the Education Model Within an Existing University](src/strategy/mit-college.md) — an implementation scenario using MIT as the hypothetical host.
 
 ## Repository map
 
 | Folder | Purpose |
 | --- | --- |
-| [model](model/README.md) | Current proposed principles and operating design. |
-| [concepts](concepts/README.md) | Active concepts and unresolved design questions, organized by topic. |
-| [strategy](strategy/README.md) | Institutional homes, pilots, partnerships, and implementation paths. |
-| [artifacts](artifacts/README.md) | Shareable exports generated from the canonical source documents. |
-| [assets](assets/README.md) | Audience-facing documents and reusable images. |
-| [ref](ref/README.md) | Attributed external references, including Abundance Education and MIT. |
-| [archive](archive/README.md) | Retired or reorganized material, mirroring the active folder tree. |
+| [src](src/README.md) | Canonical source documents, concepts, operating model, and strategy. |
+| [assets](assets/README.md) | Distributable PDFs, images, audio, and other produced materials. |
+| [ref](ref/README.md) | Attributed external research and reference material. |
+| [archive](archive/README.md) | Retired and superseded material. |
 
-Keep one authoritative home per document. Record a concept's status and reasoning with the concept; archive retired material at its matching path under `archive/`. Mark exploratory proposals clearly. Create additional topic folders when the material warrants them.
+`docs/` is reserved for the future GitHub Pages website.
+
+Keep one authoritative home per document in `src/`. Edit the source first, then regenerate its distribution edition in `assets/`. Record a concept's status and reasoning with the concept. Archive retired source material by its path relative to `src/` (for example, `src/concepts/example.md` becomes `archive/concepts/example.md`). Mark exploratory proposals clearly.
 
 ## Source ownership and publishing
 

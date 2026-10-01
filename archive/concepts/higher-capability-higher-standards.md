@@ -1,4 +1,4 @@
-> Archived September 28, 2026. Consolidated into [assessment through application and defense](../../concepts/assessment-through-application-and-defense.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+> Archived September 28, 2026. Consolidated into [assessment through application and defense](../../src/concepts/assessment-through-application-and-defense.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
 
 # Higher Capability, Higher Standards
 

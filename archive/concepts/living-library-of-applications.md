@@ -1,4 +1,4 @@
-> Archived September 28, 2026. Consolidated into [education becomes more human](../../concepts/education-becomes-more-human.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+> Archived September 28, 2026. Consolidated into [education becomes more human](../../src/concepts/education-becomes-more-human.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
 
 # The Living Library of Applications
 

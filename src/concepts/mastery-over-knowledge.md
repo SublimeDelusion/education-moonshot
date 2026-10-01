@@ -138,5 +138,5 @@ The current design leaves portability, permissions, correction, and technical im
 
 - Jason's September 28, 2026 clarification: change the educational goal; develop intuition, connections, questioning, and command of knowledge through the student's agent force and mission context.
 - [Operating model](../model/operating-model.md): agent formation, The Parallel Education, and context portability.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): accumulated context, professional specialization, Nora's live evaluation, and her handoff.
+- [Anya's Ascent](../anyas-ascent.md): accumulated context, professional specialization, Nora's live evaluation, and her handoff.
 - [Purpose](purpose-replaces-the-degree-program.md) determines what knowledge matters; [demonstrated mastery](assessment-through-application-and-defense.md) establishes command; [professional proof](the-work-is-the-proof.md) makes that capability inspectable beyond the institution.

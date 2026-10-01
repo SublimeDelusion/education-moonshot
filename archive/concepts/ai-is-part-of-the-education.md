@@ -1,4 +1,4 @@
-> Archived September 28, 2026. Consolidated into [mastery over knowledge](../../concepts/mastery-over-knowledge.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
+> Archived September 28, 2026. Consolidated into [mastery over knowledge](../../src/concepts/mastery-over-knowledge.md). This retains the previous wording, including formulations revised by the change from knowledge possession to mastery. Links within the historical text point to its source revision.
 
 # AI Is Part of the Education
 

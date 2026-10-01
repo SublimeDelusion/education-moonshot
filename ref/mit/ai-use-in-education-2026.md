@@ -18,7 +18,7 @@ The PDF was retrieved and its title, date, and contents verified. A user-supplie
 
 The report describes AI-related disruption to student mastery, assessment, and campus relationships (section 1.1). Its recommendations cover educational redesign, community and residential experience, and continuous institutional improvement (sections 3.1–3.3).
 
-The [implementation scenario](../../strategy/mit-college.md) responds to this call to action. MIT's self-assessment grounds the case for change; the Education Moonshot model defines the student experience to be implemented within the host university.
+The [implementation scenario](../../src/strategy/mit-college.md) responds to this call to action. MIT's self-assessment grounds the case for change; the Education Moonshot model defines the student experience to be implemented within the host university.
 
 ## Reading map
 

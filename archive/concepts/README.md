@@ -1,4 +1,4 @@
-> Archived September 28, 2026. Superseded as an organizational grouping by the [rebuilt concept vault](../../concepts/README.md). The ideas are retained and developed there; this copy preserves the earlier wording. Relative model links have been adjusted for the archive location.
+> Archived September 28, 2026. Superseded as an organizational grouping by the [rebuilt concept vault](../../src/concepts/README.md). The ideas are retained and developed there; this copy preserves the earlier wording. Relative model links have been adjusted for the archive location.
 
 # Concepts
 

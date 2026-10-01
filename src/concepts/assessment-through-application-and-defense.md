@@ -88,5 +88,5 @@ These questions define the assessment design. They should be answered in service
 
 - Jason's September 28, 2026 clarifications on higher standards, assessment with AI, and mastery rather than corpus transfer.
 - [Operating model](../model/operating-model.md): application, defenses, work visibility, and Professional Draft.
-- [Anya's Ascent](../assets/documents/anyas-ascent.md): freshman retest and Nora's professional evaluation.
+- [Anya's Ascent](../anyas-ascent.md): freshman retest and Nora's professional evaluation.
 - [Credentialing is dead](the-work-is-the-proof.md) addresses how the resulting capability becomes proof beyond the institution.
