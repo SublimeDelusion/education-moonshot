@@ -10,7 +10,7 @@ University of Impact is the working name used in the story and current model. Th
 
 [Education Moonshot website](https://SublimeDelusion.github.io/education-moonshot/) — thesis and founding principles, student Q&A, parent Q&A, and the operating model.
 
-[Interactive diploma specimen](https://SublimeDelusion.github.io/education-moonshot/diploma/) — Alex Morgan's fictional knowledge, network, work, and a mock Professional Agent that opens supporting evidence. [Corpus and implementation status](src/demo/README.md).
+[Interactive diploma specimen](https://SublimeDelusion.github.io/education-moonshot/diploma/) — Alex Morgan's fictional knowledge, network, work, and supporting evidence. [Corpus and implementation status](src/demo/README.md).
 
 ## Start here
 

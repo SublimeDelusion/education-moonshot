@@ -10,4 +10,4 @@ The parent Q&A is a first draft. The operating-model page displays its review st
 
 No build action is required for publishing: GitHub Pages serves these files directly. Set Settings → Pages → Deploy from a branch → main → /docs if that publishing target is not already selected.
 
-The interactive credential specimen lives at `diploma/`. Its HTML, CSS, and JavaScript are authored there; the build copies its fictional corpus from `src/demo/graduate.json`. The Professional Agent currently runs a local retrieval mock, with no LLM call, server, or question storage. See `src/demo/README.md` for the model-backed implementation boundary.
+The interactive credential specimen lives at `diploma/`. Its HTML, CSS, and JavaScript are authored there; the build copies its fictional corpus from `src/demo/graduate.json`. The mock Professional Agent conversation is withheld from the public diploma until it is ready for a callout. Its retrieval code and reusable panel are preserved for development; no LLM call, server, or question storage is active. See `src/demo/README.md` for the model-backed implementation boundary.

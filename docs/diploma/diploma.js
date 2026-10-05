@@ -64,8 +64,10 @@ async function init() {
   renderKnowledge();renderPeople();renderWork();
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{show(b.dataset.view);if(b.classList.contains('continue'))document.querySelector('.tabs').scrollIntoView({block:'start'});}));
   document.querySelectorAll('[data-question]').forEach(b=>b.addEventListener('click',()=>ask(b.dataset.question)));
-  $('ask-form').addEventListener('submit',e=>{e.preventDefault();ask($('question').value);});
-  message('Professional Agent · mock',"I can help you inspect Alex's professional record. Ask about a skill or responsibility and I will point to the evidence. This is a fictional profile and a retrieval demonstration.");
+  if ($('ask-form')) {
+    $('ask-form').addEventListener('submit',e=>{e.preventDefault();ask($('question').value);});
+    message('Professional Agent · mock', "Ask about my experience and training, and I can help you find the work behind it. Or introduce yourself and tell me about your company and its mission. I can help surface the work most relevant to what you are trying to accomplish.");
+  }
   if(location.hash.startsWith('#proof-'))openEvidence(location.hash.slice(7),false);
 }
-init().catch(()=>{$('messages').textContent='The specimen record could not load. Please reload the page.';$('ask-form').querySelector('button').disabled=true;});
+init().catch(()=>{const target=$('messages') || $('skill-detail');target.textContent='The specimen record could not load. Please reload the page.';if($('ask-form'))$('ask-form').querySelector('button').disabled=true;});
