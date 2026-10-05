@@ -10,6 +10,12 @@ A later model-backed agent requires a separately hosted server endpoint. Keep th
 
 ## Agent presentation direction
 
-The public diploma no longer displays the mock conversation. A future callout will introduce the Professional Agent once it is ready. The reusable panel is preserved in `professional-agent-panel.html`; the retrieval mock remains in the diploma script behind an optional form check.
+The public diploma displays a compact Professional Agent introduction and editable prompt, with a disabled coming-soon button. The conversation is not active; no question is submitted or stored. The reusable panel is preserved in `professional-agent-panel.html`; the retrieval mock remains in the diploma script behind an optional form check.
 
 The opening invites two paths: ask about the graduate’s experience and training, or introduce the visitor’s company and mission so the agent can surface relevant work. The company-and-mission matching behavior is a future capability, not a capability claimed by the current keyword mock.
+
+## Knowledge and experience structure
+
+Each of the six disciplines has six authored fictional subfields with uneven categorical depth, applied-experience months, and evidence references. These are illustrative profiles, not validated scores. Months overlap across skills; never sum them to infer total experience. The native modal explorer supports collapse, Escape, previous/next subjects, keyboard selection, and reduced-motion preferences.
+
+Robotics is the highlighted professional specialty for Years 2–4. Formal capstone experience totals 24 consecutive months: Fieldwork Robotics, August 2030–July 2031; Loopworks Automation, August 2031–July 2032. Company missions, goals, outcomes, and personal accomplishments are hypothetical extensions of the credential specimen. Experience is organized by employer and role, with partner contributions and independent projects below.

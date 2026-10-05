@@ -14,6 +14,7 @@ function proofButtons(ids) {
 }
 function openEvidence(id, focus = true) {
   const r = data.evidence.find(e => e.id === id); if (!r) return;
+  if ($('knowledge-explorer').open) $('knowledge-explorer').close();
   show('work'); const box = $('evidence-detail'); box.replaceChildren(el('p', r.kind + ' · ' + r.company, 'eyebrow'), el('h3', r.title));
   for (const [key,label] of [['contribution',"Alex's contribution"],['decision','Decision and reasoning'],['result','Illustrative outcome'],['limits','Limits of this evidence']]) {
     box.append(el('h4',label),el('p',r[key],key==='limits'?'limits':''));
@@ -23,27 +24,90 @@ function openEvidence(id, focus = true) {
   history.replaceState(null,'','#proof-' + id);
   if (focus) { box.focus({preventScroll:true}); box.scrollIntoView({block:'start'}); }
 }
-function selectSkill(id) {
-  const s = data.skills.find(s => s.id === id);
-  document.querySelectorAll('.skill').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.skill===id)));
-  $('skill-detail').replaceChildren(el('h3',s.name + ' · ' + s.depth),el('p',s.summary),proofButtons(s.proof));
+let activeDiscipline = 0;
+function makeRadar(items, colors, onSelect, labels) {
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('viewBox','0 0 500 420'); svg.setAttribute('class','radar');
+  svg.setAttribute('role','group'); svg.setAttribute('aria-label','Illustrative depth map. Select a field to inspect it.');
+  const point=(i,r)=>[250+Math.cos(i*Math.PI/3-Math.PI/2)*r,210+Math.sin(i*Math.PI/3-Math.PI/2)*r];
+  for(let level=1;level<=4;level++) {
+    const ring=document.createElementNS(ns,'polygon');
+    ring.setAttribute('points',items.map((_,i)=>point(i,level*38).join(',')).join(' '));
+    ring.setAttribute('fill','none');ring.setAttribute('stroke','#304359');svg.append(ring);
+  }
+  items.forEach((item,i)=>{
+    const group=document.createElementNS(ns,'g');group.setAttribute('role','button');group.setAttribute('tabindex','0');
+    group.setAttribute('aria-label',item.name+': '+item.depth+'. Open details.');group.classList.add('radar-field');
+    const a=point(i,item.level*38),b=point((i+1)%6,items[(i+1)%6].level*38);
+    const poly=document.createElementNS(ns,'polygon');poly.setAttribute('points','250,210 '+a.join(',')+' '+b.join(','));
+    poly.setAttribute('fill',colors[i]);poly.setAttribute('fill-opacity','.8');group.append(poly);
+    const dot=document.createElementNS(ns,'circle');dot.setAttribute('cx',a[0]);dot.setAttribute('cy',a[1]);dot.setAttribute('r','6');dot.setAttribute('fill',colors[i]);group.append(dot);
+    const title=document.createElementNS(ns,'title');title.textContent=item.name+' / '+item.depth;group.append(title);
+    const text=document.createElementNS(ns,'text'),pos=point(i,180);text.setAttribute('x',pos[0]);text.setAttribute('y',pos[1]);text.setAttribute('text-anchor','middle');text.setAttribute('fill',colors[i]);text.setAttribute('font-size','15');text.textContent=labels[i];group.append(text);
+    group.addEventListener('click',()=>onSelect(i));group.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();onSelect(i);}});svg.append(group);
+  });return svg;
+}
+function selectSkill(id, expand=true) {
+  const skill=data.skills.find(s=>s.id===id);
+  document.querySelectorAll('.skill').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.skill===id)));
+  $('skill-detail').replaceChildren(el('h3',skill.name+' · '+skill.depth),el('p',skill.summary),el('p',skill.experienceMonths+' months of applied experience in the specimen.','muted'),proofButtons(skill.proof));
+  if(expand) openDiscipline(data.skills.indexOf(skill));
+}
+function selectSubfield(index) {
+  const field=data.skills[activeDiscipline].subfields[index];
+  document.querySelectorAll('.subfield').forEach((button,i)=>button.setAttribute('aria-pressed',String(i===index)));
+  const detail=$('subfield-detail');detail.replaceChildren(el('p','Subfield '+(index+1),'eyebrow'),el('h3',field.name),el('p',field.depth+' depth'),el('p',field.summary),el('h4','Applied experience'),el('p',field.experienceMonths?field.experienceMonths+' months in related specimen work.':'No applied experience documented.'));
+  if(field.proof.length)detail.append(el('h4','Supporting work'),proofButtons(field.proof));
+  else detail.append(el('p','Foundational study only; no supporting work sample has been authored.','limits'));
+}
+function openDiscipline(index) {
+  activeDiscipline=(index+data.skills.length)%data.skills.length;
+  const skill=data.skills[activeDiscipline],dialog=$('knowledge-explorer');
+  selectSkill(skill.id,false);
+  $('explorer-breadcrumb').textContent=skill.name;$('explorer-title').textContent=skill.name;
+  $('explorer-summary').textContent=skill.summary+' '+skill.experienceMonths+' months of related applied experience. Subfields show different depths within this discipline.';
+  $('discipline-position').textContent=(activeDiscipline+1)+' / '+data.skills.length;
+  $('previous-discipline').setAttribute('aria-label','Previous discipline: '+data.skills[(activeDiscipline+data.skills.length-1)%data.skills.length].name);
+  $('next-discipline').setAttribute('aria-label','Next discipline: '+data.skills[(activeDiscipline+1)%data.skills.length].name);
+  const map=$('subfield-map');map.replaceChildren(makeRadar(skill.subfields,skill.subfields.map(()=>skill.color),selectSubfield,skill.subfields.map((_,i)=>String(i+1).padStart(2,'0'))));
+  const grid=el('div','','subfield-grid');skill.subfields.forEach((field,i)=>{
+    const button=el('button','','subfield');button.type='button';button.style.setProperty('--skill',skill.color);button.setAttribute('aria-pressed','false');
+    button.append(el('strong',String(i+1).padStart(2,'0')+' · '+field.name),el('span',field.depth+' · '+field.experienceMonths+' applied months'));
+    button.addEventListener('click',()=>selectSubfield(i));grid.append(button);
+  });map.append(grid);selectSubfield(0);
+  if(!dialog.open){dialog.showModal();document.body.classList.add('exploring');}
+  const shell=dialog.querySelector('.explorer-shell');shell.classList.remove('subject-change');void shell.offsetWidth;shell.classList.add('subject-change');
+  $('explorer-title').focus({preventScroll:true});dialog.scrollTop=0;
 }
 function renderKnowledge() {
-  // Radial geometry illustrates categorical depth only; values are fictional.
-  const ns='http://www.w3.org/2000/svg', svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 500 420');svg.setAttribute('class','radar');svg.setAttribute('role','img');svg.setAttribute('aria-label','Illustrative knowledge-depth map. Electronics: specialization. Mechanical engineering, controls, and delivery: integration. Coding and business: application.');
-  const point=(i,r)=>[250+Math.cos(i*Math.PI/3-Math.PI/2)*r,210+Math.sin(i*Math.PI/3-Math.PI/2)*r];
-  for(let level=1;level<=4;level++){const polygon=document.createElementNS(ns,'polygon');polygon.setAttribute('points',data.skills.map((s,i)=>point(i,level*38).join(',')).join(' '));polygon.setAttribute('fill','none');polygon.setAttribute('stroke','#304359');svg.append(polygon);}
-  data.skills.forEach((s,i)=>{const a=point(i,s.level*38),b=point((i+1)%6,data.skills[(i+1)%6].level*38);const poly=document.createElementNS(ns,'polygon');poly.setAttribute('points','250,210 '+a.join(',')+' '+b.join(','));poly.setAttribute('fill',s.color);poly.setAttribute('fill-opacity','.8');svg.append(poly);const label=document.createElementNS(ns,'text'),p=point(i,180);label.setAttribute('x',p[0]);label.setAttribute('y',p[1]);label.setAttribute('text-anchor','middle');label.setAttribute('fill',s.color);label.setAttribute('font-size','13');label.textContent=['Electronics','Mechanical','Controls','Coding','Business','Delivery'][i];svg.append(label);});
-  $('knowledge-map').append(svg);const grid=el('div','','skills');
-  data.skills.forEach(s=>{const b=el('button','','skill');b.type='button';b.dataset.skill=s.id;b.style.setProperty('--skill',s.color);b.setAttribute('aria-pressed','false');b.append(el('strong',s.name),el('span',s.depth));b.addEventListener('click',()=>selectSkill(s.id));grid.append(b);});$('knowledge-map').append(grid);selectSkill('electronics');
+  $('knowledge-map').append(makeRadar(data.skills,data.skills.map(s=>s.color),i=>selectSkill(data.skills[i].id),['Electronics','Mechanical','Controls','Coding','Business','Delivery']));
+  const grid=el('div','','skills');
+  data.skills.forEach(skill=>{const button=el('button','','skill');button.type='button';button.dataset.skill=skill.id;button.style.setProperty('--skill',skill.color);button.setAttribute('aria-pressed','false');
+    button.append(el('strong',skill.name),el('span',skill.depth+' · '+skill.experienceMonths+' applied months'),el('span','Explore subfields'));button.addEventListener('click',()=>selectSkill(skill.id));grid.append(button);
+  });$('knowledge-map').append(grid);selectSkill('electronics',false);
+  $('collapse-knowledge').addEventListener('click',()=>$('knowledge-explorer').close());
+  $('knowledge-explorer').addEventListener('close',()=>document.body.classList.remove('exploring'));
+  $('previous-discipline').addEventListener('click',()=>openDiscipline(activeDiscipline-1));
+  $('next-discipline').addEventListener('click',()=>openDiscipline(activeDiscipline+1));
 }
 function renderPeople() {
-  data.roles.forEach(r=>{const c=el('div','','card');c.append(el('p',r.dates,'kind'),el('h3',r.company),el('p',r.role),el('p',r.summary,'muted'),proofButtons(r.proof));$('roles').append(c);});
+  const context=el('div','','card');context.append(el('h3','Capstone collaborators and partner work'),el('p','Alex worked alongside mechanical, product, and research specialists at Fieldwork Robotics and Loopworks Automation, supported Canopy Systems, and mentored at Common Motion.','muted'),proofButtons(data.partnerProof));$('collaborators').append(context);
   data.references.forEach(r=>{const c=el('div','','card reference');c.append(el('blockquote','“'+r.quote+'”'),el('p',r.name),el('p',r.role,'muted'),proofButtons(r.proof));$('references').append(c);});
   data.network.forEach(n=>{const row=el('div','','network-row'),label=el('div','','network-label');label.append(el('span',n.name),el('span',String(n.count)));const track=el('div','','bar-track'),fill=el('div','','bar-fill');fill.style.width=(n.count/32*100)+'%';track.append(fill);row.append(label,track);$('network').append(row);});
 }
+function workCard(record) {
+  const card=el('div','','card');card.append(el('p',record.kind+' · '+record.company,'kind'),el('h3',record.title),el('p',record.summary,'muted'));
+  const button=el('button','Open evidence');button.type='button';button.addEventListener('click',()=>openEvidence(record.id));card.append(button);return card;
+}
 function renderWork() {
-  data.evidence.forEach(r=>{const c=el('div','','card');c.append(el('p',r.kind+' · '+r.company,'kind'),el('h3',r.title),el('p',r.summary,'muted'));const b=el('button','Open evidence');b.type='button';b.addEventListener('click',()=>openEvidence(r.id));c.append(b);$('evidence-list').append(c);});
+  const list=$('evidence-list');
+  [...data.roles].reverse().forEach(role=>{
+    const card=el('section','','card resume-role');card.append(el('p','Capstone corporation · '+role.dates+' · '+role.durationMonths+' months','kind'),el('h3',role.company),el('p',role.role,'role-title'),el('p',role.mission,'company-mission'),el('h4','Company goal'),el('p',role.goal),el('h4','Personal accomplishments'));
+    const ul=el('ul');role.accomplishments.forEach(a=>ul.append(el('li',a)));card.append(ul,el('h4','Company outcome'),el('p',role.outcome,'muted'),el('h4','Supporting work'),proofButtons(role.proof));list.append(card);
+  });
+  list.append(el('h3','Partner contributions & mentoring'));data.partnerProof.forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
+  list.append(el('h3','Independent projects'));data.independentProof.forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
 }
 function message(who,text,ids=[]) {
   const row=el('div','','message '+(who==='You'?'user':''));row.append(el('strong',who),el('p',text));if(ids.length)row.append(proofButtons(ids));$('messages').append(row);$('messages').scrollTop=$('messages').scrollHeight;
