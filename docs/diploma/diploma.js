@@ -2,7 +2,7 @@ const el = (tag, text, cls) => { const n = document.createElement(tag); if (text
 let data;
 const $ = id => document.getElementById(id);
 function show(view) {
-  for (const name of ['knowledge','people','work']) $(name).hidden = name !== view;
+  for (const name of ['home','knowledge','people','work']) $(name).hidden = name !== view;
   document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
 }
 function proofButtons(ids) {
@@ -103,8 +103,22 @@ function renderKnowledge() {
   $('next-discipline-top').addEventListener('click',()=>openDiscipline(activeDiscipline+1));
 }
 let activeNetwork = -1;
-let activeScope = 'all';
-function inPeopleFilter(item) { return (activeNetwork<0 || item.specialties.includes(data.network[activeNetwork].name)) && (activeScope==='all' || item.scope===activeScope); }
+let activeRelationship = 'all';
+const relationshipKinds = [
+  ['coworker','Coworkers','#80c8e8'],
+  ['collaborator','University collaborators','#c9b1ec'],
+  ['mentor','University mentors','#f0cf7a'],
+  ['mentee','Mentees','#8ad5b1'],
+  ['external','Outside the university','#f3a986']
+];
+function relationshipType(person) {
+  if(person.scope==='external')return 'external';
+  if(/mentee/i.test(person.relation))return 'mentee';
+  if(/teammate|coworker/i.test(person.relation))return 'coworker';
+  if(/mentor/i.test(person.relation))return 'mentor';
+  return 'collaborator';
+}
+function inPeopleFilter(item) { return activeNetwork<0 || item.specialties.includes(data.network[activeNetwork].name); }
 function renderPeopleLists() {
   ['mentorship','recognition','references'].forEach(id=>$(id).replaceChildren());
   data.mentorship.filter(inPeopleFilter).forEach(person=>{const card=el('section','','card');card.append(el('p',person.company+' · '+person.role+' · University','kind'),el('h3',person.name),el('h4','Alex’s contribution'),el('p',person.contribution),el('h4','What they accomplished'),el('p',person.accomplishment),proofButtons(person.proof));$('mentorship').append(card);});
@@ -114,33 +128,34 @@ function renderPeopleLists() {
 }
 function selectNetwork(index) {
   activeNetwork=index;
-  const groups=index<0?data.network:[data.network[index]],all=groups.flatMap(g=>g.connections),connections=all.filter(c=>activeScope==='all'||c.scope===activeScope),detail=$('network-detail');
-  const internal=all.filter(c=>c.scope==='internal').length,external=all.length-internal;
-  detail.replaceChildren(el('h3',(index<0?'All connections':groups[0].name)+' · '+all.length),el('p',internal+' university connections · '+external+' industry & community connections','muted'));
-  const filters=el('div','','scope-controls');[['all','All'],['internal','University'],['external','Industry & community']].forEach(([value,label])=>{const button=el('button',label);button.type='button';button.setAttribute('aria-pressed',String(activeScope===value));button.addEventListener('click',()=>{activeScope=value;selectNetwork(activeNetwork);});filters.append(button);});detail.append(filters);
-  const years=el('div','','network-years');for(let year=1;year<=4;year++){const cell=el('div');cell.append(el('strong','Year '+year),el('span',connections.filter(c=>c.firstYear===year).length+' new connections'));years.append(cell);}detail.append(years,el('h4','People and affiliations'));
+  const groups=index<0?data.network:[data.network[index]],all=groups.flatMap(g=>g.connections);
+  const connections=all.filter(c=>activeRelationship==='all'||relationshipType(c)===activeRelationship),detail=$('network-detail');
+  detail.replaceChildren(el('h3',(index<0?'All connections':groups[0].name)+' · '+all.length));
+  const breakdown=el('div','','relationship-breakdown'),chart=el('div','','relationship-chart');
+  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 160 160');svg.setAttribute('role','group');svg.setAttribute('aria-label','Connections by relationship. Select a segment to see its people.');
+  const legend=el('div','','relationship-legend');let angle=-Math.PI/2;
+  relationshipKinds.forEach(([key,label,color])=>{
+    const count=all.filter(person=>relationshipType(person)===key).length;if(!count)return;
+    const end=angle+count/all.length*Math.PI*2;
+    const segment=document.createElementNS(ns,'path');
+    const x=a=>80+69*Math.cos(a),y=a=>80+69*Math.sin(a);
+    segment.setAttribute('d',count===all.length?'M 80 11 A 69 69 0 1 1 79.999 11 Z':`M 80 80 L ${x(angle)} ${y(angle)} A 69 69 0 ${end-angle>Math.PI?1:0} 1 ${x(end)} ${y(end)} Z`);
+    segment.setAttribute('fill',color);segment.setAttribute('stroke','#101e2e');segment.setAttribute('stroke-width','2');segment.setAttribute('role','button');segment.setAttribute('tabindex','0');segment.setAttribute('aria-label',label+': '+count);segment.setAttribute('aria-pressed',String(activeRelationship===key));segment.style.opacity=activeRelationship==='all'||activeRelationship===key?'1':'.35';
+    const choose=()=>{activeRelationship=activeRelationship===key?'all':key;selectNetwork(index);};segment.addEventListener('click',choose);segment.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});svg.append(segment);angle=end;
+    const button=el('button','','relationship-key');button.type='button';button.setAttribute('aria-pressed',String(activeRelationship===key));const dot=el('span','','legend-dot');dot.style.background=color;button.append(dot,el('span',label),el('strong',String(count)));button.addEventListener('click',choose);legend.append(button);
+  });
+  chart.append(svg);breakdown.append(chart,legend);detail.append(breakdown);
+  const heading=el('div','','connection-list-heading');heading.append(el('h4',(activeRelationship==='all'?'People and affiliations':relationshipKinds.find(k=>k[0]===activeRelationship)[1])+' · '+connections.length));
+  if(activeRelationship!=='all'){const reset=el('button','Show all relationships','relationship-reset');reset.type='button';reset.addEventListener('click',()=>{activeRelationship='all';selectNetwork(index);});heading.append(reset);}detail.append(heading);
   const list=el('div','','connection-list');connections.forEach(person=>{const card=el('div','','connection-person');const icon=el('span','','person-avatar');icon.setAttribute('aria-hidden','true');icon.textContent=person.name.split(' ').map(x=>x[0]).join('');card.append(icon);const text=el('div');text.append(el('strong',person.name),el('span',person.company),el('small',person.relation+' · '+person.specialty+' · '+(person.scope==='internal'?'University':'Industry & community')));card.append(text);list.append(card);});detail.append(list);
   document.querySelectorAll('.network-select').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.group)===index)));
-  document.querySelectorAll('.network-node').forEach((node,i)=>node.setAttribute('aria-pressed',String(index===i)));
   renderPeopleLists();
 }
 function renderNetwork() {
-  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 700 550');svg.setAttribute('class','network-map');svg.setAttribute('role','group');svg.setAttribute('aria-label','Human professional network grouped by specialty. Bubble area represents people count; solid connections are university relationships and dashed connections are industry or community relationships.');
-  const make=(tag,attrs,parent=svg)=>{const node=document.createElementNS(ns,tag);for(const [key,value] of Object.entries(attrs))node.setAttribute(key,value);parent.append(node);return node;};
-  const personIcon=(x,y,size,color,parent)=>{make('circle',{cx:x,cy:y-size*.23,r:size*.17,fill:color},parent);make('path',{d:'M '+(x-size*.3)+' '+(y+size*.35)+' Q '+(x-size*.3)+' '+y+' '+x+' '+y+' Q '+(x+size*.3)+' '+y+' '+(x+size*.3)+' '+(y+size*.35)+' Z',fill:color},parent);};
-  const positions=[[160,115],[540,115],[100,310],[600,310],[255,455],[455,455]],colors=data.skills.map(skill=>skill.color);
-  data.network.forEach((group,i)=>{const [x,y]=positions[i],radius=10*Math.sqrt(group.count);make('line',{x1:350,y1:265,x2:x,y2:y,stroke:'#52667b','stroke-width':2});const node=make('g',{role:'button',tabindex:0,'aria-pressed':'false','aria-label':group.name+': '+group.count+' people; '+group.internalCount+' university, '+group.externalCount+' industry and community.'});node.classList.add('network-node');make('circle',{cx:x,cy:y,r:radius,fill:colors[i],'fill-opacity':.1,stroke:colors[i],'stroke-width':2},node);
-    for(let j=0;j<Math.min(group.count,8);j++){const angle=j*Math.PI/4,px=x+Math.cos(angle)*radius*.62,py=y+Math.sin(angle)*radius*.62;personIcon(px,py,Math.max(10,radius*.22),colors[i],node);}
-    const total=make('text',{x,y:y+7,'text-anchor':'middle',fill:'#f5f3eb','font-size':23,'font-weight':'bold'},node);total.textContent=group.count;
-    const label=make('text',{x,y:y+radius+22,'text-anchor':'middle',fill:'#f5f3eb','font-size':16},node);label.textContent=group.name;
-    const provenance=make('text',{x,y:y+radius+42,'text-anchor':'middle',fill:'#b0bfce','font-size':13},node);provenance.textContent=group.internalCount+' university / '+group.externalCount+' external';
-    make('line',{x1:x+radius*.7,y1:y-radius*.7,x2:x+radius+20,y2:y-radius-14,stroke:colors[i],'stroke-dasharray':'4 4'},node);personIcon(x+radius+22,y-radius-18,17,colors[i],node);
-    node.addEventListener('click',()=>{activeScope='all';selectNetwork(i);});node.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();activeScope='all';selectNetwork(i);}});
-  });
-  make('circle',{cx:350,cy:265,r:46,fill:'#122235',stroke:'#f5d778','stroke-width':2});personIcon(350,265,70,'#f5d778',svg);
-  const scroll=el('div','','network-scroll');scroll.append(svg);$('network').append(scroll,el('p','86 professional relationships · Solid: university · Dashed: industry & community','muted'));
-  const controls=el('div','','network-controls');const all=el('button','View all connections','network-select');all.type='button';all.dataset.group='-1';all.addEventListener('click',()=>{activeScope='all';selectNetwork(-1);});controls.append(all);
-  data.network.forEach((group,i)=>{const button=el('button',group.name+' · '+group.count,'network-select');button.type='button';button.dataset.group=String(i);button.addEventListener('click',()=>{activeScope='all';selectNetwork(i);});controls.append(button);});$('network').append(controls);selectNetwork(-1);
+  const controls=el('div','','specialty-cards');
+  const add=(group,index)=>{const button=el('button','','network-select');button.type='button';button.dataset.group=String(index);button.append(el('span',group.name,'connection-specialty'),el('strong',String(group.count),'connection-total'),el('small',group.externalCount+' outside university','external-badge'));button.addEventListener('click',()=>{activeRelationship='all';selectNetwork(index);});controls.append(button);};
+  add({name:'All connections',count:data.network.reduce((sum,g)=>sum+g.count,0),externalCount:data.network.reduce((sum,g)=>sum+g.externalCount,0)},-1);
+  data.network.forEach(add);$('network').append(controls);selectNetwork(-1);
 }
 function renderPeople() { renderNetwork(); }
 function workCard(record) {
