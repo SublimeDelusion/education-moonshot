@@ -27,3 +27,11 @@ The capstone company names and missions have been revised from the initial PDF s
 People leads with a specialty-group network whose bubble areas are proportional to connection counts. Authored per-year additions sum to each group total. Mentorship distinguishes Alex’s contribution from Maya Chen’s and Eli Park’s own accomplishments. Recognition and references remain in People; research and project summaries link from the evidence they support. No fourth tab is needed.
 
 OpenShelf is the Summer Founders venture that was not selected as a capstone. The profile badge opens its company entry in Experience. Repository code and full research manuscripts remain future specimen work; the current resource links resolve to locally generated summaries, not invented external sites.
+
+## Profile polish and shared content
+
+The public experience reads as Alex’s professional profile, without repeated fictional-callout text. The Summer Founders distinction sits beside the graduate seal and opens the OpenShelf details. The profile summary and all professional records are authored in `graduate.json`.
+
+Supporting-work links open a screen-covering detail dialog. It can stack above the knowledge explorer without changing its discipline, selected subfield, or scroll position. Top and bottom discipline controls share one selection state. Subfield cards include received mentored-learning areas. Dossier links remain available in a new tab.
+
+Each network group now owns named contacts, affiliations, university/external scope, and year first connected. Group totals, scope totals, and year counts are checked against those contact records. A specialty selection filters mentorship, recognition, and references; All restores the full profile. Scope filters also apply to the associated people records. The network diagram uses person icons and provenance indicators.

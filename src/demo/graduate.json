@@ -36,7 +36,13 @@
           "proof": [
             "rover-power"
           ],
-          "summary": "Illustrative specialization depth, with 24 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 24 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Nina Patel",
+              "area": "Power systems \u2014 Power architecture and fault diagnosis"
+            }
+          ]
         },
         {
           "id": "electronics-1",
@@ -47,7 +53,8 @@
           "proof": [
             "rover-power"
           ],
-          "summary": "Illustrative specialization depth, with 12 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "electronics-2",
@@ -58,7 +65,13 @@
           "proof": [
             "rover-power"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Nina Patel",
+              "area": "Embedded telemetry \u2014 Power architecture and fault diagnosis"
+            }
+          ]
         },
         {
           "id": "electronics-3",
@@ -69,7 +82,8 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative application depth, with 6 months of applied exposure in the specimen."
+          "summary": "Application depth, with 6 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "electronics-4",
@@ -80,7 +94,13 @@
           "proof": [
             "field-failure"
           ],
-          "summary": "Illustrative specialization depth, with 12 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Nina Patel",
+              "area": "Field diagnostics \u2014 Power architecture and fault diagnosis"
+            }
+          ]
         },
         {
           "id": "electronics-5",
@@ -89,7 +109,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         }
       ]
     },
@@ -121,7 +142,13 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Jordan Lee",
+              "area": "Mechanisms \u2014 Mechanism design and service access"
+            }
+          ]
         },
         {
           "id": "mechanical-1",
@@ -132,7 +159,8 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "mechanical-2",
@@ -143,7 +171,13 @@
           "proof": [
             "irrigation"
           ],
-          "summary": "Illustrative application depth, with 6 months of applied exposure in the specimen."
+          "summary": "Application depth, with 6 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Jordan Lee",
+              "area": "Fabrication \u2014 Mechanism design and service access"
+            }
+          ]
         },
         {
           "id": "mechanical-3",
@@ -152,7 +186,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         },
         {
           "id": "mechanical-4",
@@ -163,7 +198,13 @@
           "proof": [
             "irrigation"
           ],
-          "summary": "Illustrative integration depth, with 6 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 6 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Jordan Lee",
+              "area": "Serviceability \u2014 Mechanism design and service access"
+            }
+          ]
         },
         {
           "id": "mechanical-5",
@@ -174,7 +215,8 @@
           "proof": [
             "rover-power"
           ],
-          "summary": "Illustrative application depth, with 6 months of applied exposure in the specimen."
+          "summary": "Application depth, with 6 months of applied exposure.",
+          "mentoredLearning": []
         }
       ]
     },
@@ -208,7 +250,13 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative specialization depth, with 12 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Luis Torres",
+              "area": "Motor control \u2014 Control-state reasoning and sensor uncertainty"
+            }
+          ]
         },
         {
           "id": "controls-1",
@@ -219,7 +267,8 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative specialization depth, with 18 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 18 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "controls-2",
@@ -230,7 +279,13 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Luis Torres",
+              "area": "State machines \u2014 Control-state reasoning and sensor uncertainty"
+            }
+          ]
         },
         {
           "id": "controls-3",
@@ -241,7 +296,8 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "controls-4",
@@ -250,7 +306,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         },
         {
           "id": "controls-5",
@@ -261,7 +318,8 @@
           "proof": [
             "field-failure"
           ],
-          "summary": "Illustrative specialization depth, with 24 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 24 months of applied exposure.",
+          "mentoredLearning": []
         }
       ]
     },
@@ -295,7 +353,13 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Prof. Avery Reed",
+              "area": "Python tooling \u2014 Test tooling and firmware interfaces"
+            }
+          ]
         },
         {
           "id": "coding-1",
@@ -306,7 +370,8 @@
           "proof": [
             "rover-power"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "coding-2",
@@ -317,7 +382,13 @@
           "proof": [
             "field-failure"
           ],
-          "summary": "Illustrative application depth, with 12 months of applied exposure in the specimen."
+          "summary": "Application depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Prof. Avery Reed",
+              "area": "Data analysis \u2014 Test tooling and firmware interfaces"
+            }
+          ]
         },
         {
           "id": "coding-3",
@@ -326,7 +397,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         },
         {
           "id": "coding-4",
@@ -337,7 +409,13 @@
           "proof": [
             "gripper"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Prof. Avery Reed",
+              "area": "Test automation \u2014 Test tooling and firmware interfaces"
+            }
+          ]
         },
         {
           "id": "coding-5",
@@ -346,7 +424,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         }
       ]
     },
@@ -380,7 +459,13 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Sam Rivera",
+              "area": "Customer discovery \u2014 Customer discovery and scope decisions"
+            }
+          ]
         },
         {
           "id": "business-1",
@@ -391,7 +476,8 @@
           "proof": [
             "irrigation"
           ],
-          "summary": "Illustrative application depth, with 6 months of applied exposure in the specimen."
+          "summary": "Application depth, with 6 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "business-2",
@@ -402,7 +488,13 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative application depth, with 12 months of applied exposure in the specimen."
+          "summary": "Application depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Sam Rivera",
+              "area": "Operations \u2014 Customer discovery and scope decisions"
+            }
+          ]
         },
         {
           "id": "business-3",
@@ -411,7 +503,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         },
         {
           "id": "business-4",
@@ -422,7 +515,13 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative application depth, with 6 months of applied exposure in the specimen."
+          "summary": "Application depth, with 6 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Sam Rivera",
+              "area": "Market research \u2014 Customer discovery and scope decisions"
+            }
+          ]
         },
         {
           "id": "business-5",
@@ -431,7 +530,8 @@
           "depth": "Foundations",
           "experienceMonths": 0,
           "proof": [],
-          "summary": "Foundational exploration only. No applied work is documented in this specimen."
+          "summary": "Foundational exploration only. no applied work is documented in this specimen.",
+          "mentoredLearning": []
         }
       ]
     },
@@ -466,7 +566,13 @@
           "proof": [
             "field-failure"
           ],
-          "summary": "Illustrative specialization depth, with 12 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Dana Brooks",
+              "area": "Field trials \u2014 Field validation and cross-discipline delivery"
+            }
+          ]
         },
         {
           "id": "delivery-1",
@@ -477,7 +583,8 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "delivery-2",
@@ -488,7 +595,13 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative integration depth, with 24 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 24 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Dana Brooks",
+              "area": "Team coordination \u2014 Field validation and cross-discipline delivery"
+            }
+          ]
         },
         {
           "id": "delivery-3",
@@ -499,7 +612,8 @@
           "proof": [
             "field-failure"
           ],
-          "summary": "Illustrative specialization depth, with 12 months of applied exposure in the specimen."
+          "summary": "Specialization depth, with 12 months of applied exposure.",
+          "mentoredLearning": []
         },
         {
           "id": "delivery-4",
@@ -510,7 +624,13 @@
           "proof": [
             "pilot"
           ],
-          "summary": "Illustrative integration depth, with 12 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 12 months of applied exposure.",
+          "mentoredLearning": [
+            {
+              "mentor": "Dr. Dana Brooks",
+              "area": "Operator handoff \u2014 Field validation and cross-discipline delivery"
+            }
+          ]
         },
         {
           "id": "delivery-5",
@@ -521,7 +641,8 @@
           "proof": [
             "mentoring"
           ],
-          "summary": "Illustrative integration depth, with 6 months of applied exposure in the specimen."
+          "summary": "Integration depth, with 6 months of applied exposure.",
+          "mentoredLearning": []
         }
       ]
     }
@@ -575,6 +696,202 @@
         5,
         8,
         5
+      ],
+      "internalCount": 16,
+      "externalCount": 8,
+      "connections": [
+        {
+          "name": "Maya Chen",
+          "company": "Common Motion",
+          "relation": "Mentee \u00b7 sensing research",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Eli Park",
+          "company": "Common Motion",
+          "relation": "Mentee \u00b7 motor-control prototyping",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Jordan Lee",
+          "company": "SafeReach",
+          "relation": "Mechanical Lead \u00b7 coworker reference",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Riley Brooks",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Taylor Brooks",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Cameron Brooks",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Drew Brooks",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Quinn Brooks",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Jamie Brooks",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Rowan Brooks",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Alexis Brooks",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Reese Brooks",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Parker Brooks",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Finley Brooks",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Emerson Brooks",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Sage Brooks",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Dakota Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Skyler Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Blake Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Hayden Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Charlie Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Frankie Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Robin Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Engineering"
+        },
+        {
+          "name": "Jules Brooks",
+          "company": "Community Infrastructure Alliance",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Engineering"
+        }
       ]
     },
     {
@@ -585,6 +902,266 @@
         7,
         11,
         10
+      ],
+      "internalCount": 18,
+      "externalCount": 14,
+      "connections": [
+        {
+          "name": "Sam Rivera",
+          "company": "Harvest Commons",
+          "relation": "Product Lead \u00b7 coworker reference",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Business"
+        },
+        {
+          "name": "Remy Ellis",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Business"
+        },
+        {
+          "name": "Ellis Ellis",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Business"
+        },
+        {
+          "name": "River Ellis",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Business"
+        },
+        {
+          "name": "Micah Ellis",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Lennon Ellis",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Avery Carter",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Morgan Carter",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Casey Carter",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Riley Carter",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Taylor Carter",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Business"
+        },
+        {
+          "name": "Cameron Carter",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Drew Carter",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Quinn Carter",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Jamie Carter",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Rowan Carter",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Alexis Carter",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Reese Carter",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Devon Walsh",
+          "company": "Regional Food Partnership",
+          "relation": "Operations Lead \u00b7 partner reference",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Finley Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Emerson Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Sage Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Business"
+        },
+        {
+          "name": "Dakota Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Skyler Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Blake Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Hayden Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Charlie Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Frankie Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Robin Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Jules Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Arden Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        },
+        {
+          "name": "Remy Carter",
+          "company": "Regional Food Partnership",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Business"
+        }
       ]
     },
     {
@@ -595,6 +1172,106 @@
         3,
         4,
         2
+      ],
+      "internalCount": 8,
+      "externalCount": 4,
+      "connections": [
+        {
+          "name": "Ellis Nguyen",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Design"
+        },
+        {
+          "name": "River Nguyen",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Design"
+        },
+        {
+          "name": "Micah Nguyen",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Design"
+        },
+        {
+          "name": "Lennon Nguyen",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Design"
+        },
+        {
+          "name": "Avery Patel",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Design"
+        },
+        {
+          "name": "Morgan Patel",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Design"
+        },
+        {
+          "name": "Casey Patel",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Design"
+        },
+        {
+          "name": "Riley Patel",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Design"
+        },
+        {
+          "name": "Taylor Patel",
+          "company": "Civic Design Collective",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Design"
+        },
+        {
+          "name": "Cameron Patel",
+          "company": "Civic Design Collective",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Design"
+        },
+        {
+          "name": "Drew Patel",
+          "company": "Civic Design Collective",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Design"
+        },
+        {
+          "name": "Quinn Patel",
+          "company": "Civic Design Collective",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Design"
+        }
       ]
     },
     {
@@ -605,6 +1282,74 @@
         2,
         2,
         2
+      ],
+      "internalCount": 5,
+      "externalCount": 3,
+      "connections": [
+        {
+          "name": "Jamie Torres",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Research"
+        },
+        {
+          "name": "Rowan Torres",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Research"
+        },
+        {
+          "name": "Alexis Torres",
+          "company": "Harvest Commons",
+          "relation": "Faculty mentor",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Research"
+        },
+        {
+          "name": "Reese Torres",
+          "company": "Common Motion",
+          "relation": "Student collaborator",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Research"
+        },
+        {
+          "name": "Parker Torres",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 3,
+          "specialty": "Research"
+        },
+        {
+          "name": "Finley Torres",
+          "company": "Field Systems Lab",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Research"
+        },
+        {
+          "name": "Emerson Torres",
+          "company": "Field Systems Lab",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Research"
+        },
+        {
+          "name": "Sage Torres",
+          "company": "Field Systems Lab",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Research"
+        }
       ]
     },
     {
@@ -615,6 +1360,58 @@
         1,
         2,
         2
+      ],
+      "internalCount": 2,
+      "externalCount": 4,
+      "connections": [
+        {
+          "name": "Dakota Kim",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Manufacturing"
+        },
+        {
+          "name": "Skyler Kim",
+          "company": "SafeReach",
+          "relation": "Capstone teammate",
+          "scope": "internal",
+          "firstYear": 2,
+          "specialty": "Manufacturing"
+        },
+        {
+          "name": "Blake Kim",
+          "company": "Valley Manufacturing Cooperative",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Manufacturing"
+        },
+        {
+          "name": "Hayden Kim",
+          "company": "Valley Manufacturing Cooperative",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Manufacturing"
+        },
+        {
+          "name": "Charlie Kim",
+          "company": "Valley Manufacturing Cooperative",
+          "relation": "Industry practitioner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Manufacturing"
+        },
+        {
+          "name": "Frankie Kim",
+          "company": "Valley Manufacturing Cooperative",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Manufacturing"
+        }
       ]
     },
     {
@@ -625,6 +1422,42 @@
         0,
         1,
         2
+      ],
+      "internalCount": 1,
+      "externalCount": 3,
+      "connections": [
+        {
+          "name": "Robin Reed",
+          "company": "University of Impact",
+          "relation": "Peer collaborator",
+          "scope": "internal",
+          "firstYear": 1,
+          "specialty": "Public service"
+        },
+        {
+          "name": "Jules Reed",
+          "company": "Public Service Exchange",
+          "relation": "Partner specialist",
+          "scope": "external",
+          "firstYear": 3,
+          "specialty": "Public service"
+        },
+        {
+          "name": "Arden Reed",
+          "company": "Public Service Exchange",
+          "relation": "Visiting mentor",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Public service"
+        },
+        {
+          "name": "Remy Reed",
+          "company": "Public Service Exchange",
+          "relation": "Community partner",
+          "scope": "external",
+          "firstYear": 4,
+          "specialty": "Public service"
+        }
       ]
     }
   ],
@@ -635,12 +1468,34 @@
       "quote": "Turns field failures into reliable hardware.",
       "proof": [
         "field-failure"
+      ],
+      "scope": "internal",
+      "specialties": [
+        "Engineering"
       ]
     },
     {
       "name": "Sam Rivera",
       "role": "Product Lead \u00b7 Harvest Commons",
       "quote": "Connects the prototype to the customer need.",
+      "proof": [
+        "pilot"
+      ],
+      "scope": "internal",
+      "specialties": [
+        "Business",
+        "Design"
+      ]
+    },
+    {
+      "name": "Devon Walsh",
+      "role": "Operations Lead \u00b7 Regional Food Partnership",
+      "quote": "Defines the operating limits before asking people to depend on the system.",
+      "scope": "external",
+      "specialties": [
+        "Business",
+        "Public service"
+      ],
       "proof": [
         "pilot"
       ]
@@ -660,7 +1515,7 @@
       "contribution": "Alex authored the board schematic, selected protection components, and wrote firmware hooks for voltage and current telemetry. Mechanical packaging and the rover's navigation software were teammates' work.",
       "decision": "Separated motor and compute power paths so a motor transient would not repeatedly reset the onboard computer.",
       "result": "The bench record includes schematic revisions, a fault-injection checklist, and telemetry traces showing how the protected paths behaved.",
-      "limits": "This specimen has no independently verified runtime, deployment count, or certification result.",
+      "limits": "This record has no independently verified runtime, deployment count, or certification result.",
       "artifacts": [
         "Schematic revision notes",
         "Power-path test checklist",
@@ -713,7 +1568,7 @@
       "contribution": "Alex owned integration and the test harness. Maya Chen contributed to tactile-feedback research; other specialists designed mechanical parts.",
       "decision": "Used explicit contact and release states, bounded actuator commands, and conservative behavior when sensor confidence dropped.",
       "result": "The record includes a state-transition review, recorded test cases for varied object shapes, and notes on fragile-object handling.",
-      "limits": "This is a fictional laboratory prototype, not a certified safety system or evidence of production-scale performance.",
+      "limits": "This is a laboratory prototype, not a certified safety system or evidence of production-scale performance.",
       "artifacts": [
         "Control-state specification",
         "Python test-case outline",
@@ -793,7 +1648,7 @@
       "contribution": "Alex helped the students isolate power, command, and feedback faults; asked them to explain their diagnosis before proposing a fix.",
       "decision": "Used small reproducible tests so the learners could distinguish a working patch from an understood cause.",
       "result": "The mentoring record includes a debugging checklist and teach-back prompts.",
-      "limits": "The specimen does not claim measured learning gains or an instructional credential.",
+      "limits": "The record does not claim measured learning gains or an instructional credential.",
       "artifacts": [
         "Debugging checklist",
         "Teach-back questions",
@@ -818,7 +1673,7 @@
       "summary": "A self-directed notebook of small circuit experiments and Python measurement tools.",
       "contribution": "Alex documented setup assumptions, measurement steps, and corrections while exploring small circuits outside assigned company work.",
       "decision": "Kept unsuccessful experiments alongside working designs to preserve the reasons for changing an approach.",
-      "result": "The hypothetical journal shows iterative learning and a habit of recording evidence.",
+      "result": "The journal shows iterative learning and a habit of recording evidence.",
       "limits": "This is an authored project outline. The actual notebook, code, and measurements have not yet been created.",
       "artifacts": [
         "Experiment index",
@@ -959,6 +1814,11 @@
       "proof": [
         "mentoring",
         "tactile-paper"
+      ],
+      "scope": "internal",
+      "specialties": [
+        "Engineering",
+        "Research"
       ]
     },
     {
@@ -969,6 +1829,11 @@
       "accomplishment": "Demonstrated a motor-control prototype and taught the debugging method back to his project group.",
       "proof": [
         "mentoring"
+      ],
+      "scope": "internal",
+      "specialties": [
+        "Engineering",
+        "Manufacturing"
       ]
     }
   ],
@@ -979,6 +1844,12 @@
       "proof": [
         "gripper",
         "tactile-paper"
+      ],
+      "scope": "external",
+      "specialties": [
+        "Engineering",
+        "Research",
+        "Business"
       ]
     },
     {
@@ -986,6 +1857,11 @@
       "detail": "Earned a one-to-one session with a visiting industry leader on practical adaptive gripping.",
       "proof": [
         "salon-session"
+      ],
+      "scope": "external",
+      "specialties": [
+        "Engineering",
+        "Research"
       ]
     },
     {
@@ -994,6 +1870,11 @@
       "proof": [
         "power-paper",
         "tactile-paper"
+      ],
+      "scope": "internal",
+      "specialties": [
+        "Engineering",
+        "Research"
       ]
     }
   ],
@@ -1008,5 +1889,6 @@
     "proof": [
       "summer-venture"
     ]
-  }
+  },
+  "summary": "I build useful machines and help teams make them work in the real world. My work spans protected power systems, sensing and control integration, field diagnostics, and the practical decisions that turn a prototype into a dependable service. At SafeReach and Harvest Commons, I worked with specialists in engineering, product, operations, and public service; I also mentor emerging builders and pursue ventures that make everyday capabilities more accessible."
 }
