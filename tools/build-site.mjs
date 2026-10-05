@@ -62,4 +62,9 @@ for (const page of pages) {
   fs.mkdirSync(dest, { recursive: true }); fs.writeFileSync(path.join(dest, 'index.html'), html);
 }
 fs.writeFileSync(path.join(root, 'docs', '.nojekyll'), '');
+fs.mkdirSync(path.join(root, 'docs', 'diploma'), { recursive: true });
+fs.copyFileSync(path.join(root, 'src', 'demo', 'graduate.json'), path.join(root, 'docs', 'diploma', 'graduate.json'));
+const homePath = path.join(root, 'docs', 'index.html');
+const diplomaLink = '<section class="notice"><h2>Explore a diploma of the future.</h2><p>Inspect a fictional graduate’s knowledge, people, and professional work. Ask a mock Professional Agent to find the evidence.</p><a href="./diploma/">Open the interactive diploma</a></section>';
+fs.writeFileSync(homePath, fs.readFileSync(homePath, 'utf8').replace('<div class="reading-layout">', diplomaLink + '<div class="reading-layout">'));
 console.log('Built four pages in docs/ from canonical src/ documents.');
