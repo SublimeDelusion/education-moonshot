@@ -20,7 +20,8 @@ function openEvidence(id, focus = true) {
     box.append(el('h4',label),el('p',r[key],key==='limits'?'limits':''));
   }
   box.append(el('h4','Evidence packet outline'));
-  const ul = el('ul'); r.artifacts.forEach(a => ul.append(el('li',a))); box.append(ul,el('p','These are authored specimen summaries. Underlying code, test logs, and research papers have not yet been created.','muted'));
+  const ul = el('ul'); r.artifacts.forEach(a => ul.append(el('li',a))); box.append(ul);
+  if(r.resources){const links=el('div','','resource-links');r.resources.forEach(resource=>{const a=el('a',resource.label);a.href=resource.url;links.append(a);});box.append(links);}
   history.replaceState(null,'','#proof-' + id);
   if (focus) { box.focus({preventScroll:true}); box.scrollIntoView({block:'start'}); }
 }
@@ -91,10 +92,28 @@ function renderKnowledge() {
   $('previous-discipline').addEventListener('click',()=>openDiscipline(activeDiscipline-1));
   $('next-discipline').addEventListener('click',()=>openDiscipline(activeDiscipline+1));
 }
+function selectNetwork(index) {
+  const group=data.network[index],detail=$('network-detail');
+  detail.replaceChildren(el('h3',group.name+' · '+group.count+' professional connections'),el('p','Relationships added through exploration, professional study, capstone work, and external engagement.','muted'));
+  const years=el('div','','network-years');group.byYear.forEach((count,i)=>{const cell=el('div');cell.append(el('strong','Year '+(i+1)),el('span',count+' new connections'));years.append(cell);});detail.append(years);
+  document.querySelectorAll('.network-select').forEach((button,i)=>button.setAttribute('aria-pressed',String(i===index)));
+}
+function renderNetwork() {
+  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 700 520');svg.setAttribute('class','network-map');svg.setAttribute('role','group');svg.setAttribute('aria-label','Alex’s professional network grouped by specialty. Bubble area is proportional to connection count.');
+  const positions=[[160,110],[540,110],[100,290],[600,290],[255,435],[455,435]];
+  const colors=data.skills.map(s=>s.color);
+  data.network.forEach((group,i)=>{const [x,y]=positions[i],radius=10*Math.sqrt(group.count);const line=document.createElementNS(ns,'line');line.setAttribute('x1','350');line.setAttribute('y1','245');line.setAttribute('x2',x);line.setAttribute('y2',y);line.setAttribute('stroke','#405770');line.setAttribute('stroke-width','2');svg.append(line);const g=document.createElementNS(ns,'g');g.setAttribute('role','button');g.setAttribute('tabindex','0');g.setAttribute('aria-label',group.name+': '+group.count+' connections. Explore by year.');g.classList.add('network-node');const circle=document.createElementNS(ns,'circle');circle.setAttribute('cx',x);circle.setAttribute('cy',y);circle.setAttribute('r',radius);circle.setAttribute('fill',colors[i]);circle.setAttribute('fill-opacity','.18');circle.setAttribute('stroke',colors[i]);circle.setAttribute('stroke-width','2');g.append(circle);
+  for(const [text,dy,size,color] of [[String(group.count),8,28,colors[i]],[group.name,radius+25,16,'#f5f3eb']]){const label=document.createElementNS(ns,'text');label.setAttribute('x',x);label.setAttribute('y',y+dy);label.setAttribute('text-anchor','middle');label.setAttribute('fill',color);label.setAttribute('font-size',size);label.textContent=text;g.append(label);}g.addEventListener('click',()=>selectNetwork(i));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNetwork(i);}});svg.append(g);});
+  const center=document.createElementNS(ns,'circle');center.setAttribute('cx','350');center.setAttribute('cy','245');center.setAttribute('r','50');center.setAttribute('fill','#122235');center.setAttribute('stroke','#f5d778');svg.append(center);
+  [['Alex Morgan',238,17],['Four years',263,14]].forEach(([text,y,size])=>{const t=document.createElementNS(ns,'text');t.setAttribute('x','350');t.setAttribute('y',y);t.setAttribute('text-anchor','middle');t.setAttribute('fill','#f5d778');t.setAttribute('font-size',size);t.textContent=text;svg.append(t);});
+  const scroll=el('div','','network-scroll');scroll.append(svg);$('network').append(scroll,el('p','86 connections · Bubble area represents group size. Select a specialty to see how the network grew.','muted'));
+  const controls=el('div','','network-controls');data.network.forEach((group,i)=>{const button=el('button',group.name+' · '+group.count,'network-select');button.type='button';button.setAttribute('aria-pressed','false');button.addEventListener('click',()=>selectNetwork(i));controls.append(button);});$('network').append(controls);selectNetwork(0);
+}
 function renderPeople() {
-  const context=el('div','','card');context.append(el('h3','Capstone collaborators and partner work'),el('p','Alex worked alongside mechanical, product, and research specialists at Fieldwork Robotics and Loopworks Automation, supported Canopy Systems, and mentored at Common Motion.','muted'),proofButtons(data.partnerProof));$('collaborators').append(context);
+  renderNetwork();
+  data.mentorship.forEach(person=>{const card=el('section','','card');card.append(el('p',person.company+' · '+person.role,'kind'),el('h3',person.name),el('h4','Alex’s contribution'),el('p',person.contribution),el('h4','What they accomplished'),el('p',person.accomplishment),proofButtons(person.proof));$('mentorship').append(card);});
+  data.recognition.forEach(item=>{const card=el('div','','card');card.append(el('h3',item.title),el('p',item.detail),proofButtons(item.proof));$('recognition').append(card);});
   data.references.forEach(r=>{const c=el('div','','card reference');c.append(el('blockquote','“'+r.quote+'”'),el('p',r.name),el('p',r.role,'muted'),proofButtons(r.proof));$('references').append(c);});
-  data.network.forEach(n=>{const row=el('div','','network-row'),label=el('div','','network-label');label.append(el('span',n.name),el('span',String(n.count)));const track=el('div','','bar-track'),fill=el('div','','bar-fill');fill.style.width=(n.count/32*100)+'%';track.append(fill);row.append(label,track);$('network').append(row);});
 }
 function workCard(record) {
   const card=el('div','','card');card.append(el('p',record.kind+' · '+record.company,'kind'),el('h3',record.title),el('p',record.summary,'muted'));
@@ -103,10 +122,11 @@ function workCard(record) {
 function renderWork() {
   const list=$('evidence-list');
   [...data.roles].reverse().forEach(role=>{
-    const card=el('section','','card resume-role');card.append(el('p','Capstone corporation · '+role.dates+' · '+role.durationMonths+' months','kind'),el('h3',role.company),el('p',role.role,'role-title'),el('p',role.mission,'company-mission'),el('h4','Company goal'),el('p',role.goal),el('h4','Personal accomplishments'));
+    const card=el('section','','card resume-role');card.append(el('p','Capstone corporation · '+role.dates,'kind'),el('h3',role.company),el('p',role.role,'role-title'),el('p',role.mission,'company-mission'),el('h4','Company goal'),el('p',role.goal),el('h4','Personal accomplishments'));
     const ul=el('ul');role.accomplishments.forEach(a=>ul.append(el('li',a)));card.append(ul,el('h4','Company outcome'),el('p',role.outcome,'muted'),el('h4','Supporting work'),proofButtons(role.proof));list.append(card);
   });
-  list.append(el('h3','Partner contributions & mentoring'));data.partnerProof.forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
+  list.append(el('h3','Partner contributions'));data.partnerProof.filter(id=>id!=='mentoring').forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
+  const venture=data.summerVenture,card=el('section','','card summer-venture');card.id='summer-venture';card.tabIndex=-1;card.append(el('p',venture.program+' · '+venture.dates,'kind'),el('h3',venture.name),el('p',venture.role,'role-title'),el('p',venture.mission,'company-mission'),el('h4','Contribution'),el('p',venture.contribution),el('h4','Venture outcome'),el('p',venture.outcome),proofButtons(venture.proof));list.append(card);
   list.append(el('h3','Independent projects'));data.independentProof.forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
 }
 function message(who,text,ids=[]) {
@@ -116,8 +136,8 @@ function answer(q) {
   const words=q.toLowerCase().match(/[a-z0-9]+/g)||[];const has=(...terms)=>terms.some(t=>words.includes(t));
   if(has('limitations','limits','weakness','weaknesses'))return {text:'The record supports a hardware-oriented roboticist with integration experience. Coding and business are shown at application depth. The work samples are fictional summaries, not independently verified results. No certification, revenue, production-scale reliability, or guaranteed role fit is established.',ids:['gripper','pilot']};
   if(has('reference','references','coworker','coworkers','jordan','sam'))return {text:data.references.map(r=>r.name+' ('+r.role+') says: “'+r.quote+'”').join(' ')+' These are fictional references, not contactable people.',ids:['field-failure','pilot']};
-  if(has('training','education','learned','study','studied'))return {text:'This specimen shows professional learning through electronics work at Fieldwork Robotics and integration work at Loopworks Automation, plus partner collaboration and mentoring. It does not yet contain a course-by-course training history. The knowledge map links disciplines to the authored work records.',ids:['rover-power','gripper','mentoring']};
-  if(has('experience','background','career','roles') && !data.skills.some(s=>[s.id,...s.terms].some(t=>words.includes(t))))return {text:'Alex served as Electronics Lead at Fieldwork Robotics (2030–31) and Robotics Integration Lead at Loopworks Automation (2031–32). The record also includes Canopy Systems prototype support and Common Motion mentoring.',ids:['rover-power','gripper','irrigation','mentoring']};
+  if(has('training','education','learned','study','studied'))return {text:'This specimen shows professional learning through electronics work at SafeReach and integration work at Harvest Commons, plus partner collaboration and mentoring. It does not yet contain a course-by-course training history. The knowledge map links disciplines to the authored work records.',ids:['rover-power','gripper','mentoring']};
+  if(has('experience','background','career','roles') && !data.skills.some(s=>[s.id,...s.terms].some(t=>words.includes(t))))return {text:'Alex served as Electronics Lead at SafeReach (2030–31) and Robotics Integration Lead at Harvest Commons (2031–32). The record also includes Canopy Systems prototype support and Common Motion mentoring.',ids:['rover-power','gripper','irrigation','mentoring']};
   const scores=data.evidence.map(r=>{const terms=(r.title+' '+r.summary+' '+r.company).toLowerCase().match(/[a-z0-9]+/g)||[];let score=words.filter(w=>w.length>3&&terms.includes(w)).length;data.skills.forEach(s=>{if(r.skills.includes(s.id)&&[s.id,...s.terms].some(t=>words.includes(t)))score+=3;});if(has('failure','failed','debugging','recovery')&&r.id==='field-failure')score+=6;if(has('mentor','mentoring','teach','teaching')&&r.id==='mentoring')score+=6;return {r,score};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,2);
   if(!scores.length)return {text:'I cannot support that answer from this specimen. Ask about electronics, motor control, the gripper, customer pilots, failure recovery, mentoring, or references. Compensation, availability, credentials, and undocumented experience are not in the record.',ids:[]};
   return {text:scores.map(({r})=>r.title+': '+r.contribution+' '+r.decision).join(' ')+' Open the evidence to inspect outcomes and limitations.',ids:scores.map(x=>x.r.id)};
@@ -126,6 +146,9 @@ function ask(q) { q=q.trim().slice(0,600);if(!q)return;message('You',q);const re
 async function init() {
   const response=await fetch('graduate.json');if(!response.ok)throw Error('Could not load the specimen record');data=await response.json();
   renderKnowledge();renderPeople();renderWork();
+  const visitVenture=()=>{show('work');$('summer-venture').focus({preventScroll:true});$('summer-venture').scrollIntoView({block:'start'});};
+  $('summer-badge').addEventListener('click',()=>visitVenture());
+  if(location.hash==='#summer-venture')visitVenture();
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{show(b.dataset.view);if(b.classList.contains('continue'))document.querySelector('.tabs').scrollIntoView({block:'start'});}));
   document.querySelectorAll('[data-question]').forEach(b=>b.addEventListener('click',()=>ask(b.dataset.question)));
   if ($('ask-form')) {

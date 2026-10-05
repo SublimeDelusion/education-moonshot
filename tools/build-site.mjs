@@ -64,6 +64,16 @@ for (const page of pages) {
 fs.writeFileSync(path.join(root, 'docs', '.nojekyll'), '');
 fs.mkdirSync(path.join(root, 'docs', 'diploma'), { recursive: true });
 fs.copyFileSync(path.join(root, 'src', 'demo', 'graduate.json'), path.join(root, 'docs', 'diploma', 'graduate.json'));
+const graduate = JSON.parse(read('src/demo/graduate.json'));
+const artifactDirectory = path.join(root, 'docs', 'diploma', 'artifacts');
+fs.mkdirSync(artifactDirectory, { recursive: true });
+for (const record of graduate.evidence) {
+  if (!/^[a-z0-9-]+$/.test(record.id)) throw new Error('Invalid evidence ID');
+  const sections = [['summary', 'Overview'], ['contribution', 'Authorship and contribution'], ['decision', 'Method and reasoning'], ['result', 'Outcomes'], ['limits', 'Scope and limitations']];
+  const body = sections.map(([key, label]) => '<h2>' + label + '</h2><p>' + esc(record[key]) + '</p>').join('');
+  const html = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + esc(record.title) + ' | Alex Morgan</title><link rel="stylesheet" href="../diploma.css"></head><body><header><a href="../#proof-' + record.id + '">Back to Alex’s diploma</a><span>' + esc(record.company) + '</span></header><main class="artifact-main"><p class="eyebrow">' + esc(record.kind) + '</p><h1>' + esc(record.title) + '</h1><p class="disclosure">Fictional professional record · Authored specimen summary. This page is not an external publication or a production repository.</p>' + body + '<h2>Evidence packet</h2><ul>' + record.artifacts.map(item => '<li>' + esc(item) + '</li>').join('') + '</ul><p class="muted">Source code, raw tests, and complete research manuscripts remain to be developed behind these summaries.</p><a href="../#proof-' + record.id + '">Return to the supporting evidence</a></main></body></html>';
+  fs.writeFileSync(path.join(artifactDirectory, record.id + '.html'), html);
+}
 const homePath = path.join(root, 'docs', 'index.html');
 const diplomaLink = '<section class="notice"><h2>Explore a diploma of the future.</h2><p>Inspect a fictional graduate’s knowledge, people, and professional work. Follow each discipline to the evidence behind it.</p><a href="./diploma/">Open the interactive diploma</a></section>';
 fs.writeFileSync(homePath, fs.readFileSync(homePath, 'utf8').replace('<div class="reading-layout">', diplomaLink + '<div class="reading-layout">'));

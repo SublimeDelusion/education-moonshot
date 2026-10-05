@@ -528,7 +528,7 @@
   ],
   "roles": [
     {
-      "company": "Fieldwork Robotics",
+      "company": "SafeReach",
       "role": "Electronics Lead",
       "dates": "Aug 2030 \u2013 Jul 2031",
       "summary": "Inspection rover: power systems and field tests.",
@@ -537,9 +537,9 @@
         "field-failure"
       ],
       "durationMonths": 12,
-      "mission": "Make field inspection practical in places that are difficult or unsafe for people to reach.",
-      "goal": "Develop an inspection rover with dependable power and a serviceable field platform.",
-      "outcome": "The fictional team moved from bench integration into field trials and revised its design after encountering failures.",
+      "mission": "Help communities inspect essential infrastructure without putting people in hazardous places.",
+      "goal": "Combine inspection hardware, field operations, risk assessment, and public-service partnerships into an affordable inspection service.",
+      "outcome": "Dissolved at graduation after failing to establish a sustainable funding path. The dissolution agreement returned individually authored IP to its creators and preserved their attributable work records.",
       "accomplishments": [
         "Owned the rover power-distribution schematic and protection-component choices.",
         "Integrated voltage and current telemetry with firmware teammates.",
@@ -547,7 +547,7 @@
       ]
     },
     {
-      "company": "Loopworks Automation",
+      "company": "Harvest Commons",
       "role": "Robotics Integration Lead",
       "dates": "Aug 2031 \u2013 Jul 2032",
       "summary": "Adaptive gripper: controls, integration, and pilot delivery.",
@@ -556,9 +556,9 @@
         "pilot"
       ],
       "durationMonths": 12,
-      "mission": "Make adaptable robotic handling useful to smaller operators.",
-      "goal": "Turn an adaptive gripper into a bounded customer pilot.",
-      "outcome": "The fictional team defined a supported operating envelope, acceptance checks, and an operator handoff for its pilot.",
+      "mission": "Recover more surplus food and get it to communities that need it.",
+      "goal": "Combine food logistics, safe handling, operator workflows, and adaptable automation to reduce the cost of redistributing surplus food.",
+      "outcome": "Secured outside funding at graduation to continue its food-recovery pilot. The multidisciplinary team carried its operating partnerships and handling-system development into the next phase.",
       "accomplishments": [
         "Owned tactile sensing, actuation, and control integration.",
         "Built Python tooling to test contact, release, and low-confidence conditions.",
@@ -569,33 +569,69 @@
   "network": [
     {
       "name": "Engineering",
-      "count": 24
+      "count": 24,
+      "byYear": [
+        6,
+        5,
+        8,
+        5
+      ]
     },
     {
       "name": "Business",
-      "count": 32
+      "count": 32,
+      "byYear": [
+        4,
+        7,
+        11,
+        10
+      ]
     },
     {
       "name": "Design",
-      "count": 12
+      "count": 12,
+      "byYear": [
+        3,
+        3,
+        4,
+        2
+      ]
     },
     {
       "name": "Research",
-      "count": 8
+      "count": 8,
+      "byYear": [
+        2,
+        2,
+        2,
+        2
+      ]
     },
     {
       "name": "Manufacturing",
-      "count": 6
+      "count": 6,
+      "byYear": [
+        1,
+        1,
+        2,
+        2
+      ]
     },
     {
       "name": "Public service",
-      "count": 4
+      "count": 4,
+      "byYear": [
+        1,
+        0,
+        1,
+        2
+      ]
     }
   ],
   "references": [
     {
       "name": "Jordan Lee",
-      "role": "Mechanical Lead \u00b7 Fieldwork Robotics",
+      "role": "Mechanical Lead \u00b7 SafeReach",
       "quote": "Turns field failures into reliable hardware.",
       "proof": [
         "field-failure"
@@ -603,7 +639,7 @@
     },
     {
       "name": "Sam Rivera",
-      "role": "Product Lead \u00b7 Loopworks Automation",
+      "role": "Product Lead \u00b7 Harvest Commons",
       "quote": "Connects the prototype to the customer need.",
       "proof": [
         "pilot"
@@ -615,7 +651,7 @@
       "id": "rover-power",
       "title": "Inspection rover power system",
       "kind": "Engineering work sample",
-      "company": "Fieldwork Robotics",
+      "company": "SafeReach",
       "skills": [
         "electronics",
         "coding"
@@ -623,19 +659,25 @@
       "summary": "Designed and integrated the rover's protected power-distribution board.",
       "contribution": "Alex authored the board schematic, selected protection components, and wrote firmware hooks for voltage and current telemetry. Mechanical packaging and the rover's navigation software were teammates' work.",
       "decision": "Separated motor and compute power paths so a motor transient would not repeatedly reset the onboard computer.",
-      "result": "The illustrative bench record includes schematic revisions, a fault-injection checklist, and telemetry traces showing how the protected paths behaved.",
+      "result": "The bench record includes schematic revisions, a fault-injection checklist, and telemetry traces showing how the protected paths behaved.",
       "limits": "This specimen has no independently verified runtime, deployment count, or certification result.",
       "artifacts": [
         "Schematic revision notes",
         "Power-path test checklist",
         "Firmware telemetry interface"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/rover-power.html"
+        }
       ]
     },
     {
       "id": "field-failure",
       "title": "Recovering from a field power failure",
       "kind": "Decision and failure record",
-      "company": "Fieldwork Robotics",
+      "company": "SafeReach",
       "skills": [
         "electronics",
         "delivery"
@@ -643,19 +685,25 @@
       "summary": "Investigated an intermittent reset during a rover field trial.",
       "contribution": "Alex coordinated reproduction, compared motor-current traces with reset events, and worked with Jordan Lee on cable routing and connector strain relief.",
       "decision": "Returned to controlled fault reproduction before changing the entire board. Recorded both the electrical hypothesis and the mechanical contributors.",
-      "result": "The fictional team revised protection settings and the harness, then added the failure condition to regression testing.",
+      "result": "The team revised protection settings and the harness, then added the failure condition to regression testing.",
       "limits": "The record demonstrates a diagnostic approach; it does not establish universal reliability.",
       "artifacts": [
         "Failure timeline",
         "Hypothesis and elimination log",
         "Regression-test addition"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/field-failure.html"
+        }
       ]
     },
     {
       "id": "gripper",
       "title": "Adaptive gripper sensing and control",
       "kind": "Integration work sample",
-      "company": "Loopworks Automation",
+      "company": "Harvest Commons",
       "skills": [
         "controls",
         "mechanical",
@@ -664,19 +712,25 @@
       "summary": "Integrated tactile sensing, actuation, and Python test tools for an adaptive gripper.",
       "contribution": "Alex owned integration and the test harness. Maya Chen contributed to tactile-feedback research; other specialists designed mechanical parts.",
       "decision": "Used explicit contact and release states, bounded actuator commands, and conservative behavior when sensor confidence dropped.",
-      "result": "The specimen includes a state-transition review, recorded test cases for varied object shapes, and notes on fragile-object handling.",
+      "result": "The record includes a state-transition review, recorded test cases for varied object shapes, and notes on fragile-object handling.",
       "limits": "This is a fictional laboratory prototype, not a certified safety system or evidence of production-scale performance.",
       "artifacts": [
         "Control-state specification",
         "Python test-case outline",
         "Integration notes"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/gripper.html"
+        }
       ]
     },
     {
       "id": "pilot",
       "title": "Turning the gripper into a customer pilot",
       "kind": "Delivery and customer record",
-      "company": "Loopworks Automation",
+      "company": "Harvest Commons",
       "skills": [
         "delivery",
         "business",
@@ -685,12 +739,18 @@
       "summary": "Translated prototype capability into a bounded pilot with an external user.",
       "contribution": "Alex worked with Product Lead Sam Rivera to define the operating envelope, acceptance checks, operator handoff, and known limitations.",
       "decision": "Narrowed the pilot to a supported object set rather than presenting broad laboratory success as general capability.",
-      "result": "The fictional pilot produced a clearer boundary between demonstrated behavior, unsupported objects, and work needed before wider delivery.",
+      "result": "The pilot produced a clearer boundary between demonstrated behavior, unsupported objects, and work needed before wider delivery.",
       "limits": "No revenue, adoption, or customer satisfaction figures are claimed.",
       "artifacts": [
         "Pilot scope and exclusions",
         "Acceptance-check outline",
         "Operator handoff notes"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/pilot.html"
+        }
       ]
     },
     {
@@ -706,12 +766,18 @@
       "summary": "Supported sensing and actuator design for an irrigation robot prototype.",
       "contribution": "Alex helped compare sensor placement, actuator power demand, and service access with the prototype partner.",
       "decision": "Considered repair access alongside the initial parts cost rather than minimizing the bill of materials alone.",
-      "result": "The illustrative tradeoff record connects electrical choices to maintenance and field use.",
+      "result": "The tradeoff record connects electrical choices to maintenance and field use.",
       "limits": "Alex supported the prototype; this is not a claim to have designed the entire irrigation system.",
       "artifacts": [
         "Sensor-placement comparison",
         "Actuator load notes",
         "Maintenance-access tradeoffs"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/irrigation.html"
+        }
       ]
     },
     {
@@ -726,12 +792,18 @@
       "summary": "Mentored Maya Chen and Eli Park on motor control and prototype debugging.",
       "contribution": "Alex helped the students isolate power, command, and feedback faults; asked them to explain their diagnosis before proposing a fix.",
       "decision": "Used small reproducible tests so the learners could distinguish a working patch from an understood cause.",
-      "result": "The fictional mentoring record includes a debugging checklist and teach-back prompts.",
+      "result": "The mentoring record includes a debugging checklist and teach-back prompts.",
       "limits": "The specimen does not claim measured learning gains or an instructional credential.",
       "artifacts": [
         "Debugging checklist",
         "Teach-back questions",
         "Mentor session notes"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/mentoring.html"
+        }
       ]
     },
     {
@@ -752,6 +824,116 @@
         "Experiment index",
         "Measurement-script outline",
         "Corrections and lessons"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/bench-journal.html"
+        }
+      ]
+    },
+    {
+      "id": "summer-venture",
+      "title": "OpenShelf venture proposal",
+      "kind": "Summer Founders venture",
+      "company": "OpenShelf",
+      "skills": [
+        "business",
+        "delivery"
+      ],
+      "summary": "A shared-tools and repair-guidance proposal developed during the Summer Founders Program.",
+      "contribution": "Mapped repair workflows, interviewed potential users, and tested the cost and service assumptions with teammates.",
+      "decision": "Tested access, maintenance, and adoption assumptions before proposing a campus-backed venture.",
+      "result": "Completed the program; not selected as a capstone corporation. Alex joined SafeReach and carried the customer-discovery lessons into later work.",
+      "limits": "Completion of the program is distinct from capstone selection or commercial success.",
+      "artifacts": [
+        "Venture proposal",
+        "Customer-discovery questions",
+        "Selection reflection"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/summer-venture.html"
+        }
+      ]
+    },
+    {
+      "id": "salon-session",
+      "title": "Industry salon and technical working session",
+      "kind": "Professional recognition",
+      "company": "Harvest Commons",
+      "skills": [
+        "controls",
+        "delivery"
+      ],
+      "summary": "Presented adaptive gripping and earned a focused session with a visiting industry leader.",
+      "contribution": "Prepared the demonstration, explained failure cases, and brought specific integration questions for critique.",
+      "decision": "Used the session to test the operating envelope rather than asking for a general endorsement.",
+      "result": "The critique informed pilot acceptance checks and the next integration plan.",
+      "limits": "Selection for a working session is not an endorsement of every capability in the profile.",
+      "artifacts": [
+        "Salon presentation outline",
+        "Technical questions",
+        "Follow-up decisions"
+      ],
+      "resources": [
+        {
+          "label": "Open project dossier",
+          "url": "artifacts/salon-session.html"
+        }
+      ]
+    },
+    {
+      "id": "power-paper",
+      "title": "Fault-aware power delivery for field robots",
+      "kind": "Research working paper",
+      "company": "SafeReach",
+      "skills": [
+        "electronics",
+        "coding"
+      ],
+      "summary": "Alex Morgan and collaborators \u00b7 Campus working paper \u00b7 2031.",
+      "contribution": "Authored the protection architecture and failure-analysis sections with contributions from the field-test team.",
+      "decision": "Connected observed resets to protection settings and physical harness conditions.",
+      "result": "Shared a repeatable fault-reproduction method and design lessons with the next cohort.",
+      "limits": "A campus working paper, not an externally peer-reviewed journal article.",
+      "artifacts": [
+        "Research question and abstract",
+        "Method outline",
+        "Limitations and follow-up work"
+      ],
+      "resources": [
+        {
+          "label": "Read research summary",
+          "url": "artifacts/power-paper.html"
+        }
+      ]
+    },
+    {
+      "id": "tactile-paper",
+      "title": "Low-cost tactile feedback for adaptive gripping",
+      "kind": "Research working paper",
+      "company": "Harvest Commons / Common Motion",
+      "skills": [
+        "controls",
+        "mechanical"
+      ],
+      "summary": "Alex Morgan and Maya Chen \u00b7 Campus working paper \u00b7 2032.",
+      "contribution": "Alex authored integration and control notes; Maya developed the repeatable sensing experiment.",
+      "decision": "Evaluate contact behavior and uncertainty within a bounded object set.",
+      "result": "Shared a sensing and testing approach that supported the handling pilot.",
+      "limits": "A campus working paper; broad performance and production safety are not established.",
+      "artifacts": [
+        "Research question and abstract",
+        "Test-method outline",
+        "Scope and limitations"
+      ],
+      "resources": [
+        {
+          "label": "Read research summary",
+          "url": "artifacts/tactile-paper.html"
+        }
       ]
     }
   ],
@@ -766,5 +948,65 @@
   "partnerProof": [
     "irrigation",
     "mentoring"
-  ]
+  ],
+  "mentorship": [
+    {
+      "name": "Maya Chen",
+      "company": "Common Motion",
+      "role": "Student researcher \u00b7 sensing and control",
+      "contribution": "Helped Maya isolate sensor, power, and feedback faults; reviewed her test plan and asked her to defend the diagnosis.",
+      "accomplishment": "Built a repeatable tactile-sensor test and coauthored the adaptive-gripping working paper.",
+      "proof": [
+        "mentoring",
+        "tactile-paper"
+      ]
+    },
+    {
+      "name": "Eli Park",
+      "company": "Common Motion",
+      "role": "Student builder \u00b7 prototype integration",
+      "contribution": "Coached Eli through small motor-control experiments and reviewed how he recorded failed attempts and corrections.",
+      "accomplishment": "Demonstrated a motor-control prototype and taught the debugging method back to his project group.",
+      "proof": [
+        "mentoring"
+      ]
+    }
+  ],
+  "recognition": [
+    {
+      "title": "Industry salon presentation",
+      "detail": "Presented the adaptive-gripping work to visiting operators and researchers.",
+      "proof": [
+        "gripper",
+        "tactile-paper"
+      ]
+    },
+    {
+      "title": "Selected for a technical working session",
+      "detail": "Earned a one-to-one session with a visiting industry leader on practical adaptive gripping.",
+      "proof": [
+        "salon-session"
+      ]
+    },
+    {
+      "title": "Research shared with the campus",
+      "detail": "Coauthored working papers on fault-aware power delivery and low-cost tactile feedback.",
+      "proof": [
+        "power-paper",
+        "tactile-paper"
+      ]
+    }
+  ],
+  "summerVenture": {
+    "name": "OpenShelf",
+    "program": "Summer Founders Program",
+    "dates": "Summer 2030",
+    "mission": "Make household repair more accessible through shared tools, guidance, and local expertise.",
+    "role": "Co-founder \u00b7 technical discovery",
+    "contribution": "Mapped repair workflows, interviewed potential users, and tested the cost and service assumptions with teammates.",
+    "outcome": "Completed the program; not selected as a capstone corporation. Alex joined SafeReach and carried the customer-discovery lessons into later work.",
+    "proof": [
+      "summer-venture"
+    ]
+  }
 }

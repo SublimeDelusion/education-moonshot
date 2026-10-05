@@ -18,4 +18,12 @@ The opening invites two paths: ask about the graduate’s experience and trainin
 
 Each of the six disciplines has six authored fictional subfields with uneven categorical depth, applied-experience months, and evidence references. These are illustrative profiles, not validated scores. Months overlap across skills; never sum them to infer total experience. The native modal explorer supports collapse, Escape, previous/next subjects, keyboard selection, and reduced-motion preferences.
 
-Robotics is the highlighted professional specialty for Years 2–4. Formal capstone experience totals 24 consecutive months: Fieldwork Robotics, August 2030–July 2031; Loopworks Automation, August 2031–July 2032. Company missions, goals, outcomes, and personal accomplishments are hypothetical extensions of the credential specimen. Experience is organized by employer and role, with partner contributions and independent projects below.
+Robotics is the highlighted professional specialty for Years 2–4. Formal capstone experience totals 24 consecutive months: SafeReach, August 2030–July 2031; Harvest Commons, August 2031–July 2032. Company missions, goals, outcomes, and personal accomplishments are hypothetical extensions of the credential specimen. Experience is organized by employer and role, with partner contributions and independent projects below.
+
+## People and mission-driven ventures
+
+The capstone company names and missions have been revised from the initial PDF specimen. SafeReach focuses on safer infrastructure inspection; Harvest Commons on surplus-food recovery. Alex contributes robotics and electronics within multidisciplinary teams. The former dissolved at graduation under an illustrative creators-rights agreement; the latter secured outside funding. These outcomes do not set institutional IP policy.
+
+People leads with a specialty-group network whose bubble areas are proportional to connection counts. Authored per-year additions sum to each group total. Mentorship distinguishes Alex’s contribution from Maya Chen’s and Eli Park’s own accomplishments. Recognition and references remain in People; research and project summaries link from the evidence they support. No fourth tab is needed.
+
+OpenShelf is the Summer Founders venture that was not selected as a capstone. The profile badge opens its company entry in Experience. Repository code and full research manuscripts remain future specimen work; the current resource links resolve to locally generated summaries, not invented external sites.
