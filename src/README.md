@@ -4,10 +4,13 @@ The authoritative source material for the moonshot. Edit these documents first; 
 
 ## Main documents
 
-- [Anya's Ascent](anyas-ascent.md) — the canonical manuscript illustrating the university.
-- [Student Q&A](student-qa.md) — direct answers to prospective students' questions.
-- [Value proposition and business case](value-proposition-and-business-case.md) — rationale, evidence, hypotheses, and institutional value.
+- [Anya's Ascent](narratives/anyas-ascent.md) — the canonical manuscript illustrating the university.
+- [Student Q&A](messaging/student-qa.md) — direct answers to prospective students' questions.
+- [Value proposition and business case](messaging/value-proposition-and-business-case.md) — rationale, evidence, hypotheses, and institutional value.
 - [Rethinking College in an Age of Abundant Intelligence](concepts/assumptions-worth-reexamining.md) — the case for redesigning post-secondary education.
+
+- [Parent Q&A](messaging/parent-qa.md) — first draft for family review.
+- [Website thesis](messaging/home.md) — the home-page introduction.
 
 ## Design and development
 

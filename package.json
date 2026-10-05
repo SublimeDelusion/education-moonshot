@@ -1,0 +1,7 @@
+{
+  "name": "education-moonshot-site",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node tools/build-site.mjs" },
+  "dependencies": { "marked": "17.0.5" }
+}
