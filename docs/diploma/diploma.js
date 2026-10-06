@@ -8,7 +8,7 @@ function show(view) {
 function proofButtons(ids) {
   const wrap=el('ul','','proof-links');
   ids.forEach(id=>{const record=data.evidence.find(e=>e.id===id);if(!record)return;
-    const li=el('li'),link=el('a',record.title,'evidence-link');link.href='#proof-'+id;
+    const li=el('li'),link=el('button',record.title,'evidence-link');link.type='button';
     link.addEventListener('click',event=>{event.preventDefault();openEvidence(id);});li.append(link);wrap.append(li);
   });return wrap;
 }
@@ -119,41 +119,60 @@ function relationshipType(person) {
   return 'collaborator';
 }
 function inPeopleFilter(item) { return activeNetwork<0 || item.specialties.includes(data.network[activeNetwork].name); }
+const specialtyColors=['#80c8e8','#f0cf7a','#c9b1ec','#8ad5b1','#f3a986','#72d6cf'];
+function specialtyColor(name) { return specialtyColors[Math.max(0,data.network.findIndex(g=>g.name===name))]; }
+function markRelationship(card,specialty,scope) {
+  card.style.setProperty('--specialty',specialtyColor(specialty));
+  if(scope==='external'){card.classList.add('external-connection');card.append(el('span','External','connection-badge'));}
+}
+function companyLogo(name,cls='company-logo') {
+  const slugs={'SafeReach':'safereach','Harvest Commons':'harvest-commons','OpenShelf':'openshelf','Common Motion':'common-motion'};
+  const image=el('img','',cls);image.src='logos/'+slugs[name]+'.svg';image.alt=name+' logo';image.width=64;image.height=64;return image;
+}
+function openCompany(role) {
+  openProject(role.company,'Capstone corporation · '+role.dates,[['Mission',role.mission],['Formal role',role.role],['Personal accomplishments',role.accomplishments],['Company outcome',role.outcome]]);
+  $('project-content').append(el('h3','Supporting work'),proofButtons(role.proof));
+}
+function openMentorship(person) {
+  openProject(person.name,'Mentorship · '+person.company,[['Their role',person.role],['Alex’s contribution',person.contribution],['What they accomplished',person.accomplishment]]);
+  $('project-content').append(el('h3','Supporting work'),proofButtons(person.proof));
+}
+function renderHome() {
+  const affiliations=$('affiliations');
+  [...data.roles].reverse().forEach(role=>{const button=el('button','','affiliation-card');button.type='button';button.append(companyLogo(role.company),el('strong',role.company),el('span',role.role),el('small','Capstone corporation'));button.addEventListener('click',()=>openCompany(role));affiliations.append(button);});
+  const venture=el('button','','affiliation-card');venture.type='button';venture.append(companyLogo('OpenShelf'),el('strong','OpenShelf'),el('span','Summer founder'),el('small','Summer Founders Program'));venture.addEventListener('click',openVenture);affiliations.append(venture);
+  const mentorship=el('button','','affiliation-card');mentorship.type='button';mentorship.append(companyLogo('Common Motion'),el('strong','Common Motion'),el('span','Mentor · sensing & control'),el('small','Student team affiliation'));mentorship.addEventListener('click',()=>{openProject('Common Motion','Mentorship affiliation',[['Contribution','Mentored Maya Chen and Eli Park in sensing, control, and practical debugging.'],['Mentees’ accomplishments',data.mentorship.map(person=>person.name+': '+person.accomplishment)]]);$('project-content').append(proofButtons(['mentoring','tactile-paper']));});affiliations.append(mentorship);
+  data.recognition.forEach(item=>{const card=el('section','','card accomplishment-card');card.append(el('p',item.scope==='external'?'Industry & community':'University','kind'),el('h3',item.title),el('p',item.detail),proofButtons(item.proof));$('recognition').append(card);});
+  data.mentorship.forEach(person=>{const card=el('section','','card mentorship-card');card.append(el('p',person.company+' · '+person.role,'kind'),el('h3',person.name),el('p',person.accomplishment));const button=el('button','Explore mentorship','evidence-link');button.type='button';button.addEventListener('click',()=>openMentorship(person));card.append(button);$('mentorship').append(card);});
+}
 function renderPeopleLists() {
-  ['mentorship','recognition','references'].forEach(id=>$(id).replaceChildren());
-  data.mentorship.filter(inPeopleFilter).forEach(person=>{const card=el('section','','card');card.append(el('p',person.company+' · '+person.role+' · University','kind'),el('h3',person.name),el('h4','Alex’s contribution'),el('p',person.contribution),el('h4','What they accomplished'),el('p',person.accomplishment),proofButtons(person.proof));$('mentorship').append(card);});
-  data.recognition.filter(inPeopleFilter).forEach(item=>{const card=el('div','','card');card.append(el('p',item.scope==='external'?'Industry & community':'University','kind'),el('h3',item.title),el('p',item.detail),proofButtons(item.proof));$('recognition').append(card);});
-  data.references.filter(inPeopleFilter).forEach(ref=>{const card=el('div','','card reference');card.append(el('blockquote','“'+ref.quote+'”'),el('p',ref.name),el('p',ref.role+' · '+(ref.scope==='external'?'Industry & community':'University'),'muted'),proofButtons(ref.proof));$('references').append(card);});
-  for(const id of ['mentorship','recognition','references'])if(!$(id).children.length)$(id).append(el('p','No matching records for this selection.','muted'));
+  $('references').replaceChildren();
+  data.references.filter(inPeopleFilter).forEach(ref=>{const card=el('section','','card reference');markRelationship(card,ref.specialties[0],ref.scope);card.append(el('blockquote','“'+ref.quote+'”'),el('p',ref.name,'reference-name'),el('p',ref.role,'muted'),proofButtons(ref.proof));$('references').append(card);});
+  if(!$('references').children.length)$('references').append(el('p','No professional references recorded in this specialty.','muted'));
 }
 function selectNetwork(index) {
   activeNetwork=index;
   const groups=index<0?data.network:[data.network[index]],all=groups.flatMap(g=>g.connections);
   const connections=all.filter(c=>activeRelationship==='all'||relationshipType(c)===activeRelationship),detail=$('network-detail');
   detail.replaceChildren(el('h3',(index<0?'All connections':groups[0].name)+' · '+all.length));
-  const breakdown=el('div','','relationship-breakdown'),chart=el('div','','relationship-chart');
-  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 160 160');svg.setAttribute('role','group');svg.setAttribute('aria-label','Connections by relationship. Select a segment to see its people.');
-  const legend=el('div','','relationship-legend');let angle=-Math.PI/2;
+  const breakdown=el('div','','relationship-ribbon'),bar=el('div','','relationship-bar');bar.setAttribute('role','group');bar.setAttribute('aria-label','Connections by relationship. Select a segment to see its people.');
+  const legend=el('div','','ribbon-labels');
   relationshipKinds.forEach(([key,label,color])=>{
     const count=all.filter(person=>relationshipType(person)===key).length;if(!count)return;
-    const end=angle+count/all.length*Math.PI*2;
-    const segment=document.createElementNS(ns,'path');
-    const x=a=>80+69*Math.cos(a),y=a=>80+69*Math.sin(a);
-    segment.setAttribute('d',count===all.length?'M 80 11 A 69 69 0 1 1 79.999 11 Z':`M 80 80 L ${x(angle)} ${y(angle)} A 69 69 0 ${end-angle>Math.PI?1:0} 1 ${x(end)} ${y(end)} Z`);
-    segment.setAttribute('fill',color);segment.setAttribute('stroke','#101e2e');segment.setAttribute('stroke-width','2');segment.setAttribute('role','button');segment.setAttribute('tabindex','0');segment.setAttribute('aria-label',label+': '+count);segment.setAttribute('aria-pressed',String(activeRelationship===key));segment.style.opacity=activeRelationship==='all'||activeRelationship===key?'1':'.35';
-    const choose=()=>{activeRelationship=activeRelationship===key?'all':key;selectNetwork(index);};segment.addEventListener('click',choose);segment.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});svg.append(segment);angle=end;
+    const choose=()=>{activeRelationship=activeRelationship===key?'all':key;selectNetwork(index);const target=detail.querySelector('[data-relationship="'+key+'"]');if(target)target.focus({preventScroll:true});};
+    const segment=el('button',String(count),'relationship-segment');segment.type='button';segment.dataset.relationship=key;segment.style.flexGrow=String(count);segment.style.background=color;segment.setAttribute('aria-label',label+': '+count);segment.title=label+': '+count;segment.setAttribute('aria-pressed',String(activeRelationship===key));segment.style.opacity=activeRelationship==='all'||activeRelationship===key?'1':'.35';segment.addEventListener('click',choose);bar.append(segment);
     const button=el('button','','relationship-key');button.type='button';button.setAttribute('aria-pressed',String(activeRelationship===key));const dot=el('span','','legend-dot');dot.style.background=color;button.append(dot,el('span',label),el('strong',String(count)));button.addEventListener('click',choose);legend.append(button);
   });
-  chart.append(svg);breakdown.append(chart,legend);detail.append(breakdown);
+  breakdown.append(bar,legend);detail.append(breakdown);
   const heading=el('div','','connection-list-heading');heading.append(el('h4',(activeRelationship==='all'?'People and affiliations':relationshipKinds.find(k=>k[0]===activeRelationship)[1])+' · '+connections.length));
   if(activeRelationship!=='all'){const reset=el('button','Show all relationships','relationship-reset');reset.type='button';reset.addEventListener('click',()=>{activeRelationship='all';selectNetwork(index);});heading.append(reset);}detail.append(heading);
-  const list=el('div','','connection-list');connections.forEach(person=>{const card=el('div','','connection-person');const icon=el('span','','person-avatar');icon.setAttribute('aria-hidden','true');icon.textContent=person.name.split(' ').map(x=>x[0]).join('');card.append(icon);const text=el('div');text.append(el('strong',person.name),el('span',person.company),el('small',person.relation+' · '+person.specialty+' · '+(person.scope==='internal'?'University':'Industry & community')));card.append(text);list.append(card);});detail.append(list);
+  const list=el('div','','connection-list');connections.forEach(person=>{const card=el('div','','connection-person');markRelationship(card,person.specialty,person.scope);const icon=el('span','','person-avatar');icon.setAttribute('aria-hidden','true');icon.textContent=person.name.split(' ').map(x=>x[0]).join('');card.append(icon);const text=el('div');text.append(el('strong',person.name),el('span',person.company),el('small',person.relation+' · '+person.specialty+' · '+(person.scope==='internal'?'University':'Industry & community')));card.append(text);list.append(card);});detail.append(list);
   document.querySelectorAll('.network-select').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.group)===index)));
   renderPeopleLists();
 }
 function renderNetwork() {
   const controls=el('div','','specialty-cards');
-  const add=(group,index)=>{const button=el('button','','network-select');button.type='button';button.dataset.group=String(index);button.append(el('span',group.name,'connection-specialty'),el('strong',String(group.count),'connection-total'),el('small',group.externalCount+' outside university','external-badge'));button.addEventListener('click',()=>{activeRelationship='all';selectNetwork(index);});controls.append(button);};
+  const add=(group,index)=>{const button=el('button','','network-select');button.type='button';button.dataset.group=String(index);button.style.setProperty('--specialty',index<0?'#f5d778':specialtyColors[index]);button.append(el('span',group.name,'connection-specialty'),el('strong',String(group.count),'connection-total'),el('small',group.externalCount+' outside university','external-badge'));button.addEventListener('click',()=>{activeRelationship='all';selectNetwork(index);});controls.append(button);};
   add({name:'All connections',count:data.network.reduce((sum,g)=>sum+g.count,0),externalCount:data.network.reduce((sum,g)=>sum+g.externalCount,0)},-1);
   data.network.forEach(add);$('network').append(controls);selectNetwork(-1);
 }
@@ -165,11 +184,11 @@ function workCard(record) {
 function renderWork() {
   const list=$('evidence-list');
   [...data.roles].reverse().forEach(role=>{
-    const card=el('section','','card resume-role');card.append(el('p','Capstone corporation · '+role.dates,'kind'),el('h3',role.company),el('p',role.role,'role-title'),el('p',role.mission,'company-mission'),el('h4','Company goal'),el('p',role.goal),el('h4','Personal accomplishments'));
+    const card=el('section','','card resume-role');card.append(companyLogo(role.company,'company-logo role-logo'));card.append(el('p','Capstone corporation · '+role.dates,'kind'),el('h3',role.company),el('p',role.role,'role-title'),el('p',role.mission,'company-mission'),el('h4','Company goal'),el('p',role.goal),el('h4','Personal accomplishments'));
     const ul=el('ul');role.accomplishments.forEach(a=>ul.append(el('li',a)));card.append(ul,el('h4','Company outcome'),el('p',role.outcome,'muted'),el('h4','Supporting work'),proofButtons(role.proof));list.append(card);
   });
   list.append(el('h3','Partner contributions'));data.partnerProof.filter(id=>id!=='mentoring').forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
-  const venture=data.summerVenture,card=el('section','','card summer-venture');card.id='summer-venture';card.tabIndex=-1;card.append(el('p',venture.program+' · '+venture.dates,'kind'),el('h3',venture.name),el('p',venture.role,'role-title'),el('p',venture.mission,'company-mission'),el('h4','Contribution'),el('p',venture.contribution),el('h4','Venture outcome'),el('p',venture.outcome),proofButtons(venture.proof));list.append(card);
+  const venture=data.summerVenture,card=el('section','','card summer-venture');card.append(companyLogo('OpenShelf','company-logo role-logo'));card.id='summer-venture';card.tabIndex=-1;card.append(el('p',venture.program+' · '+venture.dates,'kind'),el('h3',venture.name),el('p',venture.role,'role-title'),el('p',venture.mission,'company-mission'),el('h4','Contribution'),el('p',venture.contribution),el('h4','Venture outcome'),el('p',venture.outcome),proofButtons(venture.proof));list.append(card);
   list.append(el('h3','Independent projects'));data.independentProof.forEach(id=>list.append(workCard(data.evidence.find(e=>e.id===id))));
 }
 function message(who,text,ids=[]) {
@@ -188,7 +207,7 @@ function answer(q) {
 function ask(q) { q=q.trim().slice(0,600);if(!q)return;message('You',q);const result=answer(q);message('Professional Agent · mock',result.text,result.ids);$('question').value='';}
 async function init() {
   const response=await fetch('graduate.json');if(!response.ok)throw Error('Could not load the specimen record');data=await response.json();
-  renderKnowledge();renderPeople();renderWork();
+  renderKnowledge();renderHome();renderPeople();renderWork();
   $('profile-summary').textContent=data.summary;
   $('close-project').addEventListener('click',()=>$('project-dialog').close());
   $('project-dialog').addEventListener('close',syncModalLock);
