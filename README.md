@@ -1,5 +1,9 @@
 # Education Moonshot
 
+> **Replaced by [Higher Agency Education](https://github.com/SublimeDelusion/higher-agency-education).** The educational model, current documents, and website source now live in that private repository. Collaborator access is required for the source. The [replacement website](https://SublimeDelusion.github.io/higher-agency-education/) publishes from its `main /docs` folder. University of Impact remains the fictional university in the story and diploma specimen.
+>
+> This repository retains the original history and pre-migration snapshot. Continue development in the new repository.
+
 **To make education more human.**
 
 A model for purpose-driven, AI-accelerated post-secondary education centered on the student and the human connections they need to succeed.
